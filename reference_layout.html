@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mappatura studi sicurezza · dashboard</title>
+<style>
+  :root{
+    --bg:#0f1720; --panel:#17212b; --panel2:#1e2b38; --ink:#e8eef4;
+    --muted:#8ea3b5; --line:#2a3a49; --accent:#39c0c8; --warn:#e0a94a;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#0f1720;color:#e8eef4;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;font-size:14px}
+  header{padding:18px 22px 8px}
+  h1{margin:0;font-size:20px;font-weight:700}
+  .sub{color:#8ea3b5;font-size:12.5px;margin-top:3px}
+  .toggles{display:flex;flex-wrap:wrap;gap:8px;padding:12px 22px}
+  .tg{background:#17212b;border:1px solid #2a3a49;color:#c7d5e2;padding:7px 12px;border-radius:20px;cursor:pointer;font-size:12.5px;transition:.15s}
+  .tg:hover{border-color:#39c0c8}
+  .tg.on{background:#39c0c8;color:#08222a;border-color:#39c0c8;font-weight:600}
+  .wrap{display:flex;gap:16px;padding:6px 22px 26px;align-items:flex-start;flex-wrap:wrap}
+  .card{background:#17212b;border:1px solid #2a3a49;border-radius:14px;padding:16px}
+  .mapcard{flex:0 0 auto}
+  .detail{flex:1 1 320px;min-width:300px}
+  .rank{flex:0 0 300px}
+  .legend{display:flex;align-items:center;gap:8px;margin-top:10px;color:#8ea3b5;font-size:11.5px}
+  .legbar{height:10px;width:150px;border-radius:5px;background:linear-gradient(90deg,#12303a,#39c0c8)}
+  .region{cursor:pointer}
+  .region rect{transition:.15s}
+  .region:hover rect{stroke:#fff;stroke-width:2}
+  .rlab{font-size:13px;font-weight:800;pointer-events:none}
+  .rval{font-size:11px;font-weight:600;pointer-events:none}
+  h2{font-size:15px;margin:0 0 2px}
+  .dsub{color:#8ea3b5;font-size:12px;margin-bottom:12px}
+  .kpis{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px}
+  .kpi{background:#1e2b38;border-radius:9px;padding:9px 11px}
+  .kpi .n{font-size:19px;font-weight:700}
+  .kpi .l{font-size:11px;color:#8ea3b5;margin-top:1px}
+  .blocktitle{font-size:12px;color:#c7d5e2;margin:10px 0 6px;font-weight:600}
+  .split{display:flex;height:22px;border-radius:6px;overflow:hidden;font-size:10.5px;font-weight:600}
+  .split .cap{background:#39c0c8;color:#08222a;display:flex;align-items:center;justify-content:center}
+  .split .per{background:#4a6b82;color:#e8eef4;display:flex;align-items:center;justify-content:center}
+  .frow{display:flex;align-items:center;gap:8px;margin:4px 0}
+  .flab{width:96px;font-size:11px;color:#cbdae7;text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+  .ftrack{flex:1;background:#1e2b38;border-radius:5px;height:15px;overflow:hidden}
+  .ffill{height:100%;background:#39c0c8;border-radius:5px;min-width:2px}
+  .fval{width:34px;font-size:11px;text-align:right;color:#e8eef4;font-variant-numeric:tabular-nums}
+  .rrow{display:flex;align-items:center;gap:8px;margin:5px 0;cursor:pointer;padding:3px 4px;border-radius:6px}
+  .rrow:hover{background:#1e2b38}
+  .rrow.sel{background:#1e2b38}
+  .rname{width:74px;font-size:11.5px;color:#c7d5e2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .rbarwrap{flex:1;background:#1e2b38;border-radius:5px;height:14px;overflow:hidden}
+  .rbar{height:100%;background:#39c0c8;border-radius:5px}
+  .rvv{width:42px;text-align:right;font-size:11px;color:#e8eef4;font-variant-numeric:tabular-nums}
+  .foot{color:#6f8598;font-size:11px;padding:0 22px 22px}
+  .tip{position:fixed;pointer-events:none;background:#0b1319;border:1px solid #39c0c8;border-radius:8px;padding:8px 10px;font-size:11.5px;line-height:1.4;max-width:260px;opacity:0;transition:.08s;z-index:9}
+</style>
+</head>
+<body>
+<header>
+  <h1>Mappatura studi di consulenza sicurezza in Italia</h1>
+  <div class="sub">Fonte studi: Telemaco (ATECO 74.99.21 + 74.99.29, sedi attive). Denominatore imprese: InfoCamere, 31/05/2026. 6 regioni rilevate su 20.</div>
+</header>
+<div class="toggles" id="toggles"></div>
+<div class="wrap">
+  <div class="card mapcard">
+    <svg id="map" width="470" height="800"></svg>
+    <div class="legend"><span id="legmin">–</span><div class="legbar"></div><span id="legmax">+</span><span style="margin-left:10px">▧ da completare</span></div>
+  </div>
+  <div class="card detail" id="detail"></div>
+  <div class="card rank"><div class="blocktitle" id="ranktitle">Classifica</div><div id="ranklist"></div></div>
+</div>
+<div class="tip" id="tip"></div>
+<script>
+const BANDS=["< 10k €","10-15k €","15-25k €","25-50k €","50-75k €","75-100k €","100-150k €","150-500k €","0,5-1,5M €","1,5-5M €","> 5M €"];
+const R=[
+ {n:"Friuli-Venezia Giulia",a:"FVG",c:4,r:0,imp:86541,sp:117,sps:237,cap:76,per:41,som:120,b:[6,0,3,5,1,2,4,25,20,4,3]},
+ {n:"Trentino-Alto Adige",a:"TAA",c:3,r:0,imp:106118,sp:83,sps:177,cap:60,per:23,som:94,b:[2,0,0,2,5,1,6,19,10,11,1]},
+ {n:"Valle d'Aosta",a:"VdA",c:0,r:1,imp:10800,sp:null,sps:null,cap:null,per:null,som:null,b:null},
+ {n:"Piemonte",a:"PIE",c:1,r:1,imp:374632,sp:414,sps:876,cap:247,per:167,som:462,b:[14,5,6,8,12,9,13,76,50,19,2]},
+ {n:"Lombardia",a:"LOM",c:2,r:1,imp:814290,sp:1405,sps:2482,cap:1040,per:365,som:1077,b:[44,8,20,43,37,39,65,322,225,82,14]},
+ {n:"Veneto",a:"VEN",c:3,r:1,imp:414730,sp:507,sps:1008,cap:353,per:154,som:501,b:[19,4,2,21,15,11,36,113,67,26,4]},
+ {n:"Emilia-Romagna",a:"EMR",c:2,r:2,imp:383074,sp:376,sps:731,cap:271,per:105,som:355,b:[11,1,4,13,16,10,18,82,62,27,4]},
+ {n:"Liguria",a:"LIG",c:1,r:3,imp:132020,sp:null,sps:null,cap:null,per:null,som:null,b:null},
+ {n:"Toscana",a:"TOS",c:2,r:3,imp:338981,sp:null,sps:null,cap:null,per:null,som:null,b:null},
+ {n:"Marche",a:"MAR",c:3,r:3,imp:130857,sp:null,sps:null,cap:null,per:null,som:null,b:null},
+ {n:"Umbria",a:"UMB",c:2,r:4,imp:76800,sp:null,sps:null,cap:null,per:null,som:null,b:null},
+ {n:"Abruzzo",a:"ABR",c:3,r:4,imp:121230,sp:null,sps:null,cap:null,per:null,som:null,b:null},
+ {n:"Lazio",a:"LAZ",c:2,r:5,imp:467099,sp:null,sps:null,cap:null,per:null,som:null,b:null},
+ {n:"Molise",a:"MOL",c:3,r:5,imp:28911,sp:null,sps:null,cap:null,per:null,som:null,b:null},
+ {n:"Campania",a:"CAM",c:3,r:6,imp:478316,sp:null,sps:null,cap:null,per:null,som:null,b:null},
+ {n:"Puglia",a:"PUG",c:4,r:6,imp:326411,sp:null,sps:null,cap:null,per:null,som:null,b:null},
+ {n:"Sardegna",a:"SAR",c:0,r:7,imp:142849,sp:null,sps:null,cap:null,per:null,som:null,b:null},
+ {n:"Basilicata",a:"BAS",c:3,r:7,imp:51090,sp:null,sps:null,cap:null,per:null,som:null,b:null},
+ {n:"Calabria",a:"CAL",c:3,r:8,imp:155825,sp:null,sps:null,cap:null,per:null,som:null,b:null},
+ {n:"Sicilia",a:"SIC",c:2,r:9,imp:374390,sp:null,sps:null,cap:null,per:null,som:null,b:null},
+];
+const METRICS={
+ densp:{label:"Densità primario",desc:"Studi con la sicurezza come attività PRINCIPALE, ogni 1.000 imprese attive della regione. Valore alto = mercato affollato; valore basso = più spazio potenziale.",f:d=>d.sp==null?null:d.sp/d.imp*1000,fmt:v=>v.toFixed(2)},
+ densps:{label:"Densità prim+sec",desc:"Come la densità primario, ma includendo anche gli studi che fanno sicurezza come attività SECONDARIA. Misura la copertura del mercato allargato.",f:d=>d.sps==null?null:d.sps/d.imp*1000,fmt:v=>v.toFixed(2)},
+ abs:{label:"Numero studi",desc:"Numero assoluto di studi con la sicurezza come attività principale nella regione. Segue la dimensione economica della regione, non la copertura.",f:d=>d.sp,fmt:v=>Math.round(v)},
+ pct:{label:"% società di capitale",desc:"Quota di studi che sono società di capitale (SRL, SpA), cioè con bilancio pubblico. Il resto sono ditte individuali e società di persone, opache.",f:d=>d.sp==null?null:d.cap/d.sp*100,fmt:v=>v.toFixed(0)+"%"},
+ som:{label:"Sommerso",desc:"Studi in più che emergono includendo l'attività secondaria: operatori che fanno sicurezza pur essendo iscritti primariamente sotto un altro codice.",f:d=>d.som,fmt:v=>Math.round(v)},
+};
+let metric="densp", selected=null;
+const tip=document.getElementById('tip');
+function lerp(a,b,t){return Math.round(a+(b-a)*t)}
+function color(t){ // medium teal -> bright teal (min kept legible, not near-black)
+  const c1=[36,96,110], c2=[110,230,238];
+  return `rgb(${lerp(c1[0],c2[0],t)},${lerp(c1[1],c2[1],t)},${lerp(c1[2],c2[2],t)})`;
+}
+function vals(){const m=METRICS[metric];const arr=R.map(d=>({d,v:m.f(d)}));const nums=arr.filter(x=>x.v!=null).map(x=>x.v);return {arr,min:Math.min(...nums),max:Math.max(...nums),m};}
+
+function drawToggles(){
+  const t=document.getElementById('toggles');t.innerHTML="";
+  for(const k in METRICS){const b=document.createElement('div');b.className="tg"+(k==metric?" on":"");b.textContent=METRICS[k].label;
+    b.onclick=()=>{metric=k;render()};
+    b.onmousemove=(e)=>{tip.style.opacity=1;tip.style.left=Math.min(e.clientX+14,innerWidth-280)+"px";tip.style.top=(e.clientY+16)+"px";tip.innerHTML=`<b>${METRICS[k].label}</b><br><span style="color:#c7d5e2">${METRICS[k].desc}</span>`;};
+    b.onmouseleave=()=>tip.style.opacity=0;
+    t.appendChild(b);}
+}
+const CW=92,CH=78,PAD=6,BW=84,BH=68;
+function drawMap(){
+  const {arr,min,max,m}=vals();
+  const svg=document.getElementById('map');svg.innerHTML="";
+  document.getElementById('legmin').textContent=isFinite(min)?m.fmt(min):"–";
+  document.getElementById('legmax').textContent=isFinite(max)?m.fmt(max):"+";
+  arr.forEach(({d,v})=>{
+    const x=d.c*CW+PAD, y=d.r*CH+PAD;
+    const g=document.createElementNS("http://www.w3.org/2000/svg","g");
+    g.setAttribute("class","region"+(v==null?" nd":"")+(selected==d.n?" sel":""));
+    const rect=document.createElementNS("http://www.w3.org/2000/svg","rect");
+    rect.setAttribute("x",x);rect.setAttribute("y",y);rect.setAttribute("width",BW);rect.setAttribute("height",BH);rect.setAttribute("rx",10);
+    let tc="#aebfce";
+    if(v==null){rect.setAttribute("fill","#243546");rect.setAttribute("stroke","#3a4f63");rect.setAttribute("stroke-dasharray","4 3");}
+    else{const t=max>min?(v-min)/(max-min):.5;rect.setAttribute("fill",color(t));rect.setAttribute("stroke",selected==d.n?"#fff":"rgba(0,0,0,.22)");rect.setAttribute("stroke-width",selected==d.n?2.5:1);tc=t<0.5?"#f2fdff":"#052026";}
+    g.appendChild(rect);
+    const lab=document.createElementNS("http://www.w3.org/2000/svg","text");lab.setAttribute("class","rlab");lab.setAttribute("x",x+BW/2);lab.setAttribute("y",y+BH/2-2);lab.setAttribute("text-anchor","middle");lab.style.fill=tc;lab.textContent=d.a;g.appendChild(lab);
+    const val=document.createElementNS("http://www.w3.org/2000/svg","text");val.setAttribute("class","rval");val.setAttribute("x",x+BW/2);val.setAttribute("y",y+BH/2+14);val.setAttribute("text-anchor","middle");val.style.fill=tc;val.textContent=v==null?"n/d":m.fmt(v);g.appendChild(val);
+    g.onclick=()=>{selected=(selected==d.n?null:d.n);render()};
+    g.onmousemove=(e)=>{tip.style.opacity=1;tip.style.left=(e.clientX+14)+"px";tip.style.top=(e.clientY+14)+"px";tip.innerHTML=`<b>${d.n}</b><br>${m.label}: ${v==null?"n/d":m.fmt(v)}<br>Studi: ${d.sp??"n/d"} · Imprese: ${d.imp.toLocaleString('it')}`;};
+    g.onmouseleave=()=>tip.style.opacity=0;
+    svg.appendChild(g);
+  });
+}
+function agg(){ // national aggregate over filled regions
+  const f=R.filter(d=>d.sp!=null);
+  const sum=k=>f.reduce((s,d)=>s+d[k],0);
+  const b=BANDS.map((_,i)=>f.reduce((s,d)=>s+d.b[i],0));
+  const imp=sum('imp');const sp=sum('sp');const sps=sum('sps');const cap=sum('cap');const per=sum('per');const som=sum('som');
+  return {n:`Italia · ${f.length} regioni rilevate`,imp,sp,sps,cap,per,som,b,agg:true};
+}
+function drawDetail(){
+  const d=selected?R.find(x=>x.n==selected):agg();
+  const el=document.getElementById('detail');
+  if(d.sp==null){el.innerHTML=`<h2>${d.n}</h2><div class="dsub">Regione non ancora rilevata su Telemaco.</div><div class="kpi"><div class="n">${d.imp.toLocaleString('it')}</div><div class="l">Imprese attive (denominatore pronto)</div></div>`;return;}
+  const densp=(d.sp/d.imp*1000).toFixed(2), densps=(d.sps/d.imp*1000).toFixed(2), pct=Math.round(d.cap/d.sp*100);
+  const capw=Math.round(d.cap/d.sp*100), perw=100-capw;
+  const mx=Math.max(...d.b);
+  const bars=d.b.map((v,i)=>`<div class="frow"><div class="flab">${BANDS[i]}</div><div class="ftrack"><div class="ffill" style="width:${mx?v/mx*100:0}%"></div></div><div class="fval">${v}</div></div>`).join("");
+  el.innerHTML=`<h2>${d.n}</h2><div class="dsub">${d.agg?"Aggregato delle regioni rilevate":"Dettaglio regione"}</div>
+   <div class="kpis">
+    <div class="kpi"><div class="n">${d.sp.toLocaleString('it')}</div><div class="l">Studi (primario)</div></div>
+    <div class="kpi"><div class="n">${d.sps.toLocaleString('it')}</div><div class="l">Studi (prim+sec)</div></div>
+    <div class="kpi"><div class="n">${densp}</div><div class="l">Densità prim /1.000</div></div>
+    <div class="kpi"><div class="n">${densps}</div><div class="l">Densità prim+sec /1.000</div></div>
+    <div class="kpi"><div class="n">${pct}%</div><div class="l">Quota società di capitale</div></div>
+    <div class="kpi"><div class="n">${d.som.toLocaleString('it')}</div><div class="l">Sommerso (secondari)</div></div>
+   </div>
+   <div class="blocktitle">Composizione (capitale vs persona/individuali)</div>
+   <div class="split"><div class="cap" style="width:${capw}%">${d.cap} cap.</div><div class="per" style="width:${perw}%">${d.per} pers.</div></div>
+   <div class="blocktitle">Distribuzione per fascia di fatturato (solo società di capitale)</div>
+   ${bars}`;
+}
+function drawRank(){
+  const {arr,max,m}=vals();
+  document.getElementById('ranktitle').textContent="Classifica · "+m.label;
+  const f=arr.filter(x=>x.v!=null).sort((a,b)=>b.v-a.v);
+  const mx=Math.max(...f.map(x=>x.v));
+  document.getElementById('ranklist').innerHTML=f.map(({d,v})=>`
+   <div class="rrow ${selected==d.n?'sel':''}" onclick="pick('${d.n.replace(/'/g,"\\'")}')">
+     <div class="rname">${d.n}</div>
+     <div class="rbarwrap"><div class="rbar" style="width:${mx?v/mx*100:0}%"></div></div>
+     <div class="rvv">${m.fmt(v)}</div>
+   </div>`).join("") || '<div class="dsub">Nessuna regione rilevata.</div>';
+}
+function pick(n){selected=(selected==n?null:n);render();}
+function render(){drawToggles();drawMap();drawDetail();drawRank();}
+render();
+</script>
+</body>
+</html>

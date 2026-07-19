@@ -1,0 +1,32 @@
+{
+  "fonte": {
+    "studi": "Telemaco (codici ATECO 74.99.21 + 74.99.29, sedi attive)",
+    "imprese": "InfoCamere, dato al 31/05/2026"
+  },
+  "fasce_fatturato": [
+    "< 10k €", "10-15k €", "15-25k €", "25-50k €", "50-75k €",
+    "75-100k €", "100-150k €", "150-500k €", "0,5-1,5M €", "1,5-5M €", "> 5M €"
+  ],
+  "regioni": [
+    { "nome": "Friuli-Venezia Giulia", "imprese_attive": 86541, "studi_primario": 117, "studi_prim_sec": 237, "capitale": 76, "persona": 41, "sommerso": 120, "bands": [6,0,3,5,1,2,4,25,20,4,3], "studi_primario_9099": null, "capitale_9099": null },
+    { "nome": "Trentino-Alto Adige", "imprese_attive": 106118, "studi_primario": 83, "studi_prim_sec": 177, "capitale": 60, "persona": 23, "sommerso": 94, "bands": [2,0,0,2,5,1,6,19,10,11,1], "studi_primario_9099": null, "capitale_9099": null },
+    { "nome": "Valle d'Aosta", "imprese_attive": 10800, "studi_primario": null, "studi_prim_sec": null, "capitale": null, "persona": null, "sommerso": null, "bands": null, "studi_primario_9099": null, "capitale_9099": null },
+    { "nome": "Piemonte", "imprese_attive": 374632, "studi_primario": 414, "studi_prim_sec": 876, "capitale": 247, "persona": 167, "sommerso": 462, "bands": [14,5,6,8,12,9,13,76,50,19,2], "studi_primario_9099": null, "capitale_9099": null },
+    { "nome": "Lombardia", "imprese_attive": 814290, "studi_primario": 1405, "studi_prim_sec": 2482, "capitale": 1040, "persona": 365, "sommerso": 1077, "bands": [44,8,20,43,37,39,65,322,225,82,14], "studi_primario_9099": null, "capitale_9099": null },
+    { "nome": "Veneto", "imprese_attive": 414730, "studi_primario": 507, "studi_prim_sec": 1008, "capitale": 353, "persona": 154, "sommerso": 501, "bands": [19,4,2,21,15,11,36,113,67,26,4], "studi_primario_9099": null, "capitale_9099": null },
+    { "nome": "Emilia-Romagna", "imprese_attive": 383074, "studi_primario": 376, "studi_prim_sec": 731, "capitale": 271, "persona": 105, "sommerso": 355, "bands": [11,1,4,13,16,10,18,82,62,27,4], "studi_primario_9099": null, "capitale_9099": null },
+    { "nome": "Liguria", "imprese_attive": 132020, "studi_primario": null, "studi_prim_sec": null, "capitale": null, "persona": null, "sommerso": null, "bands": null, "studi_primario_9099": null, "capitale_9099": null },
+    { "nome": "Toscana", "imprese_attive": 338981, "studi_primario": null, "studi_prim_sec": null, "capitale": null, "persona": null, "sommerso": null, "bands": null, "studi_primario_9099": null, "capitale_9099": null },
+    { "nome": "Marche", "imprese_attive": 130857, "studi_primario": null, "studi_prim_sec": null, "capitale": null, "persona": null, "sommerso": null, "bands": null, "studi_primario_9099": null, "capitale_9099": null },
+    { "nome": "Umbria", "imprese_attive": 76800, "studi_primario": null, "studi_prim_sec": null, "capitale": null, "persona": null, "sommerso": null, "bands": null, "studi_primario_9099": null, "capitale_9099": null },
+    { "nome": "Abruzzo", "imprese_attive": 121230, "studi_primario": null, "studi_prim_sec": null, "capitale": null, "persona": null, "sommerso": null, "bands": null, "studi_primario_9099": null, "capitale_9099": null },
+    { "nome": "Lazio", "imprese_attive": 467099, "studi_primario": null, "studi_prim_sec": null, "capitale": null, "persona": null, "sommerso": null, "bands": null, "studi_primario_9099": null, "capitale_9099": null },
+    { "nome": "Molise", "imprese_attive": 28911, "studi_primario": null, "studi_prim_sec": null, "capitale": null, "persona": null, "sommerso": null, "bands": null, "studi_primario_9099": null, "capitale_9099": null },
+    { "nome": "Campania", "imprese_attive": 478316, "studi_primario": null, "studi_prim_sec": null, "capitale": null, "persona": null, "sommerso": null, "bands": null, "studi_primario_9099": null, "capitale_9099": null },
+    { "nome": "Puglia", "imprese_attive": 326411, "studi_primario": null, "studi_prim_sec": null, "capitale": null, "persona": null, "sommerso": null, "bands": null, "studi_primario_9099": null, "capitale_9099": null },
+    { "nome": "Sardegna", "imprese_attive": 142849, "studi_primario": null, "studi_prim_sec": null, "capitale": null, "persona": null, "sommerso": null, "bands": null, "studi_primario_9099": null, "capitale_9099": null },
+    { "nome": "Basilicata", "imprese_attive": 51090, "studi_primario": null, "studi_prim_sec": null, "capitale": null, "persona": null, "sommerso": null, "bands": null, "studi_primario_9099": null, "capitale_9099": null },
+    { "nome": "Calabria", "imprese_attive": 155825, "studi_primario": null, "studi_prim_sec": null, "capitale": null, "persona": null, "sommerso": null, "bands": null, "studi_primario_9099": null, "capitale_9099": null },
+    { "nome": "Sicilia", "imprese_attive": 374390, "studi_primario": null, "studi_prim_sec": null, "capitale": null, "persona": null, "sommerso": null, "bands": null, "studi_primario_9099": null, "capitale_9099": null }
+  ]
+}

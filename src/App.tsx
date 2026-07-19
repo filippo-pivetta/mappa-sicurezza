@@ -25,6 +25,18 @@ function App() {
       .then(setDataset);
   }, []);
 
+  useEffect(() => {
+    const dismiss = (e: PointerEvent) => {
+      const target = e.target as HTMLElement;
+      if (!target.closest(".tg") && !target.closest(".map-svg")) {
+        setHover(null);
+        setToggleTip(null);
+      }
+    };
+    document.addEventListener("pointerdown", dismiss);
+    return () => document.removeEventListener("pointerdown", dismiss);
+  }, []);
+
   const metricDef = useMemo(() => METRICS.find((m) => m.key === metric)!, [metric]);
   const regioni = dataset?.regioni ?? [];
 

@@ -15,7 +15,11 @@ export function MetricToggles({ metric, onChange, onTip }: Props) {
           key={m.key}
           type="button"
           className={"tg" + (m.key === metric ? " on" : "")}
-          onClick={() => onChange(m.key)}
+          onClick={(e) => {
+            onChange(m.key);
+            const r = e.currentTarget.getBoundingClientRect();
+            onTip({ x: r.left, y: r.bottom, title: m.label, desc: m.desc });
+          }}
           onMouseMove={(e) => onTip({ x: e.clientX, y: e.clientY, title: m.label, desc: m.desc })}
           onMouseLeave={() => onTip(null)}
         >

@@ -53,7 +53,7 @@ export function ItalyMap({ regioni, metric, selected, onSelect, onHover }: Props
 
   if (!geo || !path) {
     return (
-      <svg width={WIDTH} height={HEIGHT} role="img" aria-label="Caricamento mappa dell'Italia">
+      <svg className="map-svg" viewBox={`0 0 ${WIDTH} ${HEIGHT}`} role="img" aria-label="Caricamento mappa dell'Italia">
         <text x={WIDTH / 2} y={HEIGHT / 2} textAnchor="middle" fill="#8ea3b5" fontSize={13}>
           Caricamento mappa...
         </text>
@@ -62,7 +62,13 @@ export function ItalyMap({ regioni, metric, selected, onSelect, onHover }: Props
   }
 
   return (
-    <svg ref={svgRef} width={WIDTH} height={HEIGHT} viewBox={`0 0 ${WIDTH} ${HEIGHT}`} role="img" aria-label="Mappa dell'Italia per regione">
+    <svg
+      ref={svgRef}
+      className="map-svg"
+      viewBox={`0 0 ${WIDTH} ${HEIGHT}`}
+      role="img"
+      aria-label="Mappa dell'Italia per regione"
+    >
       {(geo.features as Feature<Geometry>[]).map((f, i) => {
         const rawName = (f.properties as Record<string, unknown>)?.reg_name as string;
         const name = normalizeRegionName(rawName);
@@ -90,7 +96,10 @@ export function ItalyMap({ regioni, metric, selected, onSelect, onHover }: Props
             strokeWidth={isSel ? 2.5 : 1}
             strokeDasharray={dash}
             style={{ cursor: "pointer", transition: "stroke .12s" }}
-            onClick={() => onSelect(selected === name ? null : name)}
+            onClick={(e) => {
+              onSelect(selected === name ? null : name);
+              if (entry) onHover({ d: entry.d, v: entry.v, x: e.clientX, y: e.clientY });
+            }}
             onMouseMove={(e) => {
               if (entry) onHover({ d: entry.d, v: entry.v, x: e.clientX, y: e.clientY });
             }}

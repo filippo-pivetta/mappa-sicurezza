@@ -1,23 +1,33 @@
-import type { MetricDef, Regione } from "../lib/types";
-import { metricValues } from "../lib/metrics";
+import type { MetricDef } from "../lib/metric";
+import { metricValues } from "../lib/metric";
 
-interface Props {
-  metric: MetricDef;
-  regioni: Regione[];
+interface Props<T extends { nome: string }, E> {
+  metric: MetricDef<T, E>;
+  regioni: T[];
+  extra: E;
+  extraLabel?: string;
   selected: string | null;
   onSelect: (nome: string | null) => void;
 }
 
-export function RankList({ metric, regioni, selected, onSelect }: Props) {
-  const { arr } = metricValues(metric, regioni);
-  const filled = arr
-    .filter((x): x is { d: Regione; v: number } => x.v != null)
-    .sort((a, b) => b.v - a.v);
+export function RankList<T extends { nome: string }, E>({
+  metric,
+  regioni,
+  extra,
+  extraLabel,
+  selected,
+  onSelect,
+}: Props<T, E>) {
+  const { arr } = metricValues(metric, regioni, extra);
+  const filled = arr.filter((x): x is { d: T; v: number } => x.v != null).sort((a, b) => b.v - a.v);
   const mx = Math.max(...filled.map((x) => x.v), 1);
 
   return (
     <div className="card rank">
-      <div className="blocktitle">Classifica &middot; {metric.label}</div>
+      <div className="blocktitle">
+        Classifica &middot; {metric.label}
+        {extraLabel && <> &middot; {extraLabel}</>}
+      </div>
       <div>
         {filled.length === 0 ? (
           <div className="dsub">Nessuna regione rilevata.</div>

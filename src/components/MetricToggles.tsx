@@ -1,20 +1,20 @@
-import { METRICS } from "../lib/metrics";
-import type { MetricKey } from "../lib/types";
+import type { MetricDef } from "../lib/metric";
 
-interface Props {
-  metric: MetricKey;
-  onChange: (m: MetricKey) => void;
+interface Props<T, E> {
+  metrics: MetricDef<T, E>[];
+  metricKey: string;
+  onChange: (k: string) => void;
   onTip: (info: { x: number; y: number; title: string; desc: string } | null) => void;
 }
 
-export function MetricToggles({ metric, onChange, onTip }: Props) {
+export function MetricToggles<T, E>({ metrics, metricKey, onChange, onTip }: Props<T, E>) {
   return (
     <div className="toggles">
-      {METRICS.map((m) => (
+      {metrics.map((m) => (
         <button
           key={m.key}
           type="button"
-          className={"tg" + (m.key === metric ? " on" : "")}
+          className={"tg" + (m.key === metricKey ? " on" : "")}
           onClick={(e) => {
             onChange(m.key);
             const r = e.currentTarget.getBoundingClientRect();

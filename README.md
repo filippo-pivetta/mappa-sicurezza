@@ -1,33 +1,60 @@
-# Mappatura studi sicurezza · dashboard
+# Mappatura sicurezza sul lavoro · dashboard
 
-Dashboard interattiva che mappa il mercato degli studi di consulenza sicurezza
-sul lavoro in Italia, per regione, con choropleth geografica reale (sagoma
-delle 20 regioni, non tessere).
+Dashboard interattiva in tre pagine che mappa, per regione, il mercato della
+consulenza sicurezza sul lavoro in Italia — con choropleth geografica reale
+(sagoma delle 20 regioni, non tessere):
+
+- **Home** (`#/`): landing page con i link alle due mappe.
+- **Offerta** (`#/offerta`): studi di consulenza sicurezza (dati Telemaco).
+- **Domanda** (`#/domanda`): imprese obbligate D.Lgs 81/08, addetti e rischio
+  settoriale (dati ISTAT ASIA 2024).
 
 ## Struttura del progetto
 
 ```
 mappa-sicurezza/
 ├── index.html
+├── domanda_sicurezza_per_regione_settore.csv  # sorgente grezza della pagina Domanda
+├── scripts/
+│   └── build_domanda_json.py    # converte il CSV in public/data/domanda.json
 ├── public/
 │   └── data/
-│       ├── regioni.json                 # dati regione per regione (SOSTITUIBILE)
+│       ├── regioni.json                 # dati offerta, regione per regione (SOSTITUIBILE)
+│       ├── domanda.json                 # dati domanda, generato dallo script (RIGENERABILE)
 │       └── limits_IT_regions.topo.json  # confini geografici delle regioni (openpolis/geojson-italy)
 ├── src/
-│   ├── App.tsx                # orchestrazione: stato metrica/selezione, layout
-│   ├── App.css / index.css    # tema scuro
+│   ├── App.tsx                 # router shell (legge l'hash e sceglie la pagina)
+│   ├── App.css / index.css     # tema scuro condiviso da tutte le pagine
+│   ├── pages/
+│   │   ├── HomePage.tsx        # landing con i due link
+│   │   ├── OffertaPage.tsx     # dashboard offerta (studi)
+│   │   └── DomandaPage.tsx     # dashboard domanda (imprese/rischio)
 │   ├── components/
-│   │   ├── ItalyMap.tsx       # choropleth D3 (geoMercator + geoPath su TopoJSON)
-│   │   ├── MetricToggles.tsx  # toggle metriche + tooltip esplicativo
-│   │   ├── DetailPanel.tsx    # pannello KPI + composizione + fasce fatturato
-│   │   ├── RankList.tsx       # classifica sincronizzata con mappa/metrica
+│   │   ├── NavHeader.tsx       # header con i link Offerta/Domanda
+│   │   ├── ItalyMap.tsx        # choropleth D3 (geoMercator + geoPath su TopoJSON), generico
+│   │   ├── MetricToggles.tsx   # toggle metriche + tooltip esplicativo, generico
+│   │   ├── ScopeToggle.tsx     # toggle primario/secondario/totale (solo Offerta)
+│   │   ├── RankList.tsx        # classifica sincronizzata con mappa/metrica, generico
+│   │   ├── DetailPanel.tsx     # pannello KPI offerta (composizione + fasce fatturato)
+│   │   ├── DomandaDetailPanel.tsx  # pannello KPI domanda (rischio + settori)
+│   │   ├── RiskTableModal.tsx  # modale con la tabella di rischio per sezione ATECO
+│   │   ├── Modal.tsx           # overlay generico riusabile (chiude su ESC/backdrop)
 │   │   └── Tooltip.tsx
 │   └── lib/
-│       ├── types.ts           # schema dati regione + metrica
-│       ├── metrics.ts         # definizione delle 5 metriche e calcoli a runtime
-│       ├── color.ts           # rampa colore sequenziale (teal)
-│       └── nameMap.ts         # normalizza i nomi regione del TopoJSON
+│       ├── router.ts           # hash router minimale (nessuna dipendenza esterna)
+│       ├── metric.ts           # MetricDef<T,E> generico + calcolo min/max condiviso
+│       ├── types.ts            # schema dati Offerta (Regione, Scope, MetricKey)
+│       ├── metrics.ts          # le 4 metriche Offerta + aggregato nazionale
+│       ├── domandaTypes.ts     # schema dati Domanda (RegioneDomanda, SezioneDef)
+│       ├── domandaMetrics.ts   # le 4 metriche Domanda + aggregato nazionale
+│       ├── riskTable.ts        # tabella di rischio per sezione ATECO (Accordo Stato-Regioni)
+│       ├── color.ts            # rampa colore sequenziale (teal)
+│       └── nameMap.ts          # normalizza i nomi regione del TopoJSON
 ```
+
+`ItalyMap`, `RankList` e `MetricToggles` sono componenti generici (TypeScript
+generics su `T`/`E`) condivisi dalle due dashboard: stesso stile garantito,
+zero duplicazione del codice D3.
 
 ## Avvio in locale
 
@@ -46,9 +73,11 @@ npm run build
 
 Genera i file statici in `dist/`, pronti per essere serviti da qualsiasi
 hosting statico (Netlify, Vercel, GitHub Pages, S3, ecc.). `npm run preview`
-serve la build in locale per un controllo finale.
+serve la build in locale per un controllo finale. Il routing è basato su
+hash (`#/offerta`, `#/domanda`), quindi funziona su qualsiasi hosting statico
+senza bisogno di configurare i rewrite per il refresh su rotte diverse da `/`.
 
-## Aggiornare i dati
+## Aggiornare i dati — Offerta
 
 I dati vivono in `public/data/regioni.json` e vengono caricati a runtime con
 una `fetch`, quindi **aggiornarli significa sostituire quel file**, senza
@@ -66,9 +95,7 @@ toccare il codice. Schema per ogni regione:
   "sommerso": 1077,
   "bands": [44, 8, 20, 43, 37, 39, 65, 322, 225, 82, 14],
   "studi_primario_9099": null,
-  "capitale_9099": null,
-  "indice_rischio": 1.673,
-  "domanda_pesata": 453429.844
+  "capitale_9099": null
 }
 ```
 
@@ -83,29 +110,51 @@ toccare il codice. Schema per ogni regione:
   di capitale).
 - `studi_primario_9099` / `capitale_9099`: colonne predisposte per un futuro
   toggle "coorte anni '90", per ora sempre `null`.
-- `indice_rischio`: media dei pesi di rischio D.Lgs. 81/08 (basso 1, medio 2,
-  alto 3) pesata sul mix settoriale della regione. Non dipende da Telemaco:
-  sempre presente per le 20 regioni.
-- `domanda_pesata`: `imprese_con_dipendenti × indice_rischio`, stima della
-  domanda potenziale pesata per rischiosità. Sempre presente per le 20 regioni.
 
 Densità, percentuali e aggregato nazionale si ricalcolano automaticamente a
 runtime (vedi `src/lib/metrics.ts`) — non serve toccare altro.
+
+### Metriche Offerta
+
+Un toggle **Attività** (Primario / Secondario / Primario + Secondario) sceglie
+quale sottoinsieme di studi considerare; le 4 metriche sotto si ricalcolano di
+conseguenza (tranne la quota società di capitale, disponibile solo per
+l'attività primaria):
+
+- **Densità**: studi ogni 1.000 imprese con dipendenti.
+- **Numero studi**: valore assoluto.
+- **% società di capitale**: quota di studi con bilancio pubblico (SRL/SpA), sempre riferita all'attività primaria.
+- **Densità per addetti**: come la densità, ma ogni 1.000 addetti anziché ogni 1.000 imprese.
+
+## Aggiornare i dati — Domanda
+
+I dati vivono in `public/data/domanda.json`, **generato** dal CSV sorgente
+`domanda_sicurezza_per_regione_settore.csv` (ISTAT ASIA 2024: imprese con
+dipendenti e addetti per regione e divisione ATECO, con rischio
+basso/medio/alto secondo l'Accordo Stato-Regioni). Per aggiornare i dati,
+sostituisci il CSV e rilancia lo script:
+
+```bash
+python3 scripts/build_domanda_json.py
+```
+
+Il CSV atteso ha le colonne `Regione, Cod_ATECO, Descrizione, Livello,
+Sezione, Nome_sezione, Rischio, Imprese_con_dipendenti, Addetti, Anno`, con
+una riga `TOTALE` per regione (denominatore) più una riga `DIVISIONE` per
+ogni codice ATECO a 2 cifre.
+
+### Metriche Domanda
+
+- **Imprese obbligate**: imprese con dipendenti della regione (obbligati D.Lgs 81/08).
+- **Addetti**: lavoratori totali nelle imprese con dipendenti.
+- **Indice di rischio**: media dei pesi di rischio (basso 1, medio 2, alto 3) pesata sul mix settoriale reale della regione.
+- **Quota alto rischio**: quota di imprese in settori classificati a rischio ALTO.
+
+Il pannello di dettaglio mostra anche la composizione per rischio (basso/medio/alto) e la distribuzione delle imprese per macro-settore (sezione ATECO). L'icona **ⓘ** accanto a "Composizione per rischio" apre un modale con la tabella completa di rischio per sezione ATECO (21 sezioni A-U, `src/lib/riskTable.ts`) secondo l'Accordo Stato-Regioni: è la classificazione di riferimento da cui derivano indice di rischio e quota alto rischio.
 
 Il file `public/data/limits_IT_regions.topo.json` contiene i confini reali
 delle regioni (fonte: [openpolis/geojson-italy](https://github.com/openpolis/geojson-italy)).
 Non serve aggiornarlo a meno di cambiare la fonte geografica.
 
-## Metriche
-
-- **Densità primario**: studi con sicurezza come attività principale ogni 1.000 imprese con dipendenti.
-- **Densità prim+sec**: come sopra, includendo anche l'attività secondaria.
-- **Numero studi**: valore assoluto degli studi primari.
-- **% società di capitale**: quota di studi con bilancio pubblico (SRL/SpA).
-- **Sommerso**: studi in più che emergono includendo l'attività secondaria.
-- **Densità per addetti** / **Densità prim+sec per addetti**: come le densità sopra, ma ogni 1.000 addetti anziché ogni 1.000 imprese — misura la copertura rispetto ai lavoratori da tutelare.
-- **Indice rischio settoriale**: media dei pesi di rischio D.Lgs. 81/08 pesata sul mix settoriale regionale. Non dipende da Telemaco: colora tutte le 20 regioni, anche quelle non ancora rilevate.
-- **Domanda pesata**: imprese con dipendenti moltiplicate per l'indice di rischio, stima della domanda potenziale. Anche questa disponibile per tutte le 20 regioni.
-
-Ogni toggle mostra, al passaggio del mouse, una spiegazione in linguaggio
-semplice pensata per chi non conosce il dominio.
+Ogni toggle metrica mostra, al passaggio del mouse, una spiegazione in
+linguaggio semplice pensata per chi non conosce il dominio.

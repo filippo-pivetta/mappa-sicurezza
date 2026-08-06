@@ -1,78 +1,57 @@
-import type { MetricDef, Regione } from "./types";
+import type { MetricDef, Regione, Scope } from "./types";
+
+export { metricValues } from "./metric";
+
+export const SCOPES: { key: Scope; label: string; short: string }[] = [
+  { key: "primario", label: "Solo attività primaria", short: "Primario" },
+  { key: "secondario", label: "Solo attività secondaria", short: "Secondario" },
+  { key: "totale", label: "Primario + secondario", short: "Primario + Secondario" },
+];
+
+/** Numero di studi nella regione secondo lo scope scelto (primario / secondario / totale). */
+export function studiCount(d: Regione, scope: Scope): number | null {
+  if (d.studi_primario == null) return null;
+  if (scope === "primario") return d.studi_primario;
+  if (scope === "secondario") return d.sommerso;
+  return d.studi_prim_sec;
+}
 
 export const METRICS: MetricDef[] = [
   {
-    key: "densp",
-    label: "Densità primario",
-    desc: "Studi con la sicurezza come attività PRINCIPALE, ogni 1.000 imprese con dipendenti della regione. Valore alto significa mercato affollato, valore basso significa più spazio potenziale.",
-    value: (d) => (d.studi_primario == null ? null : (d.studi_primario / d.imprese_con_dipendenti) * 1000),
-    fmt: (v) => v.toFixed(2),
-  },
-  {
-    key: "densps",
-    label: "Densità prim+sec",
-    desc: "Come la densità primario, ma includendo anche gli studi che fanno sicurezza come attività SECONDARIA. Misura la copertura del mercato allargato.",
-    value: (d) => (d.studi_prim_sec == null ? null : (d.studi_prim_sec / d.imprese_con_dipendenti) * 1000),
+    key: "dens",
+    label: "Densità",
+    desc: "Studi ogni 1.000 imprese con dipendenti della regione, secondo il filtro primario/secondario/totale scelto sopra. Valore alto significa mercato affollato, valore basso significa più spazio potenziale.",
+    value: (d, scope) => {
+      const c = studiCount(d, scope);
+      return c == null ? null : (c / d.imprese_con_dipendenti) * 1000;
+    },
     fmt: (v) => v.toFixed(2),
   },
   {
     key: "abs",
     label: "Numero studi",
-    desc: "Numero assoluto di studi con la sicurezza come attività principale nella regione. Segue la dimensione economica della regione, non la copertura.",
-    value: (d) => d.studi_primario,
+    desc: "Numero assoluto di studi nella regione, secondo il filtro primario/secondario/totale scelto sopra. Segue la dimensione economica della regione, non la copertura.",
+    value: (d, scope) => studiCount(d, scope),
     fmt: (v) => Math.round(v).toLocaleString("it"),
   },
   {
     key: "pct",
     label: "% società di capitale",
-    desc: "Quota di studi che sono società di capitale (SRL, SpA), cioè con bilancio pubblico. Il resto sono ditte individuali e società di persone, opache.",
+    desc: "Quota di studi con attività PRIMARIA che sono società di capitale (SRL, SpA), cioè con bilancio pubblico. Il resto sono ditte individuali e società di persone, opache. Il dato di composizione è disponibile solo per l'attività primaria, non varia con il filtro sopra.",
     value: (d) => (d.studi_primario == null || d.capitale == null ? null : (d.capitale / d.studi_primario) * 100),
     fmt: (v) => v.toFixed(0) + "%",
   },
   {
-    key: "som",
-    label: "Sommerso",
-    desc: "Studi in più che emergono includendo l'attività secondaria: operatori che fanno sicurezza pur essendo iscritti primariamente sotto un altro codice.",
-    value: (d) => d.sommerso,
-    fmt: (v) => Math.round(v).toLocaleString("it"),
-  },
-  {
-    key: "densp_add",
+    key: "densAdd",
     label: "Densità per addetti",
-    desc: "Studi con sicurezza come attività principale ogni 1.000 addetti (lavoratori) della regione. A differenza della densità per imprese, misura la copertura rispetto alle persone da tutelare, non alle aziende.",
-    value: (d) => (d.studi_primario == null ? null : (d.studi_primario / d.numero_addetti) * 1000),
+    desc: "Studi ogni 1.000 addetti (lavoratori) della regione, secondo il filtro primario/secondario/totale scelto sopra. A differenza della densità per imprese, misura la copertura rispetto alle persone da tutelare, non alle aziende.",
+    value: (d, scope) => {
+      const c = studiCount(d, scope);
+      return c == null ? null : (c / d.numero_addetti) * 1000;
+    },
     fmt: (v) => v.toFixed(2),
-  },
-  {
-    key: "densps_add",
-    label: "Densità prim+sec per addetti",
-    desc: "Come la densità per addetti, ma includendo anche gli studi che fanno sicurezza come attività secondaria.",
-    value: (d) => (d.studi_prim_sec == null ? null : (d.studi_prim_sec / d.numero_addetti) * 1000),
-    fmt: (v) => v.toFixed(2),
-  },
-  {
-    key: "rischio",
-    label: "Indice rischio settoriale",
-    desc: "Media dei pesi di rischio D.Lgs. 81/08 (basso 1, medio 2, alto 3) pesata sul mix settoriale reale della regione. Non dipende dai dati Telemaco: disponibile per tutte le regioni, anche quelle non ancora rilevate.",
-    value: (d) => d.indice_rischio,
-    fmt: (v) => v.toFixed(2),
-  },
-  {
-    key: "domanda",
-    label: "Domanda pesata",
-    desc: "Imprese con dipendenti moltiplicate per l'indice di rischio settoriale: stima della domanda potenziale di consulenza sicurezza, pesata per la rischiosità del tessuto produttivo regionale. Disponibile per tutte le regioni, anche quelle non ancora rilevate su Telemaco.",
-    value: (d) => d.domanda_pesata,
-    fmt: (v) => Math.round(v).toLocaleString("it"),
   },
 ];
-
-export function metricValues(m: MetricDef, regioni: Regione[]) {
-  const arr = regioni.map((d) => ({ d, v: m.value(d) }));
-  const nums = arr.filter((x): x is { d: Regione; v: number } => x.v != null).map((x) => x.v);
-  const min = nums.length ? Math.min(...nums) : 0;
-  const max = nums.length ? Math.max(...nums) : 1;
-  return { arr, min, max };
-}
 
 export function nationalAggregate(regioni: Regione[]): Regione {
   const f = regioni.filter((d) => d.studi_primario != null);
@@ -81,11 +60,7 @@ export function nationalAggregate(regioni: Regione[]): Regione {
   const nBands = f[0]?.bands?.length ?? 11;
   const bands = Array.from({ length: nBands }, (_, i) => f.reduce((s, d) => s + (d.bands ? d.bands[i] : 0), 0));
 
-  // indice_rischio e domanda_pesata non dipendono da Telemaco: aggregali su tutte le regioni.
-  const impreseTotali = regioni.reduce((s, d) => s + d.imprese_con_dipendenti, 0);
   const addettiTotali = regioni.reduce((s, d) => s + d.numero_addetti, 0);
-  const domandaTotale = regioni.reduce((s, d) => s + d.domanda_pesata, 0);
-  const indiceMedio = impreseTotali > 0 ? domandaTotale / impreseTotali : 0;
 
   return {
     nome: `Italia · ${f.length} regioni rilevate`,
@@ -99,7 +74,5 @@ export function nationalAggregate(regioni: Regione[]): Regione {
     bands,
     studi_primario_9099: null,
     capitale_9099: null,
-    indice_rischio: indiceMedio,
-    domanda_pesata: domandaTotale,
   };
 }

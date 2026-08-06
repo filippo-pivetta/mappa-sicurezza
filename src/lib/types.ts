@@ -1,3 +1,5 @@
+import type { MetricDef as GenericMetricDef } from "./metric";
+
 export interface Regione {
   nome: string;
   imprese_con_dipendenti: number;
@@ -10,22 +12,16 @@ export interface Regione {
   bands: number[] | null;
   studi_primario_9099: number | null;
   capitale_9099: number | null;
-  indice_rischio: number;
-  domanda_pesata: number;
 }
 
 export interface RegioniDataset {
-  fonte: { studi: string; imprese: string; addetti: string; rischio: string };
+  fonte: { studi: string; imprese: string; addetti: string };
   fasce_fatturato: string[];
   regioni: Regione[];
 }
 
-export type MetricKey = "densp" | "densps" | "abs" | "pct" | "som" | "densp_add" | "densps_add" | "rischio" | "domanda";
+export type Scope = "primario" | "secondario" | "totale";
 
-export interface MetricDef {
-  key: MetricKey;
-  label: string;
-  desc: string;
-  value: (d: Regione) => number | null;
-  fmt: (v: number) => string;
-}
+export type MetricKey = "dens" | "abs" | "densAdd" | "pct";
+
+export type MetricDef = GenericMetricDef<Regione, Scope>;

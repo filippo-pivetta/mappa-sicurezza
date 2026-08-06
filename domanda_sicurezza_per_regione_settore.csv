@@ -1,0 +1,1517 @@
+Regione,Cod_ATECO,Descrizione,Livello,Sezione,Nome_sezione,Rischio,Imprese_con_dipendenti,Addetti,Anno
+Friuli-Venezia Giulia,TOTALE,Totale economia (imprese con dipendenti),TOTALE,,,,27973,317950,2024
+Friuli-Venezia Giulia,08,Altre attività di estrazione di minerali da cave e miniere,DIVISIONE,B,Estrazione di minerali,alto,22,346,2024
+Friuli-Venezia Giulia,10,Industrie alimentari,DIVISIONE,C,Attività manifatturiere,alto,485,7603,2024
+Friuli-Venezia Giulia,11,Industria delle bevande,DIVISIONE,C,Attività manifatturiere,alto,61,861,2024
+Friuli-Venezia Giulia,12,Industria del tabacco,DIVISIONE,C,Attività manifatturiere,alto,1,162,2024
+Friuli-Venezia Giulia,13,Industrie tessili,DIVISIONE,C,Attività manifatturiere,alto,65,753,2024
+Friuli-Venezia Giulia,14,"Confezione di articoli di abbigliamento, confezione di articoli in pelle e pelliccia",DIVISIONE,C,Attività manifatturiere,alto,53,342,2024
+Friuli-Venezia Giulia,15,Fabbricazione di articoli in pelle e simili,DIVISIONE,C,Attività manifatturiere,alto,29,476,2024
+Friuli-Venezia Giulia,16,"Industria del legno e dei prodotti in legno e sughero (esclusi i mobili), fabbricazione di articoli in paglia e materiali da intreccio",DIVISIONE,C,Attività manifatturiere,alto,321,4114,2024
+Friuli-Venezia Giulia,17,Fabbricazione di carta e di prodotti di carta,DIVISIONE,C,Attività manifatturiere,alto,33,1476,2024
+Friuli-Venezia Giulia,18,Stampa e riproduzione di supporti registrati,DIVISIONE,C,Attività manifatturiere,alto,111,1151,2024
+Friuli-Venezia Giulia,19,Fabbricazione di coke e prodotti derivanti dalla raffinazione del petrolio,DIVISIONE,C,Attività manifatturiere,alto,1,4,2024
+Friuli-Venezia Giulia,20,Fabbricazione di prodotti chimici,DIVISIONE,C,Attività manifatturiere,alto,40,998,2024
+Friuli-Venezia Giulia,21,Fabbricazione di prodotti farmaceutici di base e di preparati farmaceutici,DIVISIONE,C,Attività manifatturiere,alto,4,252,2024
+Friuli-Venezia Giulia,22,Fabbricazione di articoli in gomma e materie plastiche,DIVISIONE,C,Attività manifatturiere,alto,117,4418,2024
+Friuli-Venezia Giulia,23,Fabbricazione di altri prodotti della lavorazione di minerali non metalliferi,DIVISIONE,C,Attività manifatturiere,alto,182,2825,2024
+Friuli-Venezia Giulia,24,Metallurgia,DIVISIONE,C,Attività manifatturiere,alto,50,5657,2024
+Friuli-Venezia Giulia,25,Fabbricazione di prodotti in metallo (esclusi macchinari e attrezzature),DIVISIONE,C,Attività manifatturiere,alto,1004,19203,2024
+Friuli-Venezia Giulia,26,"Fabbricazione di computer e prodotti di elettronica e ottica, apparecchi elettromedicali, apparecchi di misurazione e di orologi",DIVISIONE,C,Attività manifatturiere,alto,84,3551,2024
+Friuli-Venezia Giulia,27,Fabbricazione di apparecchiature elettriche ed apparecchiature per uso domestico non elettriche,DIVISIONE,C,Attività manifatturiere,alto,94,6333,2024
+Friuli-Venezia Giulia,28,Fabbricazione di macchinari ed apparecchiature nca,DIVISIONE,C,Attività manifatturiere,alto,357,16997,2024
+Friuli-Venezia Giulia,29,"Fabbricazione di autoveicoli, rimorchi e semirimorchi",DIVISIONE,C,Attività manifatturiere,alto,18,1380,2024
+Friuli-Venezia Giulia,30,Fabbricazione di altri mezzi di trasporto,DIVISIONE,C,Attività manifatturiere,alto,91,11945,2024
+Friuli-Venezia Giulia,31,Fabbricazione di mobili,DIVISIONE,C,Attività manifatturiere,alto,547,12585,2024
+Friuli-Venezia Giulia,32,Altre industrie manifatturiere,DIVISIONE,C,Attività manifatturiere,alto,157,2206,2024
+Friuli-Venezia Giulia,33,"Riparazione, manutenzione ed installazione di macchine ed apparecchiature",DIVISIONE,C,Attività manifatturiere,alto,330,3494,2024
+Friuli-Venezia Giulia,35,"Fornitura di energia elettrica, gas, vapore e aria condizionata",DIVISIONE,D,"Energia elettrica, gas, vapore",alto,56,710,2024
+Friuli-Venezia Giulia,36,"Raccolta, trattamento e fornitura di acqua",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,6,1683,2024
+Friuli-Venezia Giulia,37,Gestione delle reti fognarie,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,19,147,2024
+Friuli-Venezia Giulia,38,"Attività di raccolta, trattamento e smaltimento dei rifiuti recupero dei materiali",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,94,3052,2024
+Friuli-Venezia Giulia,39,Attività di risanamento e altri servizi di gestione dei rifiuti,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,11,132,2024
+Friuli-Venezia Giulia,41,Costruzione di edifici,DIVISIONE,F,Costruzioni,alto,858,5831,2024
+Friuli-Venezia Giulia,42,Ingegneria civile,DIVISIONE,F,Costruzioni,alto,98,1674,2024
+Friuli-Venezia Giulia,43,Lavori di costruzione specializzati,DIVISIONE,F,Costruzioni,alto,2326,15634,2024
+Friuli-Venezia Giulia,45,Commercio all'ingrosso e al dettaglio e riparazione di autoveicoli e motocicli,DIVISIONE,G,Commercio e riparazione autoveicoli,basso,913,5805,2024
+Friuli-Venezia Giulia,46,Commercio all'ingrosso (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,1445,13052,2024
+Friuli-Venezia Giulia,47,Commercio al dettaglio (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,3161,22531,2024
+Friuli-Venezia Giulia,49,Trasporto terrestre e trasporto mediante condotte,DIVISIONE,H,Trasporto e magazzinaggio,medio,522,8636,2024
+Friuli-Venezia Giulia,50,Trasporto marittimo e per vie d'acqua,DIVISIONE,H,Trasporto e magazzinaggio,medio,13,449,2024
+Friuli-Venezia Giulia,51,Trasporto aereo,DIVISIONE,H,Trasporto e magazzinaggio,medio,1,101,2024
+Friuli-Venezia Giulia,52,Magazzinaggio e attività di supporto ai trasporti,DIVISIONE,H,Trasporto e magazzinaggio,medio,274,7510,2024
+Friuli-Venezia Giulia,53,Servizi postali e attività di corriere,DIVISIONE,H,Trasporto e magazzinaggio,medio,9,328,2024
+Friuli-Venezia Giulia,55,Alloggio,DIVISIONE,I,Alloggio e ristorazione,basso,650,5274,2024
+Friuli-Venezia Giulia,56,Attività dei servizi di ristorazione,DIVISIONE,I,Alloggio e ristorazione,basso,4489,29900,2024
+Friuli-Venezia Giulia,58,Attività editoriali,DIVISIONE,J,Informazione e comunicazione,basso,42,309,2024
+Friuli-Venezia Giulia,59,"Attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore",DIVISIONE,J,Informazione e comunicazione,basso,39,281,2024
+Friuli-Venezia Giulia,60,Attività di programmazione e trasmissione,DIVISIONE,J,Informazione e comunicazione,basso,13,68,2024
+Friuli-Venezia Giulia,61,Telecomunicazioni,DIVISIONE,J,Informazione e comunicazione,basso,17,94,2024
+Friuli-Venezia Giulia,62,"Produzione di software, consulenza informatica e attività connesse",DIVISIONE,J,Informazione e comunicazione,basso,325,4799,2024
+Friuli-Venezia Giulia,63,Attività dei servizi d'informazione e altri servizi informatici,DIVISIONE,J,Informazione e comunicazione,basso,387,1763,2024
+Friuli-Venezia Giulia,64,Attività di servizi finanziari (escluse le assicurazioni e i fondi pensione),DIVISIONE,K,Attività finanziarie e assicurative,basso,58,3646,2024
+Friuli-Venezia Giulia,65,"Assicurazioni, riassicurazioni e fondi pensione (escluse le assicurazioni sociali obbligatorie)",DIVISIONE,K,Attività finanziarie e assicurative,basso,4,2144,2024
+Friuli-Venezia Giulia,66,Attività ausiliarie dei servizi finanziari e delle attività assicurative,DIVISIONE,K,Attività finanziarie e assicurative,basso,350,2063,2024
+Friuli-Venezia Giulia,68,Attività immobiliari,DIVISIONE,L,Attività immobiliari,basso,595,1824,2024
+Friuli-Venezia Giulia,69,Attività legali e contabilità,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,1170,5565,2024
+Friuli-Venezia Giulia,70,Attività di direzione aziendale e di consulenza gestionale,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,277,1805,2024
+Friuli-Venezia Giulia,71,"Attività degli studi di architettura e d'ingegneria, collaudi ed analisi tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,405,2281,2024
+Friuli-Venezia Giulia,72,Ricerca scientifica e sviluppo,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,54,361,2024
+Friuli-Venezia Giulia,73,Pubblicità e ricerche di mercato,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,85,438,2024
+Friuli-Venezia Giulia,74,"Altre attività professionali, scientifiche e tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,345,1862,2024
+Friuli-Venezia Giulia,75,Servizi veterinari,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,33,109,2024
+Friuli-Venezia Giulia,77,Attività di noleggio e leasing operativo,DIVISIONE,N,Noleggio e servizi alle imprese,basso,109,961,2024
+Friuli-Venezia Giulia,78,"Attività di ricerca, selezione, fornitura di personale",DIVISIONE,N,Noleggio e servizi alle imprese,basso,10,1612,2024
+Friuli-Venezia Giulia,79,"Attività dei servizi delle agenzie di viaggio, dei tour operator e servizi di prenotazione e attività connesse",DIVISIONE,N,Noleggio e servizi alle imprese,basso,92,443,2024
+Friuli-Venezia Giulia,80,Servizi di vigilanza e investigazione,DIVISIONE,N,Noleggio e servizi alle imprese,basso,20,713,2024
+Friuli-Venezia Giulia,81,Attività di servizi per edifici e paesaggio,DIVISIONE,N,Noleggio e servizi alle imprese,basso,474,20633,2024
+Friuli-Venezia Giulia,82,Attività di supporto per le funzioni d'ufficio e altri servizi di supporto alle imprese,DIVISIONE,N,Noleggio e servizi alle imprese,basso,284,2818,2024
+Friuli-Venezia Giulia,85,Istruzione,DIVISIONE,P,Istruzione,medio,171,1789,2024
+Friuli-Venezia Giulia,86,Assistenza sanitaria,DIVISIONE,Q,Sanità e assistenza sociale,alto,1284,5359,2024
+Friuli-Venezia Giulia,87,Servizi di assistenza sociale residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,75,7793,2024
+Friuli-Venezia Giulia,88,Assistenza sociale non residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,117,5967,2024
+Friuli-Venezia Giulia,90,"Attività creative, artistiche e di intrattenimento",DIVISIONE,R,Attività artistiche e sportive,basso,39,392,2024
+Friuli-Venezia Giulia,91,"Attività di biblioteche, archivi, musei ed altre attività culturali",DIVISIONE,R,Attività artistiche e sportive,basso,16,463,2024
+Friuli-Venezia Giulia,92,"Attività riguardanti le lotterie, le scommesse, le case da gioco",DIVISIONE,R,Attività artistiche e sportive,basso,52,204,2024
+Friuli-Venezia Giulia,93,"Attività sportive, di intrattenimento e di divertimento",DIVISIONE,R,Attività artistiche e sportive,basso,221,1798,2024
+Friuli-Venezia Giulia,95,Riparazione di computer e di beni per uso personale e per la casa,DIVISIONE,S,Altre attività di servizi,basso,153,802,2024
+Friuli-Venezia Giulia,96,Altre attività di servizi per la persona,DIVISIONE,S,Altre attività di servizi,basso,1455,5211,2024
+Veneto,TOTALE,Totale economia (imprese con dipendenti),TOTALE,,,,136036,1530483,2024
+Veneto,08,Altre attività di estrazione di minerali da cave e miniere,DIVISIONE,B,Estrazione di minerali,alto,99,962,2024
+Veneto,09,Attività dei servizi di supporto all'estrazione,DIVISIONE,B,Estrazione di minerali,alto,1,6,2024
+Veneto,10,Industrie alimentari,DIVISIONE,C,Attività manifatturiere,alto,2197,43406,2024
+Veneto,11,Industria delle bevande,DIVISIONE,C,Attività manifatturiere,alto,253,7393,2024
+Veneto,12,Industria del tabacco,DIVISIONE,C,Attività manifatturiere,alto,2,60,2024
+Veneto,13,Industrie tessili,DIVISIONE,C,Attività manifatturiere,alto,672,11255,2024
+Veneto,14,"Confezione di articoli di abbigliamento, confezione di articoli in pelle e pelliccia",DIVISIONE,C,Attività manifatturiere,alto,2045,25249,2024
+Veneto,15,Fabbricazione di articoli in pelle e simili,DIVISIONE,C,Attività manifatturiere,alto,1203,27316,2024
+Veneto,16,"Industria del legno e dei prodotti in legno e sughero (esclusi i mobili), fabbricazione di articoli in paglia e materiali da intreccio",DIVISIONE,C,Attività manifatturiere,alto,1167,10926,2024
+Veneto,17,Fabbricazione di carta e di prodotti di carta,DIVISIONE,C,Attività manifatturiere,alto,330,14366,2024
+Veneto,18,Stampa e riproduzione di supporti registrati,DIVISIONE,C,Attività manifatturiere,alto,721,10111,2024
+Veneto,19,Fabbricazione di coke e prodotti derivanti dalla raffinazione del petrolio,DIVISIONE,C,Attività manifatturiere,alto,14,271,2024
+Veneto,20,Fabbricazione di prodotti chimici,DIVISIONE,C,Attività manifatturiere,alto,366,10599,2024
+Veneto,21,Fabbricazione di prodotti farmaceutici di base e di preparati farmaceutici,DIVISIONE,C,Attività manifatturiere,alto,25,5218,2024
+Veneto,22,Fabbricazione di articoli in gomma e materie plastiche,DIVISIONE,C,Attività manifatturiere,alto,989,26974,2024
+Veneto,23,Fabbricazione di altri prodotti della lavorazione di minerali non metalliferi,DIVISIONE,C,Attività manifatturiere,alto,1164,24648,2024
+Veneto,24,Metallurgia,DIVISIONE,C,Attività manifatturiere,alto,251,13734,2024
+Veneto,25,Fabbricazione di prodotti in metallo (esclusi macchinari e attrezzature),DIVISIONE,C,Attività manifatturiere,alto,5971,91275,2024
+Veneto,26,"Fabbricazione di computer e prodotti di elettronica e ottica, apparecchi elettromedicali, apparecchi di misurazione e di orologi",DIVISIONE,C,Attività manifatturiere,alto,371,10477,2024
+Veneto,27,Fabbricazione di apparecchiature elettriche ed apparecchiature per uso domestico non elettriche,DIVISIONE,C,Attività manifatturiere,alto,952,29436,2024
+Veneto,28,Fabbricazione di macchinari ed apparecchiature nca,DIVISIONE,C,Attività manifatturiere,alto,2359,83651,2024
+Veneto,29,"Fabbricazione di autoveicoli, rimorchi e semirimorchi",DIVISIONE,C,Attività manifatturiere,alto,233,6296,2024
+Veneto,30,Fabbricazione di altri mezzi di trasporto,DIVISIONE,C,Attività manifatturiere,alto,178,4256,2024
+Veneto,31,Fabbricazione di mobili,DIVISIONE,C,Attività manifatturiere,alto,1622,27985,2024
+Veneto,32,Altre industrie manifatturiere,DIVISIONE,C,Attività manifatturiere,alto,1334,30949,2024
+Veneto,33,"Riparazione, manutenzione ed installazione di macchine ed apparecchiature",DIVISIONE,C,Attività manifatturiere,alto,1503,15178,2024
+Veneto,35,"Fornitura di energia elettrica, gas, vapore e aria condizionata",DIVISIONE,D,"Energia elettrica, gas, vapore",alto,196,2039,2024
+Veneto,36,"Raccolta, trattamento e fornitura di acqua",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,15,3151,2024
+Veneto,37,Gestione delle reti fognarie,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,97,1199,2024
+Veneto,38,"Attività di raccolta, trattamento e smaltimento dei rifiuti recupero dei materiali",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,378,12789,2024
+Veneto,39,Attività di risanamento e altri servizi di gestione dei rifiuti,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,55,675,2024
+Veneto,41,Costruzione di edifici,DIVISIONE,F,Costruzioni,alto,4983,28163,2024
+Veneto,42,Ingegneria civile,DIVISIONE,F,Costruzioni,alto,428,8469,2024
+Veneto,43,Lavori di costruzione specializzati,DIVISIONE,F,Costruzioni,alto,11349,69656,2024
+Veneto,45,Commercio all'ingrosso e al dettaglio e riparazione di autoveicoli e motocicli,DIVISIONE,G,Commercio e riparazione autoveicoli,basso,4343,32527,2024
+Veneto,46,Commercio all'ingrosso (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,9040,89069,2024
+Veneto,47,Commercio al dettaglio (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,14491,178946,2024
+Veneto,49,Trasporto terrestre e trasporto mediante condotte,DIVISIONE,H,Trasporto e magazzinaggio,medio,3607,42346,2024
+Veneto,50,Trasporto marittimo e per vie d'acqua,DIVISIONE,H,Trasporto e magazzinaggio,medio,388,5109,2024
+Veneto,51,Trasporto aereo,DIVISIONE,H,Trasporto e magazzinaggio,medio,4,1407,2024
+Veneto,52,Magazzinaggio e attività di supporto ai trasporti,DIVISIONE,H,Trasporto e magazzinaggio,medio,966,23259,2024
+Veneto,53,Servizi postali e attività di corriere,DIVISIONE,H,Trasporto e magazzinaggio,medio,47,721,2024
+Veneto,55,Alloggio,DIVISIONE,I,Alloggio e ristorazione,basso,3053,31990,2024
+Veneto,56,Attività dei servizi di ristorazione,DIVISIONE,I,Alloggio e ristorazione,basso,17785,125868,2024
+Veneto,58,Attività editoriali,DIVISIONE,J,Informazione e comunicazione,basso,152,1562,2024
+Veneto,59,"Attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore",DIVISIONE,J,Informazione e comunicazione,basso,105,705,2024
+Veneto,60,Attività di programmazione e trasmissione,DIVISIONE,J,Informazione e comunicazione,basso,45,546,2024
+Veneto,61,Telecomunicazioni,DIVISIONE,J,Informazione e comunicazione,basso,86,591,2024
+Veneto,62,"Produzione di software, consulenza informatica e attività connesse",DIVISIONE,J,Informazione e comunicazione,basso,1384,17932,2024
+Veneto,63,Attività dei servizi d'informazione e altri servizi informatici,DIVISIONE,J,Informazione e comunicazione,basso,1713,10370,2024
+Veneto,64,Attività di servizi finanziari (escluse le assicurazioni e i fondi pensione),DIVISIONE,K,Attività finanziarie e assicurative,basso,235,7875,2024
+Veneto,65,"Assicurazioni, riassicurazioni e fondi pensione (escluse le assicurazioni sociali obbligatorie)",DIVISIONE,K,Attività finanziarie e assicurative,basso,13,10086,2024
+Veneto,66,Attività ausiliarie dei servizi finanziari e delle attività assicurative,DIVISIONE,K,Attività finanziarie e assicurative,basso,1741,8004,2024
+Veneto,68,Attività immobiliari,DIVISIONE,L,Attività immobiliari,basso,2911,9027,2024
+Veneto,69,Attività legali e contabilità,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,5371,26430,2024
+Veneto,70,Attività di direzione aziendale e di consulenza gestionale,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,1311,10792,2024
+Veneto,71,"Attività degli studi di architettura e d'ingegneria, collaudi ed analisi tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,1647,12776,2024
+Veneto,72,Ricerca scientifica e sviluppo,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,167,2062,2024
+Veneto,73,Pubblicità e ricerche di mercato,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,451,3187,2024
+Veneto,74,"Altre attività professionali, scientifiche e tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,1469,7094,2024
+Veneto,75,Servizi veterinari,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,121,426,2024
+Veneto,77,Attività di noleggio e leasing operativo,DIVISIONE,N,Noleggio e servizi alle imprese,basso,529,3826,2024
+Veneto,78,"Attività di ricerca, selezione, fornitura di personale",DIVISIONE,N,Noleggio e servizi alle imprese,basso,51,36251,2024
+Veneto,79,"Attività dei servizi delle agenzie di viaggio, dei tour operator e servizi di prenotazione e attività connesse",DIVISIONE,N,Noleggio e servizi alle imprese,basso,503,3182,2024
+Veneto,80,Servizi di vigilanza e investigazione,DIVISIONE,N,Noleggio e servizi alle imprese,basso,87,7592,2024
+Veneto,81,Attività di servizi per edifici e paesaggio,DIVISIONE,N,Noleggio e servizi alle imprese,basso,2091,37336,2024
+Veneto,82,Attività di supporto per le funzioni d'ufficio e altri servizi di supporto alle imprese,DIVISIONE,N,Noleggio e servizi alle imprese,basso,1594,16270,2024
+Veneto,85,Istruzione,DIVISIONE,P,Istruzione,medio,839,6688,2024
+Veneto,86,Assistenza sanitaria,DIVISIONE,Q,Sanità e assistenza sociale,alto,4467,24086,2024
+Veneto,87,Servizi di assistenza sociale residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,151,12907,2024
+Veneto,88,Assistenza sociale non residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,459,19893,2024
+Veneto,90,"Attività creative, artistiche e di intrattenimento",DIVISIONE,R,Attività artistiche e sportive,basso,205,2662,2024
+Veneto,91,"Attività di biblioteche, archivi, musei ed altre attività culturali",DIVISIONE,R,Attività artistiche e sportive,basso,43,2467,2024
+Veneto,92,"Attività riguardanti le lotterie, le scommesse, le case da gioco",DIVISIONE,R,Attività artistiche e sportive,basso,284,2493,2024
+Veneto,93,"Attività sportive, di intrattenimento e di divertimento",DIVISIONE,R,Attività artistiche e sportive,basso,957,7785,2024
+Veneto,95,Riparazione di computer e di beni per uso personale e per la casa,DIVISIONE,S,Altre attività di servizi,basso,437,2078,2024
+Veneto,96,Altre attività di servizi per la persona,DIVISIONE,S,Altre attività di servizi,basso,7170,26123,2024
+Trentino-Alto Adige,TOTALE,Totale economia (imprese con dipendenti),TOTALE,,,,34343,395578,2024
+Trentino-Alto Adige,08,Altre attività di estrazione di minerali da cave e miniere,DIVISIONE,B,Estrazione di minerali,alto,73,657,2024
+Trentino-Alto Adige,10,Industrie alimentari,DIVISIONE,C,Attività manifatturiere,alto,490,12435,2024
+Trentino-Alto Adige,11,Industria delle bevande,DIVISIONE,C,Attività manifatturiere,alto,100,2276,2024
+Trentino-Alto Adige,13,Industrie tessili,DIVISIONE,C,Attività manifatturiere,alto,45,790,2024
+Trentino-Alto Adige,14,"Confezione di articoli di abbigliamento, confezione di articoli in pelle e pelliccia",DIVISIONE,C,Attività manifatturiere,alto,53,828,2024
+Trentino-Alto Adige,15,Fabbricazione di articoli in pelle e simili,DIVISIONE,C,Attività manifatturiere,alto,16,721,2024
+Trentino-Alto Adige,16,"Industria del legno e dei prodotti in legno e sughero (esclusi i mobili), fabbricazione di articoli in paglia e materiali da intreccio",DIVISIONE,C,Attività manifatturiere,alto,566,6665,2024
+Trentino-Alto Adige,17,Fabbricazione di carta e di prodotti di carta,DIVISIONE,C,Attività manifatturiere,alto,25,1406,2024
+Trentino-Alto Adige,18,Stampa e riproduzione di supporti registrati,DIVISIONE,C,Attività manifatturiere,alto,122,1503,2024
+Trentino-Alto Adige,19,Fabbricazione di coke e prodotti derivanti dalla raffinazione del petrolio,DIVISIONE,C,Attività manifatturiere,alto,3,89,2024
+Trentino-Alto Adige,20,Fabbricazione di prodotti chimici,DIVISIONE,C,Attività manifatturiere,alto,41,1628,2024
+Trentino-Alto Adige,21,Fabbricazione di prodotti farmaceutici di base e di preparati farmaceutici,DIVISIONE,C,Attività manifatturiere,alto,3,459,2024
+Trentino-Alto Adige,22,Fabbricazione di articoli in gomma e materie plastiche,DIVISIONE,C,Attività manifatturiere,alto,71,3490,2024
+Trentino-Alto Adige,23,Fabbricazione di altri prodotti della lavorazione di minerali non metalliferi,DIVISIONE,C,Attività manifatturiere,alto,162,3346,2024
+Trentino-Alto Adige,24,Metallurgia,DIVISIONE,C,Attività manifatturiere,alto,17,1773,2024
+Trentino-Alto Adige,25,Fabbricazione di prodotti in metallo (esclusi macchinari e attrezzature),DIVISIONE,C,Attività manifatturiere,alto,624,10855,2024
+Trentino-Alto Adige,26,"Fabbricazione di computer e prodotti di elettronica e ottica, apparecchi elettromedicali, apparecchi di misurazione e di orologi",DIVISIONE,C,Attività manifatturiere,alto,55,1245,2024
+Trentino-Alto Adige,27,Fabbricazione di apparecchiature elettriche ed apparecchiature per uso domestico non elettriche,DIVISIONE,C,Attività manifatturiere,alto,70,1978,2024
+Trentino-Alto Adige,28,Fabbricazione di macchinari ed apparecchiature nca,DIVISIONE,C,Attività manifatturiere,alto,254,9224,2024
+Trentino-Alto Adige,29,"Fabbricazione di autoveicoli, rimorchi e semirimorchi",DIVISIONE,C,Attività manifatturiere,alto,36,3949,2024
+Trentino-Alto Adige,30,Fabbricazione di altri mezzi di trasporto,DIVISIONE,C,Attività manifatturiere,alto,12,1062,2024
+Trentino-Alto Adige,31,Fabbricazione di mobili,DIVISIONE,C,Attività manifatturiere,alto,268,2436,2024
+Trentino-Alto Adige,32,Altre industrie manifatturiere,DIVISIONE,C,Attività manifatturiere,alto,125,1421,2024
+Trentino-Alto Adige,33,"Riparazione, manutenzione ed installazione di macchine ed apparecchiature",DIVISIONE,C,Attività manifatturiere,alto,209,1745,2024
+Trentino-Alto Adige,35,"Fornitura di energia elettrica, gas, vapore e aria condizionata",DIVISIONE,D,"Energia elettrica, gas, vapore",alto,198,3383,2024
+Trentino-Alto Adige,36,"Raccolta, trattamento e fornitura di acqua",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,12,46,2024
+Trentino-Alto Adige,37,Gestione delle reti fognarie,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,14,470,2024
+Trentino-Alto Adige,38,"Attività di raccolta, trattamento e smaltimento dei rifiuti recupero dei materiali",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,80,2476,2024
+Trentino-Alto Adige,39,Attività di risanamento e altri servizi di gestione dei rifiuti,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,4,39,2024
+Trentino-Alto Adige,41,Costruzione di edifici,DIVISIONE,F,Costruzioni,alto,974,8434,2024
+Trentino-Alto Adige,42,Ingegneria civile,DIVISIONE,F,Costruzioni,alto,159,3774,2024
+Trentino-Alto Adige,43,Lavori di costruzione specializzati,DIVISIONE,F,Costruzioni,alto,3430,23848,2024
+Trentino-Alto Adige,45,Commercio all'ingrosso e al dettaglio e riparazione di autoveicoli e motocicli,DIVISIONE,G,Commercio e riparazione autoveicoli,basso,970,9233,2024
+Trentino-Alto Adige,46,Commercio all'ingrosso (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,1920,28074,2024
+Trentino-Alto Adige,47,Commercio al dettaglio (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,3589,42353,2024
+Trentino-Alto Adige,49,Trasporto terrestre e trasporto mediante condotte,DIVISIONE,H,Trasporto e magazzinaggio,medio,1248,17238,2024
+Trentino-Alto Adige,50,Trasporto marittimo e per vie d'acqua,DIVISIONE,H,Trasporto e magazzinaggio,medio,3,9,2024
+Trentino-Alto Adige,51,Trasporto aereo,DIVISIONE,H,Trasporto e magazzinaggio,medio,7,163,2024
+Trentino-Alto Adige,52,Magazzinaggio e attività di supporto ai trasporti,DIVISIONE,H,Trasporto e magazzinaggio,medio,162,4373,2024
+Trentino-Alto Adige,53,Servizi postali e attività di corriere,DIVISIONE,H,Trasporto e magazzinaggio,medio,2,3,2024
+Trentino-Alto Adige,55,Alloggio,DIVISIONE,I,Alloggio e ristorazione,basso,4656,42107,2024
+Trentino-Alto Adige,56,Attività dei servizi di ristorazione,DIVISIONE,I,Alloggio e ristorazione,basso,4771,28835,2024
+Trentino-Alto Adige,58,Attività editoriali,DIVISIONE,J,Informazione e comunicazione,basso,47,778,2024
+Trentino-Alto Adige,59,"Attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore",DIVISIONE,J,Informazione e comunicazione,basso,49,222,2024
+Trentino-Alto Adige,60,Attività di programmazione e trasmissione,DIVISIONE,J,Informazione e comunicazione,basso,27,210,2024
+Trentino-Alto Adige,61,Telecomunicazioni,DIVISIONE,J,Informazione e comunicazione,basso,22,153,2024
+Trentino-Alto Adige,62,"Produzione di software, consulenza informatica e attività connesse",DIVISIONE,J,Informazione e comunicazione,basso,374,12244,2024
+Trentino-Alto Adige,63,Attività dei servizi d'informazione e altri servizi informatici,DIVISIONE,J,Informazione e comunicazione,basso,401,3241,2024
+Trentino-Alto Adige,64,Attività di servizi finanziari (escluse le assicurazioni e i fondi pensione),DIVISIONE,K,Attività finanziarie e assicurative,basso,134,8530,2024
+Trentino-Alto Adige,65,"Assicurazioni, riassicurazioni e fondi pensione (escluse le assicurazioni sociali obbligatorie)",DIVISIONE,K,Attività finanziarie e assicurative,basso,3,760,2024
+Trentino-Alto Adige,66,Attività ausiliarie dei servizi finanziari e delle attività assicurative,DIVISIONE,K,Attività finanziarie e assicurative,basso,322,1999,2024
+Trentino-Alto Adige,68,Attività immobiliari,DIVISIONE,L,Attività immobiliari,basso,630,1952,2024
+Trentino-Alto Adige,69,Attività legali e contabilità,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,840,5239,2024
+Trentino-Alto Adige,70,Attività di direzione aziendale e di consulenza gestionale,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,301,2531,2024
+Trentino-Alto Adige,71,"Attività degli studi di architettura e d'ingegneria, collaudi ed analisi tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,649,3100,2024
+Trentino-Alto Adige,72,Ricerca scientifica e sviluppo,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,90,735,2024
+Trentino-Alto Adige,73,Pubblicità e ricerche di mercato,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,100,741,2024
+Trentino-Alto Adige,74,"Altre attività professionali, scientifiche e tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,342,1355,2024
+Trentino-Alto Adige,75,Servizi veterinari,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,26,73,2024
+Trentino-Alto Adige,77,Attività di noleggio e leasing operativo,DIVISIONE,N,Noleggio e servizi alle imprese,basso,346,4904,2024
+Trentino-Alto Adige,78,"Attività di ricerca, selezione, fornitura di personale",DIVISIONE,N,Noleggio e servizi alle imprese,basso,14,109,2024
+Trentino-Alto Adige,79,"Attività dei servizi delle agenzie di viaggio, dei tour operator e servizi di prenotazione e attività connesse",DIVISIONE,N,Noleggio e servizi alle imprese,basso,115,1257,2024
+Trentino-Alto Adige,80,Servizi di vigilanza e investigazione,DIVISIONE,N,Noleggio e servizi alle imprese,basso,11,1289,2024
+Trentino-Alto Adige,81,Attività di servizi per edifici e paesaggio,DIVISIONE,N,Noleggio e servizi alle imprese,basso,497,25989,2024
+Trentino-Alto Adige,82,Attività di supporto per le funzioni d'ufficio e altri servizi di supporto alle imprese,DIVISIONE,N,Noleggio e servizi alle imprese,basso,358,3503,2024
+Trentino-Alto Adige,85,Istruzione,DIVISIONE,P,Istruzione,medio,269,3653,2024
+Trentino-Alto Adige,86,Assistenza sanitaria,DIVISIONE,Q,Sanità e assistenza sociale,alto,1007,5052,2024
+Trentino-Alto Adige,87,Servizi di assistenza sociale residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,30,1948,2024
+Trentino-Alto Adige,88,Assistenza sociale non residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,124,7523,2024
+Trentino-Alto Adige,90,"Attività creative, artistiche e di intrattenimento",DIVISIONE,R,Attività artistiche e sportive,basso,58,349,2024
+Trentino-Alto Adige,91,"Attività di biblioteche, archivi, musei ed altre attività culturali",DIVISIONE,R,Attività artistiche e sportive,basso,12,51,2024
+Trentino-Alto Adige,92,"Attività riguardanti le lotterie, le scommesse, le case da gioco",DIVISIONE,R,Attività artistiche e sportive,basso,24,95,2024
+Trentino-Alto Adige,93,"Attività sportive, di intrattenimento e di divertimento",DIVISIONE,R,Attività artistiche e sportive,basso,234,4342,2024
+Trentino-Alto Adige,95,Riparazione di computer e di beni per uso personale e per la casa,DIVISIONE,S,Altre attività di servizi,basso,91,437,2024
+Trentino-Alto Adige,96,Altre attività di servizi per la persona,DIVISIONE,S,Altre attività di servizi,basso,1157,4375,2024
+Emilia-Romagna,TOTALE,Totale economia (imprese con dipendenti),TOTALE,,,,119024,1417526,2024
+Emilia-Romagna,08,Altre attività di estrazione di minerali da cave e miniere,DIVISIONE,B,Estrazione di minerali,alto,49,639,2024
+Emilia-Romagna,09,Attività dei servizi di supporto all'estrazione,DIVISIONE,B,Estrazione di minerali,alto,5,335,2024
+Emilia-Romagna,10,Industrie alimentari,DIVISIONE,C,Attività manifatturiere,alto,2909,65452,2024
+Emilia-Romagna,11,Industria delle bevande,DIVISIONE,C,Attività manifatturiere,alto,118,3129,2024
+Emilia-Romagna,13,Industrie tessili,DIVISIONE,C,Attività manifatturiere,alto,434,4324,2024
+Emilia-Romagna,14,"Confezione di articoli di abbigliamento, confezione di articoli in pelle e pelliccia",DIVISIONE,C,Attività manifatturiere,alto,1403,17180,2024
+Emilia-Romagna,15,Fabbricazione di articoli in pelle e simili,DIVISIONE,C,Attività manifatturiere,alto,332,5415,2024
+Emilia-Romagna,16,"Industria del legno e dei prodotti in legno e sughero (esclusi i mobili), fabbricazione di articoli in paglia e materiali da intreccio",DIVISIONE,C,Attività manifatturiere,alto,582,7063,2024
+Emilia-Romagna,17,Fabbricazione di carta e di prodotti di carta,DIVISIONE,C,Attività manifatturiere,alto,203,4901,2024
+Emilia-Romagna,18,Stampa e riproduzione di supporti registrati,DIVISIONE,C,Attività manifatturiere,alto,563,5839,2024
+Emilia-Romagna,19,Fabbricazione di coke e prodotti derivanti dalla raffinazione del petrolio,DIVISIONE,C,Attività manifatturiere,alto,4,136,2024
+Emilia-Romagna,20,Fabbricazione di prodotti chimici,DIVISIONE,C,Attività manifatturiere,alto,342,11103,2024
+Emilia-Romagna,21,Fabbricazione di prodotti farmaceutici di base e di preparati farmaceutici,DIVISIONE,C,Attività manifatturiere,alto,29,5618,2024
+Emilia-Romagna,22,Fabbricazione di articoli in gomma e materie plastiche,DIVISIONE,C,Attività manifatturiere,alto,731,18369,2024
+Emilia-Romagna,23,Fabbricazione di altri prodotti della lavorazione di minerali non metalliferi,DIVISIONE,C,Attività manifatturiere,alto,643,25389,2024
+Emilia-Romagna,24,Metallurgia,DIVISIONE,C,Attività manifatturiere,alto,201,7530,2024
+Emilia-Romagna,25,Fabbricazione di prodotti in metallo (esclusi macchinari e attrezzature),DIVISIONE,C,Attività manifatturiere,alto,5111,70509,2024
+Emilia-Romagna,26,"Fabbricazione di computer e prodotti di elettronica e ottica, apparecchi elettromedicali, apparecchi di misurazione e di orologi",DIVISIONE,C,Attività manifatturiere,alto,407,13733,2024
+Emilia-Romagna,27,Fabbricazione di apparecchiature elettriche ed apparecchiature per uso domestico non elettriche,DIVISIONE,C,Attività manifatturiere,alto,558,15987,2024
+Emilia-Romagna,28,Fabbricazione di macchinari ed apparecchiature nca,DIVISIONE,C,Attività manifatturiere,alto,2528,109675,2024
+Emilia-Romagna,29,"Fabbricazione di autoveicoli, rimorchi e semirimorchi",DIVISIONE,C,Attività manifatturiere,alto,254,17846,2024
+Emilia-Romagna,30,Fabbricazione di altri mezzi di trasporto,DIVISIONE,C,Attività manifatturiere,alto,171,7046,2024
+Emilia-Romagna,31,Fabbricazione di mobili,DIVISIONE,C,Attività manifatturiere,alto,557,7069,2024
+Emilia-Romagna,32,Altre industrie manifatturiere,DIVISIONE,C,Attività manifatturiere,alto,590,10321,2024
+Emilia-Romagna,33,"Riparazione, manutenzione ed installazione di macchine ed apparecchiature",DIVISIONE,C,Attività manifatturiere,alto,1475,14811,2024
+Emilia-Romagna,35,"Fornitura di energia elettrica, gas, vapore e aria condizionata",DIVISIONE,D,"Energia elettrica, gas, vapore",alto,151,3004,2024
+Emilia-Romagna,36,"Raccolta, trattamento e fornitura di acqua",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,14,3525,2024
+Emilia-Romagna,37,Gestione delle reti fognarie,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,110,1287,2024
+Emilia-Romagna,38,"Attività di raccolta, trattamento e smaltimento dei rifiuti recupero dei materiali",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,279,12232,2024
+Emilia-Romagna,39,Attività di risanamento e altri servizi di gestione dei rifiuti,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,27,481,2024
+Emilia-Romagna,41,Costruzione di edifici,DIVISIONE,F,Costruzioni,alto,3955,23540,2024
+Emilia-Romagna,42,Ingegneria civile,DIVISIONE,F,Costruzioni,alto,295,13238,2024
+Emilia-Romagna,43,Lavori di costruzione specializzati,DIVISIONE,F,Costruzioni,alto,10066,59320,2024
+Emilia-Romagna,45,Commercio all'ingrosso e al dettaglio e riparazione di autoveicoli e motocicli,DIVISIONE,G,Commercio e riparazione autoveicoli,basso,4186,30263,2024
+Emilia-Romagna,46,Commercio all'ingrosso (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,7744,82273,2024
+Emilia-Romagna,47,Commercio al dettaglio (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,13143,102790,2024
+Emilia-Romagna,49,Trasporto terrestre e trasporto mediante condotte,DIVISIONE,H,Trasporto e magazzinaggio,medio,3223,38466,2024
+Emilia-Romagna,50,Trasporto marittimo e per vie d'acqua,DIVISIONE,H,Trasporto e magazzinaggio,medio,28,385,2024
+Emilia-Romagna,51,Trasporto aereo,DIVISIONE,H,Trasporto e magazzinaggio,medio,4,5,2024
+Emilia-Romagna,52,Magazzinaggio e attività di supporto ai trasporti,DIVISIONE,H,Trasporto e magazzinaggio,medio,969,32072,2024
+Emilia-Romagna,53,Servizi postali e attività di corriere,DIVISIONE,H,Trasporto e magazzinaggio,medio,52,533,2024
+Emilia-Romagna,55,Alloggio,DIVISIONE,I,Alloggio e ristorazione,basso,3438,26635,2024
+Emilia-Romagna,56,Attività dei servizi di ristorazione,DIVISIONE,I,Alloggio e ristorazione,basso,16118,130678,2024
+Emilia-Romagna,58,Attività editoriali,DIVISIONE,J,Informazione e comunicazione,basso,163,2792,2024
+Emilia-Romagna,59,"Attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore",DIVISIONE,J,Informazione e comunicazione,basso,183,1222,2024
+Emilia-Romagna,60,Attività di programmazione e trasmissione,DIVISIONE,J,Informazione e comunicazione,basso,47,335,2024
+Emilia-Romagna,61,Telecomunicazioni,DIVISIONE,J,Informazione e comunicazione,basso,89,860,2024
+Emilia-Romagna,62,"Produzione di software, consulenza informatica e attività connesse",DIVISIONE,J,Informazione e comunicazione,basso,1341,22261,2024
+Emilia-Romagna,63,Attività dei servizi d'informazione e altri servizi informatici,DIVISIONE,J,Informazione e comunicazione,basso,1243,10392,2024
+Emilia-Romagna,64,Attività di servizi finanziari (escluse le assicurazioni e i fondi pensione),DIVISIONE,K,Attività finanziarie e assicurative,basso,225,40574,2024
+Emilia-Romagna,65,"Assicurazioni, riassicurazioni e fondi pensione (escluse le assicurazioni sociali obbligatorie)",DIVISIONE,K,Attività finanziarie e assicurative,basso,8,8237,2024
+Emilia-Romagna,66,Attività ausiliarie dei servizi finanziari e delle attività assicurative,DIVISIONE,K,Attività finanziarie e assicurative,basso,1404,6983,2024
+Emilia-Romagna,68,Attività immobiliari,DIVISIONE,L,Attività immobiliari,basso,2568,7362,2024
+Emilia-Romagna,69,Attività legali e contabilità,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,4356,22497,2024
+Emilia-Romagna,70,Attività di direzione aziendale e di consulenza gestionale,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,1227,10942,2024
+Emilia-Romagna,71,"Attività degli studi di architettura e d'ingegneria, collaudi ed analisi tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,1306,9831,2024
+Emilia-Romagna,72,Ricerca scientifica e sviluppo,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,227,3087,2024
+Emilia-Romagna,73,Pubblicità e ricerche di mercato,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,412,3177,2024
+Emilia-Romagna,74,"Altre attività professionali, scientifiche e tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,1342,8837,2024
+Emilia-Romagna,75,Servizi veterinari,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,106,334,2024
+Emilia-Romagna,77,Attività di noleggio e leasing operativo,DIVISIONE,N,Noleggio e servizi alle imprese,basso,395,3482,2024
+Emilia-Romagna,78,"Attività di ricerca, selezione, fornitura di personale",DIVISIONE,N,Noleggio e servizi alle imprese,basso,49,16808,2024
+Emilia-Romagna,79,"Attività dei servizi delle agenzie di viaggio, dei tour operator e servizi di prenotazione e attività connesse",DIVISIONE,N,Noleggio e servizi alle imprese,basso,342,2571,2024
+Emilia-Romagna,80,Servizi di vigilanza e investigazione,DIVISIONE,N,Noleggio e servizi alle imprese,basso,90,6840,2024
+Emilia-Romagna,81,Attività di servizi per edifici e paesaggio,DIVISIONE,N,Noleggio e servizi alle imprese,basso,2025,68900,2024
+Emilia-Romagna,82,Attività di supporto per le funzioni d'ufficio e altri servizi di supporto alle imprese,DIVISIONE,N,Noleggio e servizi alle imprese,basso,1577,17735,2024
+Emilia-Romagna,85,Istruzione,DIVISIONE,P,Istruzione,medio,740,7174,2024
+Emilia-Romagna,86,Assistenza sanitaria,DIVISIONE,Q,Sanità e assistenza sociale,alto,4307,22676,2024
+Emilia-Romagna,87,Servizi di assistenza sociale residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,486,33242,2024
+Emilia-Romagna,88,Assistenza sociale non residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,357,21739,2024
+Emilia-Romagna,90,"Attività creative, artistiche e di intrattenimento",DIVISIONE,R,Attività artistiche e sportive,basso,204,1485,2024
+Emilia-Romagna,91,"Attività di biblioteche, archivi, musei ed altre attività culturali",DIVISIONE,R,Attività artistiche e sportive,basso,24,1361,2024
+Emilia-Romagna,92,"Attività riguardanti le lotterie, le scommesse, le case da gioco",DIVISIONE,R,Attività artistiche e sportive,basso,208,1611,2024
+Emilia-Romagna,93,"Attività sportive, di intrattenimento e di divertimento",DIVISIONE,R,Attività artistiche e sportive,basso,1692,11959,2024
+Emilia-Romagna,95,Riparazione di computer e di beni per uso personale e per la casa,DIVISIONE,S,Altre attività di servizi,basso,401,2116,2024
+Emilia-Romagna,96,Altre attività di servizi per la persona,DIVISIONE,S,Altre attività di servizi,basso,5879,27956,2024
+Lombardia,TOTALE,Totale economia (imprese con dipendenti),TOTALE,,,,271028,4041671,2024
+Lombardia,06,Estrazione di petrolio greggio e di gas naturale,DIVISIONE,B,Estrazione di minerali,alto,4,381,2024
+Lombardia,08,Altre attività di estrazione di minerali da cave e miniere,DIVISIONE,B,Estrazione di minerali,alto,183,2492,2024
+Lombardia,09,Attività dei servizi di supporto all'estrazione,DIVISIONE,B,Estrazione di minerali,alto,6,213,2024
+Lombardia,10,Industrie alimentari,DIVISIONE,C,Attività manifatturiere,alto,3671,72931,2024
+Lombardia,11,Industria delle bevande,DIVISIONE,C,Attività manifatturiere,alto,188,10085,2024
+Lombardia,12,Industria del tabacco,DIVISIONE,C,Attività manifatturiere,alto,1,2424,2024
+Lombardia,13,Industrie tessili,DIVISIONE,C,Attività manifatturiere,alto,1843,37692,2024
+Lombardia,14,"Confezione di articoli di abbigliamento, confezione di articoli in pelle e pelliccia",DIVISIONE,C,Attività manifatturiere,alto,2501,40598,2024
+Lombardia,15,Fabbricazione di articoli in pelle e simili,DIVISIONE,C,Attività manifatturiere,alto,714,18188,2024
+Lombardia,16,"Industria del legno e dei prodotti in legno e sughero (esclusi i mobili), fabbricazione di articoli in paglia e materiali da intreccio",DIVISIONE,C,Attività manifatturiere,alto,1463,16134,2024
+Lombardia,17,Fabbricazione di carta e di prodotti di carta,DIVISIONE,C,Attività manifatturiere,alto,615,21276,2024
+Lombardia,18,Stampa e riproduzione di supporti registrati,DIVISIONE,C,Attività manifatturiere,alto,1363,16093,2024
+Lombardia,19,Fabbricazione di coke e prodotti derivanti dalla raffinazione del petrolio,DIVISIONE,C,Attività manifatturiere,alto,26,2184,2024
+Lombardia,20,Fabbricazione di prodotti chimici,DIVISIONE,C,Attività manifatturiere,alto,1081,58938,2024
+Lombardia,21,Fabbricazione di prodotti farmaceutici di base e di preparati farmaceutici,DIVISIONE,C,Attività manifatturiere,alto,145,28356,2024
+Lombardia,22,Fabbricazione di articoli in gomma e materie plastiche,DIVISIONE,C,Attività manifatturiere,alto,2367,62532,2024
+Lombardia,23,Fabbricazione di altri prodotti della lavorazione di minerali non metalliferi,DIVISIONE,C,Attività manifatturiere,alto,1208,25172,2024
+Lombardia,24,Metallurgia,DIVISIONE,C,Attività manifatturiere,alto,899,56788,2024
+Lombardia,25,Fabbricazione di prodotti in metallo (esclusi macchinari e attrezzature),DIVISIONE,C,Attività manifatturiere,alto,12203,170821,2024
+Lombardia,26,"Fabbricazione di computer e prodotti di elettronica e ottica, apparecchi elettromedicali, apparecchi di misurazione e di orologi",DIVISIONE,C,Attività manifatturiere,alto,992,39117,2024
+Lombardia,27,Fabbricazione di apparecchiature elettriche ed apparecchiature per uso domestico non elettriche,DIVISIONE,C,Attività manifatturiere,alto,1601,51950,2024
+Lombardia,28,Fabbricazione di macchinari ed apparecchiature nca,DIVISIONE,C,Attività manifatturiere,alto,4373,146722,2024
+Lombardia,29,"Fabbricazione di autoveicoli, rimorchi e semirimorchi",DIVISIONE,C,Attività manifatturiere,alto,363,30164,2024
+Lombardia,30,Fabbricazione di altri mezzi di trasporto,DIVISIONE,C,Attività manifatturiere,alto,303,7694,2024
+Lombardia,31,Fabbricazione di mobili,DIVISIONE,C,Attività manifatturiere,alto,2034,26909,2024
+Lombardia,32,Altre industrie manifatturiere,DIVISIONE,C,Attività manifatturiere,alto,1464,21801,2024
+Lombardia,33,"Riparazione, manutenzione ed installazione di macchine ed apparecchiature",DIVISIONE,C,Attività manifatturiere,alto,2936,31855,2024
+Lombardia,35,"Fornitura di energia elettrica, gas, vapore e aria condizionata",DIVISIONE,D,"Energia elettrica, gas, vapore",alto,520,21034,2024
+Lombardia,36,"Raccolta, trattamento e fornitura di acqua",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,51,5578,2024
+Lombardia,37,Gestione delle reti fognarie,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,148,1976,2024
+Lombardia,38,"Attività di raccolta, trattamento e smaltimento dei rifiuti recupero dei materiali",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,805,28178,2024
+Lombardia,39,Attività di risanamento e altri servizi di gestione dei rifiuti,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,105,2536,2024
+Lombardia,41,Costruzione di edifici,DIVISIONE,F,Costruzioni,alto,10466,72535,2024
+Lombardia,42,Ingegneria civile,DIVISIONE,F,Costruzioni,alto,587,30546,2024
+Lombardia,43,Lavori di costruzione specializzati,DIVISIONE,F,Costruzioni,alto,22641,156685,2024
+Lombardia,45,Commercio all'ingrosso e al dettaglio e riparazione di autoveicoli e motocicli,DIVISIONE,G,Commercio e riparazione autoveicoli,basso,8870,64822,2024
+Lombardia,46,Commercio all'ingrosso (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,20207,273851,2024
+Lombardia,47,Commercio al dettaglio (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,24939,346136,2024
+Lombardia,49,Trasporto terrestre e trasporto mediante condotte,DIVISIONE,H,Trasporto e magazzinaggio,medio,6258,102640,2024
+Lombardia,50,Trasporto marittimo e per vie d'acqua,DIVISIONE,H,Trasporto e magazzinaggio,medio,120,2585,2024
+Lombardia,51,Trasporto aereo,DIVISIONE,H,Trasporto e magazzinaggio,medio,25,6698,2024
+Lombardia,52,Magazzinaggio e attività di supporto ai trasporti,DIVISIONE,H,Trasporto e magazzinaggio,medio,2681,130045,2024
+Lombardia,53,Servizi postali e attività di corriere,DIVISIONE,H,Trasporto e magazzinaggio,medio,144,9862,2024
+Lombardia,55,Alloggio,DIVISIONE,I,Alloggio e ristorazione,basso,3309,46680,2024
+Lombardia,56,Attività dei servizi di ristorazione,DIVISIONE,I,Alloggio e ristorazione,basso,29943,248577,2024
+Lombardia,58,Attività editoriali,DIVISIONE,J,Informazione e comunicazione,basso,691,14798,2024
+Lombardia,59,"Attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore",DIVISIONE,J,Informazione e comunicazione,basso,613,6714,2024
+Lombardia,60,Attività di programmazione e trasmissione,DIVISIONE,J,Informazione e comunicazione,basso,73,3789,2024
+Lombardia,61,Telecomunicazioni,DIVISIONE,J,Informazione e comunicazione,basso,308,27909,2024
+Lombardia,62,"Produzione di software, consulenza informatica e attività connesse",DIVISIONE,J,Informazione e comunicazione,basso,4521,127280,2024
+Lombardia,63,Attività dei servizi d'informazione e altri servizi informatici,DIVISIONE,J,Informazione e comunicazione,basso,3896,32746,2024
+Lombardia,64,Attività di servizi finanziari (escluse le assicurazioni e i fondi pensione),DIVISIONE,K,Attività finanziarie e assicurative,basso,1208,101745,2024
+Lombardia,65,"Assicurazioni, riassicurazioni e fondi pensione (escluse le assicurazioni sociali obbligatorie)",DIVISIONE,K,Attività finanziarie e assicurative,basso,95,17304,2024
+Lombardia,66,Attività ausiliarie dei servizi finanziari e delle attività assicurative,DIVISIONE,K,Attività finanziarie e assicurative,basso,3790,28884,2024
+Lombardia,68,Attività immobiliari,DIVISIONE,L,Attività immobiliari,basso,8112,24984,2024
+Lombardia,69,Attività legali e contabilità,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,10356,62503,2024
+Lombardia,70,Attività di direzione aziendale e di consulenza gestionale,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,5419,98406,2024
+Lombardia,71,"Attività degli studi di architettura e d'ingegneria, collaudi ed analisi tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,3420,32644,2024
+Lombardia,72,Ricerca scientifica e sviluppo,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,602,10776,2024
+Lombardia,73,Pubblicità e ricerche di mercato,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,1905,35202,2024
+Lombardia,74,"Altre attività professionali, scientifiche e tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,3675,24150,2024
+Lombardia,75,Servizi veterinari,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,209,1256,2024
+Lombardia,77,Attività di noleggio e leasing operativo,DIVISIONE,N,Noleggio e servizi alle imprese,basso,1134,9271,2024
+Lombardia,78,"Attività di ricerca, selezione, fornitura di personale",DIVISIONE,N,Noleggio e servizi alle imprese,basso,251,305953,2024
+Lombardia,79,"Attività dei servizi delle agenzie di viaggio, dei tour operator e servizi di prenotazione e attività connesse",DIVISIONE,N,Noleggio e servizi alle imprese,basso,942,7965,2024
+Lombardia,80,Servizi di vigilanza e investigazione,DIVISIONE,N,Noleggio e servizi alle imprese,basso,287,25273,2024
+Lombardia,81,Attività di servizi per edifici e paesaggio,DIVISIONE,N,Noleggio e servizi alle imprese,basso,6859,140297,2024
+Lombardia,82,Attività di supporto per le funzioni d'ufficio e altri servizi di supporto alle imprese,DIVISIONE,N,Noleggio e servizi alle imprese,basso,4965,83586,2024
+Lombardia,85,Istruzione,DIVISIONE,P,Istruzione,medio,1952,24360,2024
+Lombardia,86,Assistenza sanitaria,DIVISIONE,Q,Sanità e assistenza sociale,alto,9436,76022,2024
+Lombardia,87,Servizi di assistenza sociale residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,457,32357,2024
+Lombardia,88,Assistenza sociale non residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,1307,46750,2024
+Lombardia,90,"Attività creative, artistiche e di intrattenimento",DIVISIONE,R,Attività artistiche e sportive,basso,541,4588,2024
+Lombardia,91,"Attività di biblioteche, archivi, musei ed altre attività culturali",DIVISIONE,R,Attività artistiche e sportive,basso,42,1221,2024
+Lombardia,92,"Attività riguardanti le lotterie, le scommesse, le case da gioco",DIVISIONE,R,Attività artistiche e sportive,basso,743,7119,2024
+Lombardia,93,"Attività sportive, di intrattenimento e di divertimento",DIVISIONE,R,Attività artistiche e sportive,basso,1749,13445,2024
+Lombardia,95,Riparazione di computer e di beni per uso personale e per la casa,DIVISIONE,S,Altre attività di servizi,basso,888,5326,2024
+Lombardia,96,Altre attività di servizi per la persona,DIVISIONE,S,Altre attività di servizi,basso,14216,56575,2024
+Piemonte,TOTALE,Totale economia (imprese con dipendenti),TOTALE,,,,101329,1167804,2024
+Piemonte,08,Altre attività di estrazione di minerali da cave e miniere,DIVISIONE,B,Estrazione di minerali,alto,87,995,2024
+Piemonte,09,Attività dei servizi di supporto all'estrazione,DIVISIONE,B,Estrazione di minerali,alto,1,5,2024
+Piemonte,10,Industrie alimentari,DIVISIONE,C,Attività manifatturiere,alto,2253,32853,2024
+Piemonte,11,Industria delle bevande,DIVISIONE,C,Attività manifatturiere,alto,197,3896,2024
+Piemonte,13,Industrie tessili,DIVISIONE,C,Attività manifatturiere,alto,575,14239,2024
+Piemonte,14,"Confezione di articoli di abbigliamento, confezione di articoli in pelle e pelliccia",DIVISIONE,C,Attività manifatturiere,alto,454,8496,2024
+Piemonte,15,Fabbricazione di articoli in pelle e simili,DIVISIONE,C,Attività manifatturiere,alto,73,1016,2024
+Piemonte,16,"Industria del legno e dei prodotti in legno e sughero (esclusi i mobili), fabbricazione di articoli in paglia e materiali da intreccio",DIVISIONE,C,Attività manifatturiere,alto,630,5875,2024
+Piemonte,17,Fabbricazione di carta e di prodotti di carta,DIVISIONE,C,Attività manifatturiere,alto,164,4219,2024
+Piemonte,18,Stampa e riproduzione di supporti registrati,DIVISIONE,C,Attività manifatturiere,alto,425,4206,2024
+Piemonte,19,Fabbricazione di coke e prodotti derivanti dalla raffinazione del petrolio,DIVISIONE,C,Attività manifatturiere,alto,6,594,2024
+Piemonte,20,Fabbricazione di prodotti chimici,DIVISIONE,C,Attività manifatturiere,alto,227,8258,2024
+Piemonte,21,Fabbricazione di prodotti farmaceutici di base e di preparati farmaceutici,DIVISIONE,C,Attività manifatturiere,alto,22,2327,2024
+Piemonte,22,Fabbricazione di articoli in gomma e materie plastiche,DIVISIONE,C,Attività manifatturiere,alto,636,23944,2024
+Piemonte,23,Fabbricazione di altri prodotti della lavorazione di minerali non metalliferi,DIVISIONE,C,Attività manifatturiere,alto,549,8181,2024
+Piemonte,24,Metallurgia,DIVISIONE,C,Attività manifatturiere,alto,212,7297,2024
+Piemonte,25,Fabbricazione di prodotti in metallo (esclusi macchinari e attrezzature),DIVISIONE,C,Attività manifatturiere,alto,4131,54595,2024
+Piemonte,26,"Fabbricazione di computer e prodotti di elettronica e ottica, apparecchi elettromedicali, apparecchi di misurazione e di orologi",DIVISIONE,C,Attività manifatturiere,alto,287,8967,2024
+Piemonte,27,Fabbricazione di apparecchiature elettriche ed apparecchiature per uso domestico non elettriche,DIVISIONE,C,Attività manifatturiere,alto,382,11740,2024
+Piemonte,28,Fabbricazione di macchinari ed apparecchiature nca,DIVISIONE,C,Attività manifatturiere,alto,1447,56053,2024
+Piemonte,29,"Fabbricazione di autoveicoli, rimorchi e semirimorchi",DIVISIONE,C,Attività manifatturiere,alto,377,75449,2024
+Piemonte,30,Fabbricazione di altri mezzi di trasporto,DIVISIONE,C,Attività manifatturiere,alto,100,11632,2024
+Piemonte,31,Fabbricazione di mobili,DIVISIONE,C,Attività manifatturiere,alto,321,2001,2024
+Piemonte,32,Altre industrie manifatturiere,DIVISIONE,C,Attività manifatturiere,alto,976,11700,2024
+Piemonte,33,"Riparazione, manutenzione ed installazione di macchine ed apparecchiature",DIVISIONE,C,Attività manifatturiere,alto,1090,10766,2024
+Piemonte,35,"Fornitura di energia elettrica, gas, vapore e aria condizionata",DIVISIONE,D,"Energia elettrica, gas, vapore",alto,236,6061,2024
+Piemonte,36,"Raccolta, trattamento e fornitura di acqua",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,48,2388,2024
+Piemonte,37,Gestione delle reti fognarie,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,42,573,2024
+Piemonte,38,"Attività di raccolta, trattamento e smaltimento dei rifiuti recupero dei materiali",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,364,15287,2024
+Piemonte,39,Attività di risanamento e altri servizi di gestione dei rifiuti,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,33,466,2024
+Piemonte,41,Costruzione di edifici,DIVISIONE,F,Costruzioni,alto,3417,18864,2024
+Piemonte,42,Ingegneria civile,DIVISIONE,F,Costruzioni,alto,295,9014,2024
+Piemonte,43,Lavori di costruzione specializzati,DIVISIONE,F,Costruzioni,alto,9413,52794,2024
+Piemonte,45,Commercio all'ingrosso e al dettaglio e riparazione di autoveicoli e motocicli,DIVISIONE,G,Commercio e riparazione autoveicoli,basso,4274,29927,2024
+Piemonte,46,Commercio all'ingrosso (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,6040,50287,2024
+Piemonte,47,Commercio al dettaglio (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,11660,77356,2024
+Piemonte,49,Trasporto terrestre e trasporto mediante condotte,DIVISIONE,H,Trasporto e magazzinaggio,medio,2260,33739,2024
+Piemonte,50,Trasporto marittimo e per vie d'acqua,DIVISIONE,H,Trasporto e magazzinaggio,medio,10,39,2024
+Piemonte,51,Trasporto aereo,DIVISIONE,H,Trasporto e magazzinaggio,medio,9,374,2024
+Piemonte,52,Magazzinaggio e attività di supporto ai trasporti,DIVISIONE,H,Trasporto e magazzinaggio,medio,542,20435,2024
+Piemonte,53,Servizi postali e attività di corriere,DIVISIONE,H,Trasporto e magazzinaggio,medio,53,403,2024
+Piemonte,55,Alloggio,DIVISIONE,I,Alloggio e ristorazione,basso,1346,11225,2024
+Piemonte,56,Attività dei servizi di ristorazione,DIVISIONE,I,Alloggio e ristorazione,basso,13326,80610,2024
+Piemonte,58,Attività editoriali,DIVISIONE,J,Informazione e comunicazione,basso,186,2991,2024
+Piemonte,59,"Attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore",DIVISIONE,J,Informazione e comunicazione,basso,140,1144,2024
+Piemonte,60,Attività di programmazione e trasmissione,DIVISIONE,J,Informazione e comunicazione,basso,47,381,2024
+Piemonte,61,Telecomunicazioni,DIVISIONE,J,Informazione e comunicazione,basso,77,5368,2024
+Piemonte,62,"Produzione di software, consulenza informatica e attività connesse",DIVISIONE,J,Informazione e comunicazione,basso,1263,32148,2024
+Piemonte,63,Attività dei servizi d'informazione e altri servizi informatici,DIVISIONE,J,Informazione e comunicazione,basso,1101,5900,2024
+Piemonte,64,Attività di servizi finanziari (escluse le assicurazioni e i fondi pensione),DIVISIONE,K,Attività finanziarie e assicurative,basso,194,77519,2024
+Piemonte,65,"Assicurazioni, riassicurazioni e fondi pensione (escluse le assicurazioni sociali obbligatorie)",DIVISIONE,K,Attività finanziarie e assicurative,basso,8,2483,2024
+Piemonte,66,Attività ausiliarie dei servizi finanziari e delle attività assicurative,DIVISIONE,K,Attività finanziarie e assicurative,basso,1678,7623,2024
+Piemonte,68,Attività immobiliari,DIVISIONE,L,Attività immobiliari,basso,2413,6704,2024
+Piemonte,69,Attività legali e contabilità,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,4112,19968,2024
+Piemonte,70,Attività di direzione aziendale e di consulenza gestionale,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,1010,9303,2024
+Piemonte,71,"Attività degli studi di architettura e d'ingegneria, collaudi ed analisi tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,1423,12579,2024
+Piemonte,72,Ricerca scientifica e sviluppo,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,173,3213,2024
+Piemonte,73,Pubblicità e ricerche di mercato,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,380,3344,2024
+Piemonte,74,"Altre attività professionali, scientifiche e tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,1055,7650,2024
+Piemonte,75,Servizi veterinari,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,110,390,2024
+Piemonte,77,Attività di noleggio e leasing operativo,DIVISIONE,N,Noleggio e servizi alle imprese,basso,354,3247,2024
+Piemonte,78,"Attività di ricerca, selezione, fornitura di personale",DIVISIONE,N,Noleggio e servizi alle imprese,basso,31,31785,2024
+Piemonte,79,"Attività dei servizi delle agenzie di viaggio, dei tour operator e servizi di prenotazione e attività connesse",DIVISIONE,N,Noleggio e servizi alle imprese,basso,350,3716,2024
+Piemonte,80,Servizi di vigilanza e investigazione,DIVISIONE,N,Noleggio e servizi alle imprese,basso,57,4387,2024
+Piemonte,81,Attività di servizi per edifici e paesaggio,DIVISIONE,N,Noleggio e servizi alle imprese,basso,2038,33897,2024
+Piemonte,82,Attività di supporto per le funzioni d'ufficio e altri servizi di supporto alle imprese,DIVISIONE,N,Noleggio e servizi alle imprese,basso,1255,14353,2024
+Piemonte,85,Istruzione,DIVISIONE,P,Istruzione,medio,720,5232,2024
+Piemonte,86,Assistenza sanitaria,DIVISIONE,Q,Sanità e assistenza sociale,alto,4401,23347,2024
+Piemonte,87,Servizi di assistenza sociale residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,302,32317,2024
+Piemonte,88,Assistenza sociale non residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,455,9707,2024
+Piemonte,90,"Attività creative, artistiche e di intrattenimento",DIVISIONE,R,Attività artistiche e sportive,basso,170,1182,2024
+Piemonte,91,"Attività di biblioteche, archivi, musei ed altre attività culturali",DIVISIONE,R,Attività artistiche e sportive,basso,19,516,2024
+Piemonte,92,"Attività riguardanti le lotterie, le scommesse, le case da gioco",DIVISIONE,R,Attività artistiche e sportive,basso,277,940,2024
+Piemonte,93,"Attività sportive, di intrattenimento e di divertimento",DIVISIONE,R,Attività artistiche e sportive,basso,782,4548,2024
+Piemonte,95,Riparazione di computer e di beni per uso personale e per la casa,DIVISIONE,S,Altre attività di servizi,basso,289,1201,2024
+Piemonte,96,Altre attività di servizi per la persona,DIVISIONE,S,Altre attività di servizi,basso,5469,19573,2024
+Liguria,TOTALE,Totale economia (imprese con dipendenti),TOTALE,,,,41314,324294,2024
+Liguria,08,Altre attività di estrazione di minerali da cave e miniere,DIVISIONE,B,Estrazione di minerali,alto,30,247,2024
+Liguria,09,Attività dei servizi di supporto all'estrazione,DIVISIONE,B,Estrazione di minerali,alto,1,2,2024
+Liguria,10,Industrie alimentari,DIVISIONE,C,Attività manifatturiere,alto,1094,9441,2024
+Liguria,11,Industria delle bevande,DIVISIONE,C,Attività manifatturiere,alto,26,168,2024
+Liguria,13,Industrie tessili,DIVISIONE,C,Attività manifatturiere,alto,39,218,2024
+Liguria,14,"Confezione di articoli di abbigliamento, confezione di articoli in pelle e pelliccia",DIVISIONE,C,Attività manifatturiere,alto,90,405,2024
+Liguria,15,Fabbricazione di articoli in pelle e simili,DIVISIONE,C,Attività manifatturiere,alto,9,29,2024
+Liguria,16,"Industria del legno e dei prodotti in legno e sughero (esclusi i mobili), fabbricazione di articoli in paglia e materiali da intreccio",DIVISIONE,C,Attività manifatturiere,alto,107,652,2024
+Liguria,17,Fabbricazione di carta e di prodotti di carta,DIVISIONE,C,Attività manifatturiere,alto,22,301,2024
+Liguria,18,Stampa e riproduzione di supporti registrati,DIVISIONE,C,Attività manifatturiere,alto,111,700,2024
+Liguria,19,Fabbricazione di coke e prodotti derivanti dalla raffinazione del petrolio,DIVISIONE,C,Attività manifatturiere,alto,7,674,2024
+Liguria,20,Fabbricazione di prodotti chimici,DIVISIONE,C,Attività manifatturiere,alto,69,1407,2024
+Liguria,21,Fabbricazione di prodotti farmaceutici di base e di preparati farmaceutici,DIVISIONE,C,Attività manifatturiere,alto,10,526,2024
+Liguria,22,Fabbricazione di articoli in gomma e materie plastiche,DIVISIONE,C,Attività manifatturiere,alto,67,1582,2024
+Liguria,23,Fabbricazione di altri prodotti della lavorazione di minerali non metalliferi,DIVISIONE,C,Attività manifatturiere,alto,165,1443,2024
+Liguria,24,Metallurgia,DIVISIONE,C,Attività manifatturiere,alto,27,989,2024
+Liguria,25,Fabbricazione di prodotti in metallo (esclusi macchinari e attrezzature),DIVISIONE,C,Attività manifatturiere,alto,711,6856,2024
+Liguria,26,"Fabbricazione di computer e prodotti di elettronica e ottica, apparecchi elettromedicali, apparecchi di misurazione e di orologi",DIVISIONE,C,Attività manifatturiere,alto,88,2362,2024
+Liguria,27,Fabbricazione di apparecchiature elettriche ed apparecchiature per uso domestico non elettriche,DIVISIONE,C,Attività manifatturiere,alto,66,1841,2024
+Liguria,28,Fabbricazione di macchinari ed apparecchiature nca,DIVISIONE,C,Attività manifatturiere,alto,128,5150,2024
+Liguria,29,"Fabbricazione di autoveicoli, rimorchi e semirimorchi",DIVISIONE,C,Attività manifatturiere,alto,13,983,2024
+Liguria,30,Fabbricazione di altri mezzi di trasporto,DIVISIONE,C,Attività manifatturiere,alto,123,3064,2024
+Liguria,31,Fabbricazione di mobili,DIVISIONE,C,Attività manifatturiere,alto,62,424,2024
+Liguria,32,Altre industrie manifatturiere,DIVISIONE,C,Attività manifatturiere,alto,173,1331,2024
+Liguria,33,"Riparazione, manutenzione ed installazione di macchine ed apparecchiature",DIVISIONE,C,Attività manifatturiere,alto,589,6827,2024
+Liguria,35,"Fornitura di energia elettrica, gas, vapore e aria condizionata",DIVISIONE,D,"Energia elettrica, gas, vapore",alto,31,1450,2024
+Liguria,36,"Raccolta, trattamento e fornitura di acqua",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,19,1852,2024
+Liguria,37,Gestione delle reti fognarie,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,23,339,2024
+Liguria,38,"Attività di raccolta, trattamento e smaltimento dei rifiuti recupero dei materiali",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,100,6001,2024
+Liguria,39,Attività di risanamento e altri servizi di gestione dei rifiuti,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,17,201,2024
+Liguria,41,Costruzione di edifici,DIVISIONE,F,Costruzioni,alto,977,6204,2024
+Liguria,42,Ingegneria civile,DIVISIONE,F,Costruzioni,alto,92,3665,2024
+Liguria,43,Lavori di costruzione specializzati,DIVISIONE,F,Costruzioni,alto,4231,21440,2024
+Liguria,45,Commercio all'ingrosso e al dettaglio e riparazione di autoveicoli e motocicli,DIVISIONE,G,Commercio e riparazione autoveicoli,basso,1229,6335,2024
+Liguria,46,Commercio all'ingrosso (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,1934,17303,2024
+Liguria,47,Commercio al dettaglio (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,5691,32029,2024
+Liguria,49,Trasporto terrestre e trasporto mediante condotte,DIVISIONE,H,Trasporto e magazzinaggio,medio,663,11408,2024
+Liguria,50,Trasporto marittimo e per vie d'acqua,DIVISIONE,H,Trasporto e magazzinaggio,medio,77,24137,2024
+Liguria,52,Magazzinaggio e attività di supporto ai trasporti,DIVISIONE,H,Trasporto e magazzinaggio,medio,662,17032,2024
+Liguria,53,Servizi postali e attività di corriere,DIVISIONE,H,Trasporto e magazzinaggio,medio,16,122,2024
+Liguria,55,Alloggio,DIVISIONE,I,Alloggio e ristorazione,basso,1461,9447,2024
+Liguria,56,Attività dei servizi di ristorazione,DIVISIONE,I,Alloggio e ristorazione,basso,7293,37883,2024
+Liguria,58,Attività editoriali,DIVISIONE,J,Informazione e comunicazione,basso,40,194,2024
+Liguria,59,"Attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore",DIVISIONE,J,Informazione e comunicazione,basso,42,231,2024
+Liguria,60,Attività di programmazione e trasmissione,DIVISIONE,J,Informazione e comunicazione,basso,12,82,2024
+Liguria,61,Telecomunicazioni,DIVISIONE,J,Informazione e comunicazione,basso,40,178,2024
+Liguria,62,"Produzione di software, consulenza informatica e attività connesse",DIVISIONE,J,Informazione e comunicazione,basso,329,3526,2024
+Liguria,63,Attività dei servizi d'informazione e altri servizi informatici,DIVISIONE,J,Informazione e comunicazione,basso,399,1706,2024
+Liguria,64,Attività di servizi finanziari (escluse le assicurazioni e i fondi pensione),DIVISIONE,K,Attività finanziarie e assicurative,basso,51,743,2024
+Liguria,65,"Assicurazioni, riassicurazioni e fondi pensione (escluse le assicurazioni sociali obbligatorie)",DIVISIONE,K,Attività finanziarie e assicurative,basso,2,228,2024
+Liguria,66,Attività ausiliarie dei servizi finanziari e delle attività assicurative,DIVISIONE,K,Attività finanziarie e assicurative,basso,624,3030,2024
+Liguria,68,Attività immobiliari,DIVISIONE,L,Attività immobiliari,basso,1146,3068,2024
+Liguria,69,Attività legali e contabilità,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,1912,7608,2024
+Liguria,70,Attività di direzione aziendale e di consulenza gestionale,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,278,2557,2024
+Liguria,71,"Attività degli studi di architettura e d'ingegneria, collaudi ed analisi tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,440,4736,2024
+Liguria,72,Ricerca scientifica e sviluppo,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,62,469,2024
+Liguria,73,Pubblicità e ricerche di mercato,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,81,311,2024
+Liguria,74,"Altre attività professionali, scientifiche e tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,301,1585,2024
+Liguria,75,Servizi veterinari,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,54,167,2024
+Liguria,77,Attività di noleggio e leasing operativo,DIVISIONE,N,Noleggio e servizi alle imprese,basso,147,810,2024
+Liguria,78,"Attività di ricerca, selezione, fornitura di personale",DIVISIONE,N,Noleggio e servizi alle imprese,basso,5,691,2024
+Liguria,79,"Attività dei servizi delle agenzie di viaggio, dei tour operator e servizi di prenotazione e attività connesse",DIVISIONE,N,Noleggio e servizi alle imprese,basso,149,1333,2024
+Liguria,80,Servizi di vigilanza e investigazione,DIVISIONE,N,Noleggio e servizi alle imprese,basso,31,1398,2024
+Liguria,81,Attività di servizi per edifici e paesaggio,DIVISIONE,N,Noleggio e servizi alle imprese,basso,902,10394,2024
+Liguria,82,Attività di supporto per le funzioni d'ufficio e altri servizi di supporto alle imprese,DIVISIONE,N,Noleggio e servizi alle imprese,basso,431,2798,2024
+Liguria,85,Istruzione,DIVISIONE,P,Istruzione,medio,250,1444,2024
+Liguria,86,Assistenza sanitaria,DIVISIONE,Q,Sanità e assistenza sociale,alto,1615,6222,2024
+Liguria,87,Servizi di assistenza sociale residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,156,3785,2024
+Liguria,88,Assistenza sociale non residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,143,5889,2024
+Liguria,90,"Attività creative, artistiche e di intrattenimento",DIVISIONE,R,Attività artistiche e sportive,basso,56,334,2024
+Liguria,91,"Attività di biblioteche, archivi, musei ed altre attività culturali",DIVISIONE,R,Attività artistiche e sportive,basso,9,96,2024
+Liguria,92,"Attività riguardanti le lotterie, le scommesse, le case da gioco",DIVISIONE,R,Attività artistiche e sportive,basso,110,607,2024
+Liguria,93,"Attività sportive, di intrattenimento e di divertimento",DIVISIONE,R,Attività artistiche e sportive,basso,956,5204,2024
+Liguria,95,Riparazione di computer e di beni per uso personale e per la casa,DIVISIONE,S,Altre attività di servizi,basso,145,543,2024
+Liguria,96,Altre attività di servizi per la persona,DIVISIONE,S,Altre attività di servizi,basso,2053,7856,2024
+Toscana,TOTALE,Totale economia (imprese con dipendenti),TOTALE,,,,113300,954883,2024
+Toscana,08,Altre attività di estrazione di minerali da cave e miniere,DIVISIONE,B,Estrazione di minerali,alto,135,1640,2024
+Toscana,09,Attività dei servizi di supporto all'estrazione,DIVISIONE,B,Estrazione di minerali,alto,1,1,2024
+Toscana,10,Industrie alimentari,DIVISIONE,C,Attività manifatturiere,alto,1932,17944,2024
+Toscana,11,Industria delle bevande,DIVISIONE,C,Attività manifatturiere,alto,103,1376,2024
+Toscana,12,Industria del tabacco,DIVISIONE,C,Attività manifatturiere,alto,2,396,2024
+Toscana,13,Industrie tessili,DIVISIONE,C,Attività manifatturiere,alto,1776,20796,2024
+Toscana,14,"Confezione di articoli di abbigliamento, confezione di articoli in pelle e pelliccia",DIVISIONE,C,Attività manifatturiere,alto,5136,39054,2024
+Toscana,15,Fabbricazione di articoli in pelle e simili,DIVISIONE,C,Attività manifatturiere,alto,3300,40605,2024
+Toscana,16,"Industria del legno e dei prodotti in legno e sughero (esclusi i mobili), fabbricazione di articoli in paglia e materiali da intreccio",DIVISIONE,C,Attività manifatturiere,alto,611,4728,2024
+Toscana,17,Fabbricazione di carta e di prodotti di carta,DIVISIONE,C,Attività manifatturiere,alto,299,9939,2024
+Toscana,18,Stampa e riproduzione di supporti registrati,DIVISIONE,C,Attività manifatturiere,alto,439,3765,2024
+Toscana,19,Fabbricazione di coke e prodotti derivanti dalla raffinazione del petrolio,DIVISIONE,C,Attività manifatturiere,alto,12,286,2024
+Toscana,20,Fabbricazione di prodotti chimici,DIVISIONE,C,Attività manifatturiere,alto,257,7820,2024
+Toscana,21,Fabbricazione di prodotti farmaceutici di base e di preparati farmaceutici,DIVISIONE,C,Attività manifatturiere,alto,28,5976,2024
+Toscana,22,Fabbricazione di articoli in gomma e materie plastiche,DIVISIONE,C,Attività manifatturiere,alto,416,7748,2024
+Toscana,23,Fabbricazione di altri prodotti della lavorazione di minerali non metalliferi,DIVISIONE,C,Attività manifatturiere,alto,806,8739,2024
+Toscana,24,Metallurgia,DIVISIONE,C,Attività manifatturiere,alto,138,5806,2024
+Toscana,25,Fabbricazione di prodotti in metallo (esclusi macchinari e attrezzature),DIVISIONE,C,Attività manifatturiere,alto,2517,29388,2024
+Toscana,26,"Fabbricazione di computer e prodotti di elettronica e ottica, apparecchi elettromedicali, apparecchi di misurazione e di orologi",DIVISIONE,C,Attività manifatturiere,alto,217,6035,2024
+Toscana,27,Fabbricazione di apparecchiature elettriche ed apparecchiature per uso domestico non elettriche,DIVISIONE,C,Attività manifatturiere,alto,277,6098,2024
+Toscana,28,Fabbricazione di macchinari ed apparecchiature nca,DIVISIONE,C,Attività manifatturiere,alto,795,20369,2024
+Toscana,29,"Fabbricazione di autoveicoli, rimorchi e semirimorchi",DIVISIONE,C,Attività manifatturiere,alto,87,5328,2024
+Toscana,30,Fabbricazione di altri mezzi di trasporto,DIVISIONE,C,Attività manifatturiere,alto,325,11428,2024
+Toscana,31,Fabbricazione di mobili,DIVISIONE,C,Attività manifatturiere,alto,795,8801,2024
+Toscana,32,Altre industrie manifatturiere,DIVISIONE,C,Attività manifatturiere,alto,1300,13440,2024
+Toscana,33,"Riparazione, manutenzione ed installazione di macchine ed apparecchiature",DIVISIONE,C,Attività manifatturiere,alto,1239,11890,2024
+Toscana,35,"Fornitura di energia elettrica, gas, vapore e aria condizionata",DIVISIONE,D,"Energia elettrica, gas, vapore",alto,113,2070,2024
+Toscana,36,"Raccolta, trattamento e fornitura di acqua",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,13,3106,2024
+Toscana,37,Gestione delle reti fognarie,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,108,1055,2024
+Toscana,38,"Attività di raccolta, trattamento e smaltimento dei rifiuti recupero dei materiali",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,269,12654,2024
+Toscana,39,Attività di risanamento e altri servizi di gestione dei rifiuti,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,38,520,2024
+Toscana,41,Costruzione di edifici,DIVISIONE,F,Costruzioni,alto,3578,19492,2024
+Toscana,42,Ingegneria civile,DIVISIONE,F,Costruzioni,alto,250,4738,2024
+Toscana,43,Lavori di costruzione specializzati,DIVISIONE,F,Costruzioni,alto,9909,51680,2024
+Toscana,45,Commercio all'ingrosso e al dettaglio e riparazione di autoveicoli e motocicli,DIVISIONE,G,Commercio e riparazione autoveicoli,basso,3536,23309,2024
+Toscana,46,Commercio all'ingrosso (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,6866,54614,2024
+Toscana,47,Commercio al dettaglio (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,13138,83579,2024
+Toscana,49,Trasporto terrestre e trasporto mediante condotte,DIVISIONE,H,Trasporto e magazzinaggio,medio,1931,25712,2024
+Toscana,50,Trasporto marittimo e per vie d'acqua,DIVISIONE,H,Trasporto e magazzinaggio,medio,26,613,2024
+Toscana,51,Trasporto aereo,DIVISIONE,H,Trasporto e magazzinaggio,medio,5,50,2024
+Toscana,52,Magazzinaggio e attività di supporto ai trasporti,DIVISIONE,H,Trasporto e magazzinaggio,medio,837,17690,2024
+Toscana,53,Servizi postali e attività di corriere,DIVISIONE,H,Trasporto e magazzinaggio,medio,53,919,2024
+Toscana,55,Alloggio,DIVISIONE,I,Alloggio e ristorazione,basso,3929,28705,2024
+Toscana,56,Attività dei servizi di ristorazione,DIVISIONE,I,Alloggio e ristorazione,basso,14633,89715,2024
+Toscana,58,Attività editoriali,DIVISIONE,J,Informazione e comunicazione,basso,120,735,2024
+Toscana,59,"Attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore",DIVISIONE,J,Informazione e comunicazione,basso,113,520,2024
+Toscana,60,Attività di programmazione e trasmissione,DIVISIONE,J,Informazione e comunicazione,basso,47,385,2024
+Toscana,61,Telecomunicazioni,DIVISIONE,J,Informazione e comunicazione,basso,111,1124,2024
+Toscana,62,"Produzione di software, consulenza informatica e attività connesse",DIVISIONE,J,Informazione e comunicazione,basso,1004,15108,2024
+Toscana,63,Attività dei servizi d'informazione e altri servizi informatici,DIVISIONE,J,Informazione e comunicazione,basso,1292,6502,2024
+Toscana,64,Attività di servizi finanziari (escluse le assicurazioni e i fondi pensione),DIVISIONE,K,Attività finanziarie e assicurative,basso,158,23684,2024
+Toscana,66,Attività ausiliarie dei servizi finanziari e delle attività assicurative,DIVISIONE,K,Attività finanziarie e assicurative,basso,1287,5894,2024
+Toscana,68,Attività immobiliari,DIVISIONE,L,Attività immobiliari,basso,2522,7320,2024
+Toscana,69,Attività legali e contabilità,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,4474,18596,2024
+Toscana,70,Attività di direzione aziendale e di consulenza gestionale,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,715,6027,2024
+Toscana,71,"Attività degli studi di architettura e d'ingegneria, collaudi ed analisi tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,1133,9266,2024
+Toscana,72,Ricerca scientifica e sviluppo,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,190,3865,2024
+Toscana,73,Pubblicità e ricerche di mercato,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,285,1652,2024
+Toscana,74,"Altre attività professionali, scientifiche e tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,920,4937,2024
+Toscana,75,Servizi veterinari,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,96,337,2024
+Toscana,77,Attività di noleggio e leasing operativo,DIVISIONE,N,Noleggio e servizi alle imprese,basso,548,4107,2024
+Toscana,78,"Attività di ricerca, selezione, fornitura di personale",DIVISIONE,N,Noleggio e servizi alle imprese,basso,16,879,2024
+Toscana,79,"Attività dei servizi delle agenzie di viaggio, dei tour operator e servizi di prenotazione e attività connesse",DIVISIONE,N,Noleggio e servizi alle imprese,basso,506,2684,2024
+Toscana,80,Servizi di vigilanza e investigazione,DIVISIONE,N,Noleggio e servizi alle imprese,basso,74,4617,2024
+Toscana,81,Attività di servizi per edifici e paesaggio,DIVISIONE,N,Noleggio e servizi alle imprese,basso,1770,32699,2024
+Toscana,82,Attività di supporto per le funzioni d'ufficio e altri servizi di supporto alle imprese,DIVISIONE,N,Noleggio e servizi alle imprese,basso,1326,11382,2024
+Toscana,85,Istruzione,DIVISIONE,P,Istruzione,medio,783,6500,2024
+Toscana,86,Assistenza sanitaria,DIVISIONE,Q,Sanità e assistenza sociale,alto,3260,14656,2024
+Toscana,87,Servizi di assistenza sociale residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,184,12598,2024
+Toscana,88,Assistenza sociale non residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,338,14299,2024
+Toscana,90,"Attività creative, artistiche e di intrattenimento",DIVISIONE,R,Attività artistiche e sportive,basso,193,1047,2024
+Toscana,91,"Attività di biblioteche, archivi, musei ed altre attività culturali",DIVISIONE,R,Attività artistiche e sportive,basso,52,1642,2024
+Toscana,92,"Attività riguardanti le lotterie, le scommesse, le case da gioco",DIVISIONE,R,Attività artistiche e sportive,basso,179,999,2024
+Toscana,93,"Attività sportive, di intrattenimento e di divertimento",DIVISIONE,R,Attività artistiche e sportive,basso,1510,8649,2024
+Toscana,95,Riparazione di computer e di beni per uso personale e per la casa,DIVISIONE,S,Altre attività di servizi,basso,403,1854,2024
+Toscana,96,Altre attività di servizi per la persona,DIVISIONE,S,Altre attività di servizi,basso,5516,20705,2024
+Lazio,TOTALE,Totale economia (imprese con dipendenti),TOTALE,,,,162565,1712501,2024
+Lazio,06,Estrazione di petrolio greggio e di gas naturale,DIVISIONE,B,Estrazione di minerali,alto,3,29,2024
+Lazio,08,Altre attività di estrazione di minerali da cave e miniere,DIVISIONE,B,Estrazione di minerali,alto,97,1105,2024
+Lazio,09,Attività dei servizi di supporto all'estrazione,DIVISIONE,B,Estrazione di minerali,alto,4,18,2024
+Lazio,10,Industrie alimentari,DIVISIONE,C,Attività manifatturiere,alto,2351,18971,2024
+Lazio,11,Industria delle bevande,DIVISIONE,C,Attività manifatturiere,alto,87,2199,2024
+Lazio,12,Industria del tabacco,DIVISIONE,C,Attività manifatturiere,alto,2,85,2024
+Lazio,13,Industrie tessili,DIVISIONE,C,Attività manifatturiere,alto,108,1488,2024
+Lazio,14,"Confezione di articoli di abbigliamento, confezione di articoli in pelle e pelliccia",DIVISIONE,C,Attività manifatturiere,alto,507,2862,2024
+Lazio,15,Fabbricazione di articoli in pelle e simili,DIVISIONE,C,Attività manifatturiere,alto,66,1588,2024
+Lazio,16,"Industria del legno e dei prodotti in legno e sughero (esclusi i mobili), fabbricazione di articoli in paglia e materiali da intreccio",DIVISIONE,C,Attività manifatturiere,alto,467,2704,2024
+Lazio,17,Fabbricazione di carta e di prodotti di carta,DIVISIONE,C,Attività manifatturiere,alto,116,2194,2024
+Lazio,18,Stampa e riproduzione di supporti registrati,DIVISIONE,C,Attività manifatturiere,alto,562,6523,2024
+Lazio,19,Fabbricazione di coke e prodotti derivanti dalla raffinazione del petrolio,DIVISIONE,C,Attività manifatturiere,alto,23,1557,2024
+Lazio,20,Fabbricazione di prodotti chimici,DIVISIONE,C,Attività manifatturiere,alto,146,4216,2024
+Lazio,21,Fabbricazione di prodotti farmaceutici di base e di preparati farmaceutici,DIVISIONE,C,Attività manifatturiere,alto,58,13186,2024
+Lazio,22,Fabbricazione di articoli in gomma e materie plastiche,DIVISIONE,C,Attività manifatturiere,alto,258,4369,2024
+Lazio,23,Fabbricazione di altri prodotti della lavorazione di minerali non metalliferi,DIVISIONE,C,Attività manifatturiere,alto,597,6595,2024
+Lazio,24,Metallurgia,DIVISIONE,C,Attività manifatturiere,alto,74,2262,2024
+Lazio,25,Fabbricazione di prodotti in metallo (esclusi macchinari e attrezzature),DIVISIONE,C,Attività manifatturiere,alto,2181,20211,2024
+Lazio,26,"Fabbricazione di computer e prodotti di elettronica e ottica, apparecchi elettromedicali, apparecchi di misurazione e di orologi",DIVISIONE,C,Attività manifatturiere,alto,207,4526,2024
+Lazio,27,Fabbricazione di apparecchiature elettriche ed apparecchiature per uso domestico non elettriche,DIVISIONE,C,Attività manifatturiere,alto,144,1814,2024
+Lazio,28,Fabbricazione di macchinari ed apparecchiature nca,DIVISIONE,C,Attività manifatturiere,alto,303,5700,2024
+Lazio,29,"Fabbricazione di autoveicoli, rimorchi e semirimorchi",DIVISIONE,C,Attività manifatturiere,alto,89,2576,2024
+Lazio,30,Fabbricazione di altri mezzi di trasporto,DIVISIONE,C,Attività manifatturiere,alto,117,39008,2024
+Lazio,31,Fabbricazione di mobili,DIVISIONE,C,Attività manifatturiere,alto,324,2133,2024
+Lazio,32,Altre industrie manifatturiere,DIVISIONE,C,Attività manifatturiere,alto,556,3746,2024
+Lazio,33,"Riparazione, manutenzione ed installazione di macchine ed apparecchiature",DIVISIONE,C,Attività manifatturiere,alto,1166,14505,2024
+Lazio,35,"Fornitura di energia elettrica, gas, vapore e aria condizionata",DIVISIONE,D,"Energia elettrica, gas, vapore",alto,262,45870,2024
+Lazio,36,"Raccolta, trattamento e fornitura di acqua",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,23,2869,2024
+Lazio,37,Gestione delle reti fognarie,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,96,853,2024
+Lazio,38,"Attività di raccolta, trattamento e smaltimento dei rifiuti recupero dei materiali",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,432,17751,2024
+Lazio,39,Attività di risanamento e altri servizi di gestione dei rifiuti,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,43,575,2024
+Lazio,41,Costruzione di edifici,DIVISIONE,F,Costruzioni,alto,7697,44188,2024
+Lazio,42,Ingegneria civile,DIVISIONE,F,Costruzioni,alto,575,20190,2024
+Lazio,43,Lavori di costruzione specializzati,DIVISIONE,F,Costruzioni,alto,12944,74586,2024
+Lazio,45,Commercio all'ingrosso e al dettaglio e riparazione di autoveicoli e motocicli,DIVISIONE,G,Commercio e riparazione autoveicoli,basso,5939,30969,2024
+Lazio,46,Commercio all'ingrosso (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,8759,66688,2024
+Lazio,47,Commercio al dettaglio (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,23146,137773,2024
+Lazio,49,Trasporto terrestre e trasporto mediante condotte,DIVISIONE,H,Trasporto e magazzinaggio,medio,3544,99412,2024
+Lazio,50,Trasporto marittimo e per vie d'acqua,DIVISIONE,H,Trasporto e magazzinaggio,medio,39,420,2024
+Lazio,51,Trasporto aereo,DIVISIONE,H,Trasporto e magazzinaggio,medio,12,6431,2024
+Lazio,52,Magazzinaggio e attività di supporto ai trasporti,DIVISIONE,H,Trasporto e magazzinaggio,medio,2014,68868,2024
+Lazio,53,Servizi postali e attività di corriere,DIVISIONE,H,Trasporto e magazzinaggio,medio,141,118331,2024
+Lazio,55,Alloggio,DIVISIONE,I,Alloggio e ristorazione,basso,3364,28468,2024
+Lazio,56,Attività dei servizi di ristorazione,DIVISIONE,I,Alloggio e ristorazione,basso,20478,131652,2024
+Lazio,58,Attività editoriali,DIVISIONE,J,Informazione e comunicazione,basso,423,3012,2024
+Lazio,59,"Attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore",DIVISIONE,J,Informazione e comunicazione,basso,929,11878,2024
+Lazio,60,Attività di programmazione e trasmissione,DIVISIONE,J,Informazione e comunicazione,basso,91,4213,2024
+Lazio,61,Telecomunicazioni,DIVISIONE,J,Informazione e comunicazione,basso,258,27624,2024
+Lazio,62,"Produzione di software, consulenza informatica e attività connesse",DIVISIONE,J,Informazione e comunicazione,basso,2510,68447,2024
+Lazio,63,Attività dei servizi d'informazione e altri servizi informatici,DIVISIONE,J,Informazione e comunicazione,basso,2390,14610,2024
+Lazio,64,Attività di servizi finanziari (escluse le assicurazioni e i fondi pensione),DIVISIONE,K,Attività finanziarie e assicurative,basso,449,30927,2024
+Lazio,65,"Assicurazioni, riassicurazioni e fondi pensione (escluse le assicurazioni sociali obbligatorie)",DIVISIONE,K,Attività finanziarie e assicurative,basso,25,4324,2024
+Lazio,66,Attività ausiliarie dei servizi finanziari e delle attività assicurative,DIVISIONE,K,Attività finanziarie e assicurative,basso,2231,11928,2024
+Lazio,68,Attività immobiliari,DIVISIONE,L,Attività immobiliari,basso,4891,13428,2024
+Lazio,69,Attività legali e contabilità,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,6203,22973,2024
+Lazio,70,Attività di direzione aziendale e di consulenza gestionale,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,2761,31935,2024
+Lazio,71,"Attività degli studi di architettura e d'ingegneria, collaudi ed analisi tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,1593,16240,2024
+Lazio,72,Ricerca scientifica e sviluppo,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,328,3441,2024
+Lazio,73,Pubblicità e ricerche di mercato,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,939,5372,2024
+Lazio,74,"Altre attività professionali, scientifiche e tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,1618,8816,2024
+Lazio,75,Servizi veterinari,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,170,655,2024
+Lazio,77,Attività di noleggio e leasing operativo,DIVISIONE,N,Noleggio e servizi alle imprese,basso,1060,8228,2024
+Lazio,78,"Attività di ricerca, selezione, fornitura di personale",DIVISIONE,N,Noleggio e servizi alle imprese,basso,71,34237,2024
+Lazio,79,"Attività dei servizi delle agenzie di viaggio, dei tour operator e servizi di prenotazione e attività connesse",DIVISIONE,N,Noleggio e servizi alle imprese,basso,987,6561,2024
+Lazio,80,Servizi di vigilanza e investigazione,DIVISIONE,N,Noleggio e servizi alle imprese,basso,246,24154,2024
+Lazio,81,Attività di servizi per edifici e paesaggio,DIVISIONE,N,Noleggio e servizi alle imprese,basso,3553,77073,2024
+Lazio,82,Attività di supporto per le funzioni d'ufficio e altri servizi di supporto alle imprese,DIVISIONE,N,Noleggio e servizi alle imprese,basso,4214,54798,2024
+Lazio,85,Istruzione,DIVISIONE,P,Istruzione,medio,1598,11711,2024
+Lazio,86,Assistenza sanitaria,DIVISIONE,Q,Sanità e assistenza sociale,alto,8223,48461,2024
+Lazio,87,Servizi di assistenza sociale residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,680,12047,2024
+Lazio,88,Assistenza sociale non residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,937,35871,2024
+Lazio,90,"Attività creative, artistiche e di intrattenimento",DIVISIONE,R,Attività artistiche e sportive,basso,542,2916,2024
+Lazio,91,"Attività di biblioteche, archivi, musei ed altre attività culturali",DIVISIONE,R,Attività artistiche e sportive,basso,40,1819,2024
+Lazio,92,"Attività riguardanti le lotterie, le scommesse, le case da gioco",DIVISIONE,R,Attività artistiche e sportive,basso,540,7032,2024
+Lazio,93,"Attività sportive, di intrattenimento e di divertimento",DIVISIONE,R,Attività artistiche e sportive,basso,1726,9548,2024
+Lazio,95,Riparazione di computer e di beni per uso personale e per la casa,DIVISIONE,S,Altre attività di servizi,basso,542,2371,2024
+Lazio,96,Altre attività di servizi per la persona,DIVISIONE,S,Altre attività di servizi,basso,9676,33789,2024
+Marche,TOTALE,Totale economia (imprese con dipendenti),TOTALE,,,,44502,374127,2024
+Marche,08,Altre attività di estrazione di minerali da cave e miniere,DIVISIONE,B,Estrazione di minerali,alto,26,253,2024
+Marche,09,Attività dei servizi di supporto all'estrazione,DIVISIONE,B,Estrazione di minerali,alto,1,43,2024
+Marche,10,Industrie alimentari,DIVISIONE,C,Attività manifatturiere,alto,1111,11265,2024
+Marche,11,Industria delle bevande,DIVISIONE,C,Attività manifatturiere,alto,57,637,2024
+Marche,13,Industrie tessili,DIVISIONE,C,Attività manifatturiere,alto,204,2012,2024
+Marche,14,"Confezione di articoli di abbigliamento, confezione di articoli in pelle e pelliccia",DIVISIONE,C,Attività manifatturiere,alto,695,8503,2024
+Marche,15,Fabbricazione di articoli in pelle e simili,DIVISIONE,C,Attività manifatturiere,alto,1554,18799,2024
+Marche,16,"Industria del legno e dei prodotti in legno e sughero (esclusi i mobili), fabbricazione di articoli in paglia e materiali da intreccio",DIVISIONE,C,Attività manifatturiere,alto,335,3370,2024
+Marche,17,Fabbricazione di carta e di prodotti di carta,DIVISIONE,C,Attività manifatturiere,alto,133,3235,2024
+Marche,18,Stampa e riproduzione di supporti registrati,DIVISIONE,C,Attività manifatturiere,alto,214,2089,2024
+Marche,19,Fabbricazione di coke e prodotti derivanti dalla raffinazione del petrolio,DIVISIONE,C,Attività manifatturiere,alto,4,401,2024
+Marche,20,Fabbricazione di prodotti chimici,DIVISIONE,C,Attività manifatturiere,alto,102,2241,2024
+Marche,21,Fabbricazione di prodotti farmaceutici di base e di preparati farmaceutici,DIVISIONE,C,Attività manifatturiere,alto,8,155,2024
+Marche,22,Fabbricazione di articoli in gomma e materie plastiche,DIVISIONE,C,Attività manifatturiere,alto,421,11469,2024
+Marche,23,Fabbricazione di altri prodotti della lavorazione di minerali non metalliferi,DIVISIONE,C,Attività manifatturiere,alto,232,3165,2024
+Marche,24,Metallurgia,DIVISIONE,C,Attività manifatturiere,alto,78,2567,2024
+Marche,25,Fabbricazione di prodotti in metallo (esclusi macchinari e attrezzature),DIVISIONE,C,Attività manifatturiere,alto,1483,21386,2024
+Marche,26,"Fabbricazione di computer e prodotti di elettronica e ottica, apparecchi elettromedicali, apparecchi di misurazione e di orologi",DIVISIONE,C,Attività manifatturiere,alto,136,3095,2024
+Marche,27,Fabbricazione di apparecchiature elettriche ed apparecchiature per uso domestico non elettriche,DIVISIONE,C,Attività manifatturiere,alto,249,7011,2024
+Marche,28,Fabbricazione di macchinari ed apparecchiature nca,DIVISIONE,C,Attività manifatturiere,alto,419,13078,2024
+Marche,29,"Fabbricazione di autoveicoli, rimorchi e semirimorchi",DIVISIONE,C,Attività manifatturiere,alto,45,1135,2024
+Marche,30,Fabbricazione di altri mezzi di trasporto,DIVISIONE,C,Attività manifatturiere,alto,189,3082,2024
+Marche,31,Fabbricazione di mobili,DIVISIONE,C,Attività manifatturiere,alto,660,13560,2024
+Marche,32,Altre industrie manifatturiere,DIVISIONE,C,Attività manifatturiere,alto,307,3234,2024
+Marche,33,"Riparazione, manutenzione ed installazione di macchine ed apparecchiature",DIVISIONE,C,Attività manifatturiere,alto,454,3874,2024
+Marche,35,"Fornitura di energia elettrica, gas, vapore e aria condizionata",DIVISIONE,D,"Energia elettrica, gas, vapore",alto,107,887,2024
+Marche,36,"Raccolta, trattamento e fornitura di acqua",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,7,1148,2024
+Marche,37,Gestione delle reti fognarie,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,29,264,2024
+Marche,38,"Attività di raccolta, trattamento e smaltimento dei rifiuti recupero dei materiali",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,168,4122,2024
+Marche,39,Attività di risanamento e altri servizi di gestione dei rifiuti,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,12,31,2024
+Marche,41,Costruzione di edifici,DIVISIONE,F,Costruzioni,alto,1671,9700,2024
+Marche,42,Ingegneria civile,DIVISIONE,F,Costruzioni,alto,131,1492,2024
+Marche,43,Lavori di costruzione specializzati,DIVISIONE,F,Costruzioni,alto,3605,18778,2024
+Marche,45,Commercio all'ingrosso e al dettaglio e riparazione di autoveicoli e motocicli,DIVISIONE,G,Commercio e riparazione autoveicoli,basso,1576,9819,2024
+Marche,46,Commercio all'ingrosso (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,2540,19163,2024
+Marche,47,Commercio al dettaglio (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,5293,33361,2024
+Marche,49,Trasporto terrestre e trasporto mediante condotte,DIVISIONE,H,Trasporto e magazzinaggio,medio,1040,9622,2024
+Marche,50,Trasporto marittimo e per vie d'acqua,DIVISIONE,H,Trasporto e magazzinaggio,medio,12,283,2024
+Marche,52,Magazzinaggio e attività di supporto ai trasporti,DIVISIONE,H,Trasporto e magazzinaggio,medio,214,2653,2024
+Marche,53,Servizi postali e attività di corriere,DIVISIONE,H,Trasporto e magazzinaggio,medio,18,94,2024
+Marche,55,Alloggio,DIVISIONE,I,Alloggio e ristorazione,basso,982,6780,2024
+Marche,56,Attività dei servizi di ristorazione,DIVISIONE,I,Alloggio e ristorazione,basso,5735,32525,2024
+Marche,58,Attività editoriali,DIVISIONE,J,Informazione e comunicazione,basso,47,360,2024
+Marche,59,"Attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore",DIVISIONE,J,Informazione e comunicazione,basso,40,316,2024
+Marche,60,Attività di programmazione e trasmissione,DIVISIONE,J,Informazione e comunicazione,basso,27,159,2024
+Marche,61,Telecomunicazioni,DIVISIONE,J,Informazione e comunicazione,basso,36,307,2024
+Marche,62,"Produzione di software, consulenza informatica e attività connesse",DIVISIONE,J,Informazione e comunicazione,basso,321,7270,2024
+Marche,63,Attività dei servizi d'informazione e altri servizi informatici,DIVISIONE,J,Informazione e comunicazione,basso,482,2097,2024
+Marche,64,Attività di servizi finanziari (escluse le assicurazioni e i fondi pensione),DIVISIONE,K,Attività finanziarie e assicurative,basso,55,2471,2024
+Marche,66,Attività ausiliarie dei servizi finanziari e delle attività assicurative,DIVISIONE,K,Attività finanziarie e assicurative,basso,475,1903,2024
+Marche,68,Attività immobiliari,DIVISIONE,L,Attività immobiliari,basso,665,1662,2024
+Marche,69,Attività legali e contabilità,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,1514,6924,2024
+Marche,70,Attività di direzione aziendale e di consulenza gestionale,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,320,1482,2024
+Marche,71,"Attività degli studi di architettura e d'ingegneria, collaudi ed analisi tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,504,3389,2024
+Marche,72,Ricerca scientifica e sviluppo,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,54,194,2024
+Marche,73,Pubblicità e ricerche di mercato,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,134,724,2024
+Marche,74,"Altre attività professionali, scientifiche e tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,421,2084,2024
+Marche,75,Servizi veterinari,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,35,110,2024
+Marche,77,Attività di noleggio e leasing operativo,DIVISIONE,N,Noleggio e servizi alle imprese,basso,123,606,2024
+Marche,78,"Attività di ricerca, selezione, fornitura di personale",DIVISIONE,N,Noleggio e servizi alle imprese,basso,7,2080,2024
+Marche,79,"Attività dei servizi delle agenzie di viaggio, dei tour operator e servizi di prenotazione e attività connesse",DIVISIONE,N,Noleggio e servizi alle imprese,basso,161,928,2024
+Marche,80,Servizi di vigilanza e investigazione,DIVISIONE,N,Noleggio e servizi alle imprese,basso,30,1237,2024
+Marche,81,Attività di servizi per edifici e paesaggio,DIVISIONE,N,Noleggio e servizi alle imprese,basso,617,9426,2024
+Marche,82,Attività di supporto per le funzioni d'ufficio e altri servizi di supporto alle imprese,DIVISIONE,N,Noleggio e servizi alle imprese,basso,475,3559,2024
+Marche,85,Istruzione,DIVISIONE,P,Istruzione,medio,250,1628,2024
+Marche,86,Assistenza sanitaria,DIVISIONE,Q,Sanità e assistenza sociale,alto,1726,6850,2024
+Marche,87,Servizi di assistenza sociale residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,60,2954,2024
+Marche,88,Assistenza sociale non residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,195,9124,2024
+Marche,90,"Attività creative, artistiche e di intrattenimento",DIVISIONE,R,Attività artistiche e sportive,basso,81,509,2024
+Marche,91,"Attività di biblioteche, archivi, musei ed altre attività culturali",DIVISIONE,R,Attività artistiche e sportive,basso,11,115,2024
+Marche,92,"Attività riguardanti le lotterie, le scommesse, le case da gioco",DIVISIONE,R,Attività artistiche e sportive,basso,98,577,2024
+Marche,93,"Attività sportive, di intrattenimento e di divertimento",DIVISIONE,R,Attività artistiche e sportive,basso,776,3703,2024
+Marche,95,Riparazione di computer e di beni per uso personale e per la casa,DIVISIONE,S,Altre attività di servizi,basso,158,700,2024
+Marche,96,Altre attività di servizi per la persona,DIVISIONE,S,Altre attività di servizi,basso,2347,8297,2024
+Umbria,TOTALE,Totale economia (imprese con dipendenti),TOTALE,,,,23502,201729,2024
+Umbria,08,Altre attività di estrazione di minerali da cave e miniere,DIVISIONE,B,Estrazione di minerali,alto,23,314,2024
+Umbria,09,Attività dei servizi di supporto all'estrazione,DIVISIONE,B,Estrazione di minerali,alto,1,4,2024
+Umbria,10,Industrie alimentari,DIVISIONE,C,Attività manifatturiere,alto,561,6336,2024
+Umbria,11,Industria delle bevande,DIVISIONE,C,Attività manifatturiere,alto,35,370,2024
+Umbria,13,Industrie tessili,DIVISIONE,C,Attività manifatturiere,alto,130,1177,2024
+Umbria,14,"Confezione di articoli di abbigliamento, confezione di articoli in pelle e pelliccia",DIVISIONE,C,Attività manifatturiere,alto,516,8036,2024
+Umbria,15,Fabbricazione di articoli in pelle e simili,DIVISIONE,C,Attività manifatturiere,alto,27,238,2024
+Umbria,16,"Industria del legno e dei prodotti in legno e sughero (esclusi i mobili), fabbricazione di articoli in paglia e materiali da intreccio",DIVISIONE,C,Attività manifatturiere,alto,157,1503,2024
+Umbria,17,Fabbricazione di carta e di prodotti di carta,DIVISIONE,C,Attività manifatturiere,alto,60,1757,2024
+Umbria,18,Stampa e riproduzione di supporti registrati,DIVISIONE,C,Attività manifatturiere,alto,147,1424,2024
+Umbria,19,Fabbricazione di coke e prodotti derivanti dalla raffinazione del petrolio,DIVISIONE,C,Attività manifatturiere,alto,5,58,2024
+Umbria,20,Fabbricazione di prodotti chimici,DIVISIONE,C,Attività manifatturiere,alto,51,949,2024
+Umbria,21,Fabbricazione di prodotti farmaceutici di base e di preparati farmaceutici,DIVISIONE,C,Attività manifatturiere,alto,3,193,2024
+Umbria,22,Fabbricazione di articoli in gomma e materie plastiche,DIVISIONE,C,Attività manifatturiere,alto,53,1049,2024
+Umbria,23,Fabbricazione di altri prodotti della lavorazione di minerali non metalliferi,DIVISIONE,C,Attività manifatturiere,alto,213,4670,2024
+Umbria,24,Metallurgia,DIVISIONE,C,Attività manifatturiere,alto,26,3145,2024
+Umbria,25,Fabbricazione di prodotti in metallo (esclusi macchinari e attrezzature),DIVISIONE,C,Attività manifatturiere,alto,651,10214,2024
+Umbria,26,"Fabbricazione di computer e prodotti di elettronica e ottica, apparecchi elettromedicali, apparecchi di misurazione e di orologi",DIVISIONE,C,Attività manifatturiere,alto,42,808,2024
+Umbria,27,Fabbricazione di apparecchiature elettriche ed apparecchiature per uso domestico non elettriche,DIVISIONE,C,Attività manifatturiere,alto,56,894,2024
+Umbria,28,Fabbricazione di macchinari ed apparecchiature nca,DIVISIONE,C,Attività manifatturiere,alto,169,4601,2024
+Umbria,29,"Fabbricazione di autoveicoli, rimorchi e semirimorchi",DIVISIONE,C,Attività manifatturiere,alto,24,1565,2024
+Umbria,30,Fabbricazione di altri mezzi di trasporto,DIVISIONE,C,Attività manifatturiere,alto,12,959,2024
+Umbria,31,Fabbricazione di mobili,DIVISIONE,C,Attività manifatturiere,alto,147,2185,2024
+Umbria,32,Altre industrie manifatturiere,DIVISIONE,C,Attività manifatturiere,alto,124,836,2024
+Umbria,33,"Riparazione, manutenzione ed installazione di macchine ed apparecchiature",DIVISIONE,C,Attività manifatturiere,alto,236,2434,2024
+Umbria,35,"Fornitura di energia elettrica, gas, vapore e aria condizionata",DIVISIONE,D,"Energia elettrica, gas, vapore",alto,67,516,2024
+Umbria,36,"Raccolta, trattamento e fornitura di acqua",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,4,479,2024
+Umbria,37,Gestione delle reti fognarie,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,12,46,2024
+Umbria,38,"Attività di raccolta, trattamento e smaltimento dei rifiuti recupero dei materiali",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,78,2832,2024
+Umbria,39,Attività di risanamento e altri servizi di gestione dei rifiuti,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,10,72,2024
+Umbria,41,Costruzione di edifici,DIVISIONE,F,Costruzioni,alto,1116,6761,2024
+Umbria,42,Ingegneria civile,DIVISIONE,F,Costruzioni,alto,77,1553,2024
+Umbria,43,Lavori di costruzione specializzati,DIVISIONE,F,Costruzioni,alto,1952,11644,2024
+Umbria,45,Commercio all'ingrosso e al dettaglio e riparazione di autoveicoli e motocicli,DIVISIONE,G,Commercio e riparazione autoveicoli,basso,970,6198,2024
+Umbria,46,Commercio all'ingrosso (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,1181,11175,2024
+Umbria,47,Commercio al dettaglio (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,3167,24250,2024
+Umbria,49,Trasporto terrestre e trasporto mediante condotte,DIVISIONE,H,Trasporto e magazzinaggio,medio,656,7727,2024
+Umbria,51,Trasporto aereo,DIVISIONE,H,Trasporto e magazzinaggio,medio,3,8,2024
+Umbria,52,Magazzinaggio e attività di supporto ai trasporti,DIVISIONE,H,Trasporto e magazzinaggio,medio,84,4333,2024
+Umbria,53,Servizi postali e attività di corriere,DIVISIONE,H,Trasporto e magazzinaggio,medio,9,92,2024
+Umbria,55,Alloggio,DIVISIONE,I,Alloggio e ristorazione,basso,701,4488,2024
+Umbria,56,Attività dei servizi di ristorazione,DIVISIONE,I,Alloggio e ristorazione,basso,2991,18907,2024
+Umbria,58,Attività editoriali,DIVISIONE,J,Informazione e comunicazione,basso,25,168,2024
+Umbria,59,"Attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore",DIVISIONE,J,Informazione e comunicazione,basso,24,149,2024
+Umbria,60,Attività di programmazione e trasmissione,DIVISIONE,J,Informazione e comunicazione,basso,15,88,2024
+Umbria,61,Telecomunicazioni,DIVISIONE,J,Informazione e comunicazione,basso,13,137,2024
+Umbria,62,"Produzione di software, consulenza informatica e attività connesse",DIVISIONE,J,Informazione e comunicazione,basso,190,1892,2024
+Umbria,63,Attività dei servizi d'informazione e altri servizi informatici,DIVISIONE,J,Informazione e comunicazione,basso,262,1270,2024
+Umbria,64,Attività di servizi finanziari (escluse le assicurazioni e i fondi pensione),DIVISIONE,K,Attività finanziarie e assicurative,basso,24,426,2024
+Umbria,66,Attività ausiliarie dei servizi finanziari e delle attività assicurative,DIVISIONE,K,Attività finanziarie e assicurative,basso,324,1272,2024
+Umbria,68,Attività immobiliari,DIVISIONE,L,Attività immobiliari,basso,387,952,2024
+Umbria,69,Attività legali e contabilità,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,950,3835,2024
+Umbria,70,Attività di direzione aziendale e di consulenza gestionale,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,146,905,2024
+Umbria,71,"Attività degli studi di architettura e d'ingegneria, collaudi ed analisi tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,313,1975,2024
+Umbria,72,Ricerca scientifica e sviluppo,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,34,221,2024
+Umbria,73,Pubblicità e ricerche di mercato,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,85,540,2024
+Umbria,74,"Altre attività professionali, scientifiche e tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,195,781,2024
+Umbria,75,Servizi veterinari,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,30,85,2024
+Umbria,77,Attività di noleggio e leasing operativo,DIVISIONE,N,Noleggio e servizi alle imprese,basso,72,930,2024
+Umbria,78,"Attività di ricerca, selezione, fornitura di personale",DIVISIONE,N,Noleggio e servizi alle imprese,basso,7,287,2024
+Umbria,79,"Attività dei servizi delle agenzie di viaggio, dei tour operator e servizi di prenotazione e attività connesse",DIVISIONE,N,Noleggio e servizi alle imprese,basso,92,453,2024
+Umbria,80,Servizi di vigilanza e investigazione,DIVISIONE,N,Noleggio e servizi alle imprese,basso,19,1440,2024
+Umbria,81,Attività di servizi per edifici e paesaggio,DIVISIONE,N,Noleggio e servizi alle imprese,basso,339,5507,2024
+Umbria,82,Attività di supporto per le funzioni d'ufficio e altri servizi di supporto alle imprese,DIVISIONE,N,Noleggio e servizi alle imprese,basso,313,2220,2024
+Umbria,85,Istruzione,DIVISIONE,P,Istruzione,medio,174,1155,2024
+Umbria,86,Assistenza sanitaria,DIVISIONE,Q,Sanità e assistenza sociale,alto,1003,3459,2024
+Umbria,87,Servizi di assistenza sociale residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,95,4582,2024
+Umbria,88,Assistenza sociale non residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,108,2640,2024
+Umbria,90,"Attività creative, artistiche e di intrattenimento",DIVISIONE,R,Attività artistiche e sportive,basso,47,282,2024
+Umbria,91,"Attività di biblioteche, archivi, musei ed altre attività culturali",DIVISIONE,R,Attività artistiche e sportive,basso,12,146,2024
+Umbria,92,"Attività riguardanti le lotterie, le scommesse, le case da gioco",DIVISIONE,R,Attività artistiche e sportive,basso,51,240,2024
+Umbria,93,"Attività sportive, di intrattenimento e di divertimento",DIVISIONE,R,Attività artistiche e sportive,basso,170,924,2024
+Umbria,95,Riparazione di computer e di beni per uso personale e per la casa,DIVISIONE,S,Altre attività di servizi,basso,86,387,2024
+Umbria,96,Altre attività di servizi per la persona,DIVISIONE,S,Altre attività di servizi,basso,1350,5578,2024
+Abruzzo,TOTALE,Totale economia (imprese con dipendenti),TOTALE,,,,37328,273635,2024
+Abruzzo,08,Altre attività di estrazione di minerali da cave e miniere,DIVISIONE,B,Estrazione di minerali,alto,36,288,2024
+Abruzzo,09,Attività dei servizi di supporto all'estrazione,DIVISIONE,B,Estrazione di minerali,alto,12,845,2024
+Abruzzo,10,Industrie alimentari,DIVISIONE,C,Attività manifatturiere,alto,1041,10983,2024
+Abruzzo,11,Industria delle bevande,DIVISIONE,C,Attività manifatturiere,alto,86,1060,2024
+Abruzzo,13,Industrie tessili,DIVISIONE,C,Attività manifatturiere,alto,200,2142,2024
+Abruzzo,14,"Confezione di articoli di abbigliamento, confezione di articoli in pelle e pelliccia",DIVISIONE,C,Attività manifatturiere,alto,383,5356,2024
+Abruzzo,15,Fabbricazione di articoli in pelle e simili,DIVISIONE,C,Attività manifatturiere,alto,150,1552,2024
+Abruzzo,16,"Industria del legno e dei prodotti in legno e sughero (esclusi i mobili), fabbricazione di articoli in paglia e materiali da intreccio",DIVISIONE,C,Attività manifatturiere,alto,207,1440,2024
+Abruzzo,17,Fabbricazione di carta e di prodotti di carta,DIVISIONE,C,Attività manifatturiere,alto,49,2809,2024
+Abruzzo,18,Stampa e riproduzione di supporti registrati,DIVISIONE,C,Attività manifatturiere,alto,130,731,2024
+Abruzzo,19,Fabbricazione di coke e prodotti derivanti dalla raffinazione del petrolio,DIVISIONE,C,Attività manifatturiere,alto,6,67,2024
+Abruzzo,20,Fabbricazione di prodotti chimici,DIVISIONE,C,Attività manifatturiere,alto,66,1567,2024
+Abruzzo,21,Fabbricazione di prodotti farmaceutici di base e di preparati farmaceutici,DIVISIONE,C,Attività manifatturiere,alto,7,108,2024
+Abruzzo,22,Fabbricazione di articoli in gomma e materie plastiche,DIVISIONE,C,Attività manifatturiere,alto,152,4024,2024
+Abruzzo,23,Fabbricazione di altri prodotti della lavorazione di minerali non metalliferi,DIVISIONE,C,Attività manifatturiere,alto,230,5208,2024
+Abruzzo,24,Metallurgia,DIVISIONE,C,Attività manifatturiere,alto,39,1400,2024
+Abruzzo,25,Fabbricazione di prodotti in metallo (esclusi macchinari e attrezzature),DIVISIONE,C,Attività manifatturiere,alto,911,11275,2024
+Abruzzo,26,"Fabbricazione di computer e prodotti di elettronica e ottica, apparecchi elettromedicali, apparecchi di misurazione e di orologi",DIVISIONE,C,Attività manifatturiere,alto,48,1999,2024
+Abruzzo,27,Fabbricazione di apparecchiature elettriche ed apparecchiature per uso domestico non elettriche,DIVISIONE,C,Attività manifatturiere,alto,68,1483,2024
+Abruzzo,28,Fabbricazione di macchinari ed apparecchiature nca,DIVISIONE,C,Attività manifatturiere,alto,222,4215,2024
+Abruzzo,29,"Fabbricazione di autoveicoli, rimorchi e semirimorchi",DIVISIONE,C,Attività manifatturiere,alto,65,4862,2024
+Abruzzo,30,Fabbricazione di altri mezzi di trasporto,DIVISIONE,C,Attività manifatturiere,alto,17,638,2024
+Abruzzo,31,Fabbricazione di mobili,DIVISIONE,C,Attività manifatturiere,alto,157,2159,2024
+Abruzzo,32,Altre industrie manifatturiere,DIVISIONE,C,Attività manifatturiere,alto,147,1422,2024
+Abruzzo,33,"Riparazione, manutenzione ed installazione di macchine ed apparecchiature",DIVISIONE,C,Attività manifatturiere,alto,304,2592,2024
+Abruzzo,35,"Fornitura di energia elettrica, gas, vapore e aria condizionata",DIVISIONE,D,"Energia elettrica, gas, vapore",alto,63,431,2024
+Abruzzo,36,"Raccolta, trattamento e fornitura di acqua",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,7,784,2024
+Abruzzo,37,Gestione delle reti fognarie,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,15,115,2024
+Abruzzo,38,"Attività di raccolta, trattamento e smaltimento dei rifiuti recupero dei materiali",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,157,5166,2024
+Abruzzo,39,Attività di risanamento e altri servizi di gestione dei rifiuti,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,11,61,2024
+Abruzzo,41,Costruzione di edifici,DIVISIONE,F,Costruzioni,alto,2346,14703,2024
+Abruzzo,42,Ingegneria civile,DIVISIONE,F,Costruzioni,alto,194,4918,2024
+Abruzzo,43,Lavori di costruzione specializzati,DIVISIONE,F,Costruzioni,alto,3317,17762,2024
+Abruzzo,45,Commercio all'ingrosso e al dettaglio e riparazione di autoveicoli e motocicli,DIVISIONE,G,Commercio e riparazione autoveicoli,basso,1366,7055,2024
+Abruzzo,46,Commercio all'ingrosso (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,1811,10452,2024
+Abruzzo,47,Commercio al dettaglio (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,5016,30424,2024
+Abruzzo,49,Trasporto terrestre e trasporto mediante condotte,DIVISIONE,H,Trasporto e magazzinaggio,medio,865,10479,2024
+Abruzzo,50,Trasporto marittimo e per vie d'acqua,DIVISIONE,H,Trasporto e magazzinaggio,medio,6,10,2024
+Abruzzo,51,Trasporto aereo,DIVISIONE,H,Trasporto e magazzinaggio,medio,3,63,2024
+Abruzzo,52,Magazzinaggio e attività di supporto ai trasporti,DIVISIONE,H,Trasporto e magazzinaggio,medio,198,4292,2024
+Abruzzo,53,Servizi postali e attività di corriere,DIVISIONE,H,Trasporto e magazzinaggio,medio,18,117,2024
+Abruzzo,55,Alloggio,DIVISIONE,I,Alloggio e ristorazione,basso,816,6075,2024
+Abruzzo,56,Attività dei servizi di ristorazione,DIVISIONE,I,Alloggio e ristorazione,basso,5350,27304,2024
+Abruzzo,58,Attività editoriali,DIVISIONE,J,Informazione e comunicazione,basso,38,186,2024
+Abruzzo,59,"Attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore",DIVISIONE,J,Informazione e comunicazione,basso,22,133,2024
+Abruzzo,60,Attività di programmazione e trasmissione,DIVISIONE,J,Informazione e comunicazione,basso,26,168,2024
+Abruzzo,61,Telecomunicazioni,DIVISIONE,J,Informazione e comunicazione,basso,32,213,2024
+Abruzzo,62,"Produzione di software, consulenza informatica e attività connesse",DIVISIONE,J,Informazione e comunicazione,basso,287,2379,2024
+Abruzzo,63,Attività dei servizi d'informazione e altri servizi informatici,DIVISIONE,J,Informazione e comunicazione,basso,353,1391,2024
+Abruzzo,64,Attività di servizi finanziari (escluse le assicurazioni e i fondi pensione),DIVISIONE,K,Attività finanziarie e assicurative,basso,49,578,2024
+Abruzzo,66,Attività ausiliarie dei servizi finanziari e delle attività assicurative,DIVISIONE,K,Attività finanziarie e assicurative,basso,399,1427,2024
+Abruzzo,68,Attività immobiliari,DIVISIONE,L,Attività immobiliari,basso,571,1451,2024
+Abruzzo,69,Attività legali e contabilità,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,1137,3757,2024
+Abruzzo,70,Attività di direzione aziendale e di consulenza gestionale,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,300,1567,2024
+Abruzzo,71,"Attività degli studi di architettura e d'ingegneria, collaudi ed analisi tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,488,2674,2024
+Abruzzo,72,Ricerca scientifica e sviluppo,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,52,257,2024
+Abruzzo,73,Pubblicità e ricerche di mercato,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,107,512,2024
+Abruzzo,74,"Altre attività professionali, scientifiche e tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,267,803,2024
+Abruzzo,75,Servizi veterinari,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,33,95,2024
+Abruzzo,77,Attività di noleggio e leasing operativo,DIVISIONE,N,Noleggio e servizi alle imprese,basso,230,1042,2024
+Abruzzo,78,"Attività di ricerca, selezione, fornitura di personale",DIVISIONE,N,Noleggio e servizi alle imprese,basso,6,1185,2024
+Abruzzo,79,"Attività dei servizi delle agenzie di viaggio, dei tour operator e servizi di prenotazione e attività connesse",DIVISIONE,N,Noleggio e servizi alle imprese,basso,110,556,2024
+Abruzzo,80,Servizi di vigilanza e investigazione,DIVISIONE,N,Noleggio e servizi alle imprese,basso,57,1242,2024
+Abruzzo,81,Attività di servizi per edifici e paesaggio,DIVISIONE,N,Noleggio e servizi alle imprese,basso,656,8436,2024
+Abruzzo,82,Attività di supporto per le funzioni d'ufficio e altri servizi di supporto alle imprese,DIVISIONE,N,Noleggio e servizi alle imprese,basso,486,3897,2024
+Abruzzo,85,Istruzione,DIVISIONE,P,Istruzione,medio,294,1650,2024
+Abruzzo,86,Assistenza sanitaria,DIVISIONE,Q,Sanità e assistenza sociale,alto,1459,6845,2024
+Abruzzo,87,Servizi di assistenza sociale residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,138,2560,2024
+Abruzzo,88,Assistenza sociale non residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,197,5695,2024
+Abruzzo,90,"Attività creative, artistiche e di intrattenimento",DIVISIONE,R,Attività artistiche e sportive,basso,68,408,2024
+Abruzzo,91,"Attività di biblioteche, archivi, musei ed altre attività culturali",DIVISIONE,R,Attività artistiche e sportive,basso,10,29,2024
+Abruzzo,92,"Attività riguardanti le lotterie, le scommesse, le case da gioco",DIVISIONE,R,Attività artistiche e sportive,basso,165,636,2024
+Abruzzo,93,"Attività sportive, di intrattenimento e di divertimento",DIVISIONE,R,Attività artistiche e sportive,basso,705,3129,2024
+Abruzzo,95,Riparazione di computer e di beni per uso personale e per la casa,DIVISIONE,S,Altre attività di servizi,basso,110,375,2024
+Abruzzo,96,Altre attività di servizi per la persona,DIVISIONE,S,Altre attività di servizi,basso,2184,7921,2024
+Campania,TOTALE,Totale economia (imprese con dipendenti),TOTALE,,,,148771,1007072,2024
+Campania,08,Altre attività di estrazione di minerali da cave e miniere,DIVISIONE,B,Estrazione di minerali,alto,49,493,2024
+Campania,09,Attività dei servizi di supporto all'estrazione,DIVISIONE,B,Estrazione di minerali,alto,2,11,2024
+Campania,10,Industrie alimentari,DIVISIONE,C,Attività manifatturiere,alto,3572,36490,2024
+Campania,11,Industria delle bevande,DIVISIONE,C,Attività manifatturiere,alto,191,911,2024
+Campania,13,Industrie tessili,DIVISIONE,C,Attività manifatturiere,alto,313,2691,2024
+Campania,14,"Confezione di articoli di abbigliamento, confezione di articoli in pelle e pelliccia",DIVISIONE,C,Attività manifatturiere,alto,1911,16683,2024
+Campania,15,Fabbricazione di articoli in pelle e simili,DIVISIONE,C,Attività manifatturiere,alto,1000,14430,2024
+Campania,16,"Industria del legno e dei prodotti in legno e sughero (esclusi i mobili), fabbricazione di articoli in paglia e materiali da intreccio",DIVISIONE,C,Attività manifatturiere,alto,640,3819,2024
+Campania,17,Fabbricazione di carta e di prodotti di carta,DIVISIONE,C,Attività manifatturiere,alto,201,5100,2024
+Campania,18,Stampa e riproduzione di supporti registrati,DIVISIONE,C,Attività manifatturiere,alto,469,3207,2024
+Campania,19,Fabbricazione di coke e prodotti derivanti dalla raffinazione del petrolio,DIVISIONE,C,Attività manifatturiere,alto,55,920,2024
+Campania,20,Fabbricazione di prodotti chimici,DIVISIONE,C,Attività manifatturiere,alto,209,2031,2024
+Campania,21,Fabbricazione di prodotti farmaceutici di base e di preparati farmaceutici,DIVISIONE,C,Attività manifatturiere,alto,21,851,2024
+Campania,22,Fabbricazione di articoli in gomma e materie plastiche,DIVISIONE,C,Attività manifatturiere,alto,396,6666,2024
+Campania,23,Fabbricazione di altri prodotti della lavorazione di minerali non metalliferi,DIVISIONE,C,Attività manifatturiere,alto,793,6118,2024
+Campania,24,Metallurgia,DIVISIONE,C,Attività manifatturiere,alto,167,3152,2024
+Campania,25,Fabbricazione di prodotti in metallo (esclusi macchinari e attrezzature),DIVISIONE,C,Attività manifatturiere,alto,2855,25942,2024
+Campania,26,"Fabbricazione di computer e prodotti di elettronica e ottica, apparecchi elettromedicali, apparecchi di misurazione e di orologi",DIVISIONE,C,Attività manifatturiere,alto,108,1321,2024
+Campania,27,Fabbricazione di apparecchiature elettriche ed apparecchiature per uso domestico non elettriche,DIVISIONE,C,Attività manifatturiere,alto,203,3701,2024
+Campania,28,Fabbricazione di macchinari ed apparecchiature nca,DIVISIONE,C,Attività manifatturiere,alto,392,5726,2024
+Campania,29,"Fabbricazione di autoveicoli, rimorchi e semirimorchi",DIVISIONE,C,Attività manifatturiere,alto,107,4192,2024
+Campania,30,Fabbricazione di altri mezzi di trasporto,DIVISIONE,C,Attività manifatturiere,alto,189,11954,2024
+Campania,31,Fabbricazione di mobili,DIVISIONE,C,Attività manifatturiere,alto,336,2248,2024
+Campania,32,Altre industrie manifatturiere,DIVISIONE,C,Attività manifatturiere,alto,571,2846,2024
+Campania,33,"Riparazione, manutenzione ed installazione di macchine ed apparecchiature",DIVISIONE,C,Attività manifatturiere,alto,1253,13119,2024
+Campania,35,"Fornitura di energia elettrica, gas, vapore e aria condizionata",DIVISIONE,D,"Energia elettrica, gas, vapore",alto,217,1667,2024
+Campania,36,"Raccolta, trattamento e fornitura di acqua",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,33,3017,2024
+Campania,37,Gestione delle reti fognarie,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,78,818,2024
+Campania,38,"Attività di raccolta, trattamento e smaltimento dei rifiuti recupero dei materiali",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,624,19168,2024
+Campania,39,Attività di risanamento e altri servizi di gestione dei rifiuti,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,61,611,2024
+Campania,41,Costruzione di edifici,DIVISIONE,F,Costruzioni,alto,10460,51440,2024
+Campania,42,Ingegneria civile,DIVISIONE,F,Costruzioni,alto,824,11311,2024
+Campania,43,Lavori di costruzione specializzati,DIVISIONE,F,Costruzioni,alto,10258,53847,2024
+Campania,45,Commercio all'ingrosso e al dettaglio e riparazione di autoveicoli e motocicli,DIVISIONE,G,Commercio e riparazione autoveicoli,basso,5371,23464,2024
+Campania,46,Commercio all'ingrosso (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,12115,67136,2024
+Campania,47,Commercio al dettaglio (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,23980,136167,2024
+Campania,49,Trasporto terrestre e trasporto mediante condotte,DIVISIONE,H,Trasporto e magazzinaggio,medio,4802,61146,2024
+Campania,50,Trasporto marittimo e per vie d'acqua,DIVISIONE,H,Trasporto e magazzinaggio,medio,220,2680,2024
+Campania,51,Trasporto aereo,DIVISIONE,H,Trasporto e magazzinaggio,medio,2,25,2024
+Campania,52,Magazzinaggio e attività di supporto ai trasporti,DIVISIONE,H,Trasporto e magazzinaggio,medio,1763,26246,2024
+Campania,53,Servizi postali e attività di corriere,DIVISIONE,H,Trasporto e magazzinaggio,medio,189,2488,2024
+Campania,55,Alloggio,DIVISIONE,I,Alloggio e ristorazione,basso,3125,22984,2024
+Campania,56,Attività dei servizi di ristorazione,DIVISIONE,I,Alloggio e ristorazione,basso,16997,89070,2024
+Campania,58,Attività editoriali,DIVISIONE,J,Informazione e comunicazione,basso,143,1192,2024
+Campania,59,"Attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore",DIVISIONE,J,Informazione e comunicazione,basso,196,796,2024
+Campania,60,Attività di programmazione e trasmissione,DIVISIONE,J,Informazione e comunicazione,basso,70,546,2024
+Campania,61,Telecomunicazioni,DIVISIONE,J,Informazione e comunicazione,basso,178,835,2024
+Campania,62,"Produzione di software, consulenza informatica e attività connesse",DIVISIONE,J,Informazione e comunicazione,basso,1160,12423,2024
+Campania,63,Attività dei servizi d'informazione e altri servizi informatici,DIVISIONE,J,Informazione e comunicazione,basso,1411,5744,2024
+Campania,64,Attività di servizi finanziari (escluse le assicurazioni e i fondi pensione),DIVISIONE,K,Attività finanziarie e assicurative,basso,150,2156,2024
+Campania,66,Attività ausiliarie dei servizi finanziari e delle attività assicurative,DIVISIONE,K,Attività finanziarie e assicurative,basso,1452,5048,2024
+Campania,68,Attività immobiliari,DIVISIONE,L,Attività immobiliari,basso,2154,4899,2024
+Campania,69,Attività legali e contabilità,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,4046,12065,2024
+Campania,70,Attività di direzione aziendale e di consulenza gestionale,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,1261,5926,2024
+Campania,71,"Attività degli studi di architettura e d'ingegneria, collaudi ed analisi tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,1293,6479,2024
+Campania,72,Ricerca scientifica e sviluppo,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,295,1217,2024
+Campania,73,Pubblicità e ricerche di mercato,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,571,2412,2024
+Campania,74,"Altre attività professionali, scientifiche e tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,992,4018,2024
+Campania,75,Servizi veterinari,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,90,260,2024
+Campania,77,Attività di noleggio e leasing operativo,DIVISIONE,N,Noleggio e servizi alle imprese,basso,990,4341,2024
+Campania,78,"Attività di ricerca, selezione, fornitura di personale",DIVISIONE,N,Noleggio e servizi alle imprese,basso,35,12624,2024
+Campania,79,"Attività dei servizi delle agenzie di viaggio, dei tour operator e servizi di prenotazione e attività connesse",DIVISIONE,N,Noleggio e servizi alle imprese,basso,761,3473,2024
+Campania,80,Servizi di vigilanza e investigazione,DIVISIONE,N,Noleggio e servizi alle imprese,basso,250,8310,2024
+Campania,81,Attività di servizi per edifici e paesaggio,DIVISIONE,N,Noleggio e servizi alle imprese,basso,2119,29336,2024
+Campania,82,Attività di supporto per le funzioni d'ufficio e altri servizi di supporto alle imprese,DIVISIONE,N,Noleggio e servizi alle imprese,basso,1969,14983,2024
+Campania,85,Istruzione,DIVISIONE,P,Istruzione,medio,1742,17855,2024
+Campania,86,Assistenza sanitaria,DIVISIONE,Q,Sanità e assistenza sociale,alto,6643,36993,2024
+Campania,87,Servizi di assistenza sociale residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,589,8540,2024
+Campania,88,Assistenza sociale non residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,664,15289,2024
+Campania,90,"Attività creative, artistiche e di intrattenimento",DIVISIONE,R,Attività artistiche e sportive,basso,303,1406,2024
+Campania,91,"Attività di biblioteche, archivi, musei ed altre attività culturali",DIVISIONE,R,Attività artistiche e sportive,basso,49,427,2024
+Campania,92,"Attività riguardanti le lotterie, le scommesse, le case da gioco",DIVISIONE,R,Attività artistiche e sportive,basso,1090,5234,2024
+Campania,93,"Attività sportive, di intrattenimento e di divertimento",DIVISIONE,R,Attività artistiche e sportive,basso,1495,7473,2024
+Campania,95,Riparazione di computer e di beni per uso personale e per la casa,DIVISIONE,S,Altre attività di servizi,basso,327,1505,2024
+Campania,96,Altre attività di servizi per la persona,DIVISIONE,S,Altre attività di servizi,basso,7161,25359,2024
+Puglia,TOTALE,Totale economia (imprese con dipendenti),TOTALE,,,,107878,695119,2024
+Puglia,08,Altre attività di estrazione di minerali da cave e miniere,DIVISIONE,B,Estrazione di minerali,alto,119,1054,2024
+Puglia,09,Attività dei servizi di supporto all'estrazione,DIVISIONE,B,Estrazione di minerali,alto,3,26,2024
+Puglia,10,Industrie alimentari,DIVISIONE,C,Attività manifatturiere,alto,3273,26457,2024
+Puglia,11,Industria delle bevande,DIVISIONE,C,Attività manifatturiere,alto,224,2062,2024
+Puglia,13,Industrie tessili,DIVISIONE,C,Attività manifatturiere,alto,251,1866,2024
+Puglia,14,"Confezione di articoli di abbigliamento, confezione di articoli in pelle e pelliccia",DIVISIONE,C,Attività manifatturiere,alto,1257,12661,2024
+Puglia,15,Fabbricazione di articoli in pelle e simili,DIVISIONE,C,Attività manifatturiere,alto,279,7212,2024
+Puglia,16,"Industria del legno e dei prodotti in legno e sughero (esclusi i mobili), fabbricazione di articoli in paglia e materiali da intreccio",DIVISIONE,C,Attività manifatturiere,alto,544,3095,2024
+Puglia,17,Fabbricazione di carta e di prodotti di carta,DIVISIONE,C,Attività manifatturiere,alto,113,1795,2024
+Puglia,18,Stampa e riproduzione di supporti registrati,DIVISIONE,C,Attività manifatturiere,alto,357,1824,2024
+Puglia,19,Fabbricazione di coke e prodotti derivanti dalla raffinazione del petrolio,DIVISIONE,C,Attività manifatturiere,alto,12,155,2024
+Puglia,20,Fabbricazione di prodotti chimici,DIVISIONE,C,Attività manifatturiere,alto,108,990,2024
+Puglia,21,Fabbricazione di prodotti farmaceutici di base e di preparati farmaceutici,DIVISIONE,C,Attività manifatturiere,alto,11,425,2024
+Puglia,22,Fabbricazione di articoli in gomma e materie plastiche,DIVISIONE,C,Attività manifatturiere,alto,231,4080,2024
+Puglia,23,Fabbricazione di altri prodotti della lavorazione di minerali non metalliferi,DIVISIONE,C,Attività manifatturiere,alto,771,5987,2024
+Puglia,24,Metallurgia,DIVISIONE,C,Attività manifatturiere,alto,67,898,2024
+Puglia,25,Fabbricazione di prodotti in metallo (esclusi macchinari e attrezzature),DIVISIONE,C,Attività manifatturiere,alto,2038,19702,2024
+Puglia,26,"Fabbricazione di computer e prodotti di elettronica e ottica, apparecchi elettromedicali, apparecchi di misurazione e di orologi",DIVISIONE,C,Attività manifatturiere,alto,66,675,2024
+Puglia,27,Fabbricazione di apparecchiature elettriche ed apparecchiature per uso domestico non elettriche,DIVISIONE,C,Attività manifatturiere,alto,136,1666,2024
+Puglia,28,Fabbricazione di macchinari ed apparecchiature nca,DIVISIONE,C,Attività manifatturiere,alto,348,6307,2024
+Puglia,29,"Fabbricazione di autoveicoli, rimorchi e semirimorchi",DIVISIONE,C,Attività manifatturiere,alto,61,3910,2024
+Puglia,30,Fabbricazione di altri mezzi di trasporto,DIVISIONE,C,Attività manifatturiere,alto,75,2345,2024
+Puglia,31,Fabbricazione di mobili,DIVISIONE,C,Attività manifatturiere,alto,610,8192,2024
+Puglia,32,Altre industrie manifatturiere,DIVISIONE,C,Attività manifatturiere,alto,386,1948,2024
+Puglia,33,"Riparazione, manutenzione ed installazione di macchine ed apparecchiature",DIVISIONE,C,Attività manifatturiere,alto,760,6944,2024
+Puglia,35,"Fornitura di energia elettrica, gas, vapore e aria condizionata",DIVISIONE,D,"Energia elettrica, gas, vapore",alto,189,1211,2024
+Puglia,36,"Raccolta, trattamento e fornitura di acqua",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,36,2384,2024
+Puglia,37,Gestione delle reti fognarie,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,91,825,2024
+Puglia,38,"Attività di raccolta, trattamento e smaltimento dei rifiuti recupero dei materiali",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,394,12818,2024
+Puglia,39,Attività di risanamento e altri servizi di gestione dei rifiuti,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,22,374,2024
+Puglia,41,Costruzione di edifici,DIVISIONE,F,Costruzioni,alto,5395,27737,2024
+Puglia,42,Ingegneria civile,DIVISIONE,F,Costruzioni,alto,418,6840,2024
+Puglia,43,Lavori di costruzione specializzati,DIVISIONE,F,Costruzioni,alto,10162,47648,2024
+Puglia,45,Commercio all'ingrosso e al dettaglio e riparazione di autoveicoli e motocicli,DIVISIONE,G,Commercio e riparazione autoveicoli,basso,4124,18202,2024
+Puglia,46,Commercio all'ingrosso (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,6925,49961,2024
+Puglia,47,Commercio al dettaglio (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,17633,86057,2024
+Puglia,49,Trasporto terrestre e trasporto mediante condotte,DIVISIONE,H,Trasporto e magazzinaggio,medio,2965,29773,2024
+Puglia,50,Trasporto marittimo e per vie d'acqua,DIVISIONE,H,Trasporto e magazzinaggio,medio,55,206,2024
+Puglia,51,Trasporto aereo,DIVISIONE,H,Trasporto e magazzinaggio,medio,1,119,2024
+Puglia,52,Magazzinaggio e attività di supporto ai trasporti,DIVISIONE,H,Trasporto e magazzinaggio,medio,845,10392,2024
+Puglia,53,Servizi postali e attività di corriere,DIVISIONE,H,Trasporto e magazzinaggio,medio,171,1102,2024
+Puglia,55,Alloggio,DIVISIONE,I,Alloggio e ristorazione,basso,2458,15101,2024
+Puglia,56,Attività dei servizi di ristorazione,DIVISIONE,I,Alloggio e ristorazione,basso,14181,78487,2024
+Puglia,58,Attività editoriali,DIVISIONE,J,Informazione e comunicazione,basso,95,704,2024
+Puglia,59,"Attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore",DIVISIONE,J,Informazione e comunicazione,basso,123,490,2024
+Puglia,60,Attività di programmazione e trasmissione,DIVISIONE,J,Informazione e comunicazione,basso,69,540,2024
+Puglia,61,Telecomunicazioni,DIVISIONE,J,Informazione e comunicazione,basso,88,474,2024
+Puglia,62,"Produzione di software, consulenza informatica e attività connesse",DIVISIONE,J,Informazione e comunicazione,basso,677,7408,2024
+Puglia,63,Attività dei servizi d'informazione e altri servizi informatici,DIVISIONE,J,Informazione e comunicazione,basso,934,4480,2024
+Puglia,64,Attività di servizi finanziari (escluse le assicurazioni e i fondi pensione),DIVISIONE,K,Attività finanziarie e assicurative,basso,107,5255,2024
+Puglia,66,Attività ausiliarie dei servizi finanziari e delle attività assicurative,DIVISIONE,K,Attività finanziarie e assicurative,basso,1057,4041,2024
+Puglia,68,Attività immobiliari,DIVISIONE,L,Attività immobiliari,basso,1434,3383,2024
+Puglia,69,Attività legali e contabilità,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,3479,11390,2024
+Puglia,70,Attività di direzione aziendale e di consulenza gestionale,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,641,2990,2024
+Puglia,71,"Attività degli studi di architettura e d'ingegneria, collaudi ed analisi tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,939,4100,2024
+Puglia,72,Ricerca scientifica e sviluppo,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,139,1176,2024
+Puglia,73,Pubblicità e ricerche di mercato,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,366,4117,2024
+Puglia,74,"Altre attività professionali, scientifiche e tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,703,2342,2024
+Puglia,75,Servizi veterinari,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,71,206,2024
+Puglia,77,Attività di noleggio e leasing operativo,DIVISIONE,N,Noleggio e servizi alle imprese,basso,449,2119,2024
+Puglia,78,"Attività di ricerca, selezione, fornitura di personale",DIVISIONE,N,Noleggio e servizi alle imprese,basso,11,819,2024
+Puglia,79,"Attività dei servizi delle agenzie di viaggio, dei tour operator e servizi di prenotazione e attività connesse",DIVISIONE,N,Noleggio e servizi alle imprese,basso,453,1873,2024
+Puglia,80,Servizi di vigilanza e investigazione,DIVISIONE,N,Noleggio e servizi alle imprese,basso,172,5177,2024
+Puglia,81,Attività di servizi per edifici e paesaggio,DIVISIONE,N,Noleggio e servizi alle imprese,basso,1611,25012,2024
+Puglia,82,Attività di supporto per le funzioni d'ufficio e altri servizi di supporto alle imprese,DIVISIONE,N,Noleggio e servizi alle imprese,basso,1088,10930,2024
+Puglia,85,Istruzione,DIVISIONE,P,Istruzione,medio,824,4726,2024
+Puglia,86,Assistenza sanitaria,DIVISIONE,Q,Sanità e assistenza sociale,alto,5593,26916,2024
+Puglia,87,Servizi di assistenza sociale residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,344,11458,2024
+Puglia,88,Assistenza sociale non residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,557,12956,2024
+Puglia,90,"Attività creative, artistiche e di intrattenimento",DIVISIONE,R,Attività artistiche e sportive,basso,214,941,2024
+Puglia,91,"Attività di biblioteche, archivi, musei ed altre attività culturali",DIVISIONE,R,Attività artistiche e sportive,basso,31,315,2024
+Puglia,92,"Attività riguardanti le lotterie, le scommesse, le case da gioco",DIVISIONE,R,Attività artistiche e sportive,basso,509,2276,2024
+Puglia,93,"Attività sportive, di intrattenimento e di divertimento",DIVISIONE,R,Attività artistiche e sportive,basso,1192,5675,2024
+Puglia,95,Riparazione di computer e di beni per uso personale e per la casa,DIVISIONE,S,Altre attività di servizi,basso,294,1028,2024
+Puglia,96,Altre attività di servizi per la persona,DIVISIONE,S,Altre attività di servizi,basso,5449,18293,2024
+Molise,TOTALE,Totale economia (imprese con dipendenti),TOTALE,,,,7946,45546,2024
+Molise,08,Altre attività di estrazione di minerali da cave e miniere,DIVISIONE,B,Estrazione di minerali,alto,10,113,2024
+Molise,10,Industrie alimentari,DIVISIONE,C,Attività manifatturiere,alto,302,2318,2024
+Molise,11,Industria delle bevande,DIVISIONE,C,Attività manifatturiere,alto,11,65,2024
+Molise,13,Industrie tessili,DIVISIONE,C,Attività manifatturiere,alto,10,35,2024
+Molise,14,"Confezione di articoli di abbigliamento, confezione di articoli in pelle e pelliccia",DIVISIONE,C,Attività manifatturiere,alto,40,316,2024
+Molise,15,Fabbricazione di articoli in pelle e simili,DIVISIONE,C,Attività manifatturiere,alto,4,20,2024
+Molise,16,"Industria del legno e dei prodotti in legno e sughero (esclusi i mobili), fabbricazione di articoli in paglia e materiali da intreccio",DIVISIONE,C,Attività manifatturiere,alto,39,169,2024
+Molise,17,Fabbricazione di carta e di prodotti di carta,DIVISIONE,C,Attività manifatturiere,alto,9,120,2024
+Molise,18,Stampa e riproduzione di supporti registrati,DIVISIONE,C,Attività manifatturiere,alto,19,88,2024
+Molise,19,Fabbricazione di coke e prodotti derivanti dalla raffinazione del petrolio,DIVISIONE,C,Attività manifatturiere,alto,1,13,2024
+Molise,20,Fabbricazione di prodotti chimici,DIVISIONE,C,Attività manifatturiere,alto,8,221,2024
+Molise,21,Fabbricazione di prodotti farmaceutici di base e di preparati farmaceutici,DIVISIONE,C,Attività manifatturiere,alto,1,67,2024
+Molise,22,Fabbricazione di articoli in gomma e materie plastiche,DIVISIONE,C,Attività manifatturiere,alto,9,88,2024
+Molise,23,Fabbricazione di altri prodotti della lavorazione di minerali non metalliferi,DIVISIONE,C,Attività manifatturiere,alto,54,511,2024
+Molise,24,Metallurgia,DIVISIONE,C,Attività manifatturiere,alto,7,146,2024
+Molise,25,Fabbricazione di prodotti in metallo (esclusi macchinari e attrezzature),DIVISIONE,C,Attività manifatturiere,alto,156,1275,2024
+Molise,26,"Fabbricazione di computer e prodotti di elettronica e ottica, apparecchi elettromedicali, apparecchi di misurazione e di orologi",DIVISIONE,C,Attività manifatturiere,alto,10,173,2024
+Molise,27,Fabbricazione di apparecchiature elettriche ed apparecchiature per uso domestico non elettriche,DIVISIONE,C,Attività manifatturiere,alto,5,135,2024
+Molise,28,Fabbricazione di macchinari ed apparecchiature nca,DIVISIONE,C,Attività manifatturiere,alto,26,228,2024
+Molise,29,"Fabbricazione di autoveicoli, rimorchi e semirimorchi",DIVISIONE,C,Attività manifatturiere,alto,5,105,2024
+Molise,30,Fabbricazione di altri mezzi di trasporto,DIVISIONE,C,Attività manifatturiere,alto,2,69,2024
+Molise,31,Fabbricazione di mobili,DIVISIONE,C,Attività manifatturiere,alto,27,239,2024
+Molise,32,Altre industrie manifatturiere,DIVISIONE,C,Attività manifatturiere,alto,14,84,2024
+Molise,33,"Riparazione, manutenzione ed installazione di macchine ed apparecchiature",DIVISIONE,C,Attività manifatturiere,alto,45,278,2024
+Molise,35,"Fornitura di energia elettrica, gas, vapore e aria condizionata",DIVISIONE,D,"Energia elettrica, gas, vapore",alto,12,26,2024
+Molise,36,"Raccolta, trattamento e fornitura di acqua",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,1,21,2024
+Molise,37,Gestione delle reti fognarie,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,6,23,2024
+Molise,38,"Attività di raccolta, trattamento e smaltimento dei rifiuti recupero dei materiali",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,41,676,2024
+Molise,39,Attività di risanamento e altri servizi di gestione dei rifiuti,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,5,27,2024
+Molise,41,Costruzione di edifici,DIVISIONE,F,Costruzioni,alto,513,2616,2024
+Molise,42,Ingegneria civile,DIVISIONE,F,Costruzioni,alto,73,1169,2024
+Molise,43,Lavori di costruzione specializzati,DIVISIONE,F,Costruzioni,alto,699,3579,2024
+Molise,45,Commercio all'ingrosso e al dettaglio e riparazione di autoveicoli e motocicli,DIVISIONE,G,Commercio e riparazione autoveicoli,basso,364,1383,2024
+Molise,46,Commercio all'ingrosso (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,374,1856,2024
+Molise,47,Commercio al dettaglio (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,1109,4972,2024
+Molise,49,Trasporto terrestre e trasporto mediante condotte,DIVISIONE,H,Trasporto e magazzinaggio,medio,305,3010,2024
+Molise,50,Trasporto marittimo e per vie d'acqua,DIVISIONE,H,Trasporto e magazzinaggio,medio,4,14,2024
+Molise,52,Magazzinaggio e attività di supporto ai trasporti,DIVISIONE,H,Trasporto e magazzinaggio,medio,47,577,2024
+Molise,53,Servizi postali e attività di corriere,DIVISIONE,H,Trasporto e magazzinaggio,medio,8,32,2024
+Molise,55,Alloggio,DIVISIONE,I,Alloggio e ristorazione,basso,124,758,2024
+Molise,56,Attività dei servizi di ristorazione,DIVISIONE,I,Alloggio e ristorazione,basso,1124,4629,2024
+Molise,58,Attività editoriali,DIVISIONE,J,Informazione e comunicazione,basso,8,54,2024
+Molise,59,"Attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore",DIVISIONE,J,Informazione e comunicazione,basso,12,38,2024
+Molise,60,Attività di programmazione e trasmissione,DIVISIONE,J,Informazione e comunicazione,basso,10,166,2024
+Molise,61,Telecomunicazioni,DIVISIONE,J,Informazione e comunicazione,basso,8,44,2024
+Molise,62,"Produzione di software, consulenza informatica e attività connesse",DIVISIONE,J,Informazione e comunicazione,basso,34,288,2024
+Molise,63,Attività dei servizi d'informazione e altri servizi informatici,DIVISIONE,J,Informazione e comunicazione,basso,85,420,2024
+Molise,64,Attività di servizi finanziari (escluse le assicurazioni e i fondi pensione),DIVISIONE,K,Attività finanziarie e assicurative,basso,14,87,2024
+Molise,66,Attività ausiliarie dei servizi finanziari e delle attività assicurative,DIVISIONE,K,Attività finanziarie e assicurative,basso,106,474,2024
+Molise,68,Attività immobiliari,DIVISIONE,L,Attività immobiliari,basso,89,196,2024
+Molise,69,Attività legali e contabilità,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,237,702,2024
+Molise,70,Attività di direzione aziendale e di consulenza gestionale,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,65,381,2024
+Molise,71,"Attività degli studi di architettura e d'ingegneria, collaudi ed analisi tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,97,360,2024
+Molise,72,Ricerca scientifica e sviluppo,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,16,101,2024
+Molise,73,Pubblicità e ricerche di mercato,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,15,75,2024
+Molise,74,"Altre attività professionali, scientifiche e tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,43,158,2024
+Molise,75,Servizi veterinari,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,3,8,2024
+Molise,77,Attività di noleggio e leasing operativo,DIVISIONE,N,Noleggio e servizi alle imprese,basso,88,360,2024
+Molise,79,"Attività dei servizi delle agenzie di viaggio, dei tour operator e servizi di prenotazione e attività connesse",DIVISIONE,N,Noleggio e servizi alle imprese,basso,22,98,2024
+Molise,80,Servizi di vigilanza e investigazione,DIVISIONE,N,Noleggio e servizi alle imprese,basso,11,102,2024
+Molise,81,Attività di servizi per edifici e paesaggio,DIVISIONE,N,Noleggio e servizi alle imprese,basso,137,1353,2024
+Molise,82,Attività di supporto per le funzioni d'ufficio e altri servizi di supporto alle imprese,DIVISIONE,N,Noleggio e servizi alle imprese,basso,96,819,2024
+Molise,85,Istruzione,DIVISIONE,P,Istruzione,medio,62,258,2024
+Molise,86,Assistenza sanitaria,DIVISIONE,Q,Sanità e assistenza sociale,alto,408,2326,2024
+Molise,87,Servizi di assistenza sociale residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,63,1264,2024
+Molise,88,Assistenza sociale non residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,60,1372,2024
+Molise,90,"Attività creative, artistiche e di intrattenimento",DIVISIONE,R,Attività artistiche e sportive,basso,13,50,2024
+Molise,91,"Attività di biblioteche, archivi, musei ed altre attività culturali",DIVISIONE,R,Attività artistiche e sportive,basso,6,35,2024
+Molise,92,"Attività riguardanti le lotterie, le scommesse, le case da gioco",DIVISIONE,R,Attività artistiche e sportive,basso,19,92,2024
+Molise,93,"Attività sportive, di intrattenimento e di divertimento",DIVISIONE,R,Attività artistiche e sportive,basso,90,383,2024
+Molise,95,Riparazione di computer e di beni per uso personale e per la casa,DIVISIONE,S,Altre attività di servizi,basso,13,38,2024
+Molise,96,Altre attività di servizi per la persona,DIVISIONE,S,Altre attività di servizi,basso,393,1201,2024
+Basilicata,TOTALE,Totale economia (imprese con dipendenti),TOTALE,,,,13597,83420,2024
+Basilicata,08,Altre attività di estrazione di minerali da cave e miniere,DIVISIONE,B,Estrazione di minerali,alto,22,186,2024
+Basilicata,10,Industrie alimentari,DIVISIONE,C,Attività manifatturiere,alto,495,2824,2024
+Basilicata,11,Industria delle bevande,DIVISIONE,C,Attività manifatturiere,alto,30,303,2024
+Basilicata,13,Industrie tessili,DIVISIONE,C,Attività manifatturiere,alto,12,124,2024
+Basilicata,14,"Confezione di articoli di abbigliamento, confezione di articoli in pelle e pelliccia",DIVISIONE,C,Attività manifatturiere,alto,33,226,2024
+Basilicata,15,Fabbricazione di articoli in pelle e simili,DIVISIONE,C,Attività manifatturiere,alto,5,26,2024
+Basilicata,16,"Industria del legno e dei prodotti in legno e sughero (esclusi i mobili), fabbricazione di articoli in paglia e materiali da intreccio",DIVISIONE,C,Attività manifatturiere,alto,83,508,2024
+Basilicata,17,Fabbricazione di carta e di prodotti di carta,DIVISIONE,C,Attività manifatturiere,alto,11,68,2024
+Basilicata,18,Stampa e riproduzione di supporti registrati,DIVISIONE,C,Attività manifatturiere,alto,46,220,2024
+Basilicata,19,Fabbricazione di coke e prodotti derivanti dalla raffinazione del petrolio,DIVISIONE,C,Attività manifatturiere,alto,2,36,2024
+Basilicata,20,Fabbricazione di prodotti chimici,DIVISIONE,C,Attività manifatturiere,alto,14,70,2024
+Basilicata,21,Fabbricazione di prodotti farmaceutici di base e di preparati farmaceutici,DIVISIONE,C,Attività manifatturiere,alto,1,86,2024
+Basilicata,22,Fabbricazione di articoli in gomma e materie plastiche,DIVISIONE,C,Attività manifatturiere,alto,29,415,2024
+Basilicata,23,Fabbricazione di altri prodotti della lavorazione di minerali non metalliferi,DIVISIONE,C,Attività manifatturiere,alto,122,1189,2024
+Basilicata,24,Metallurgia,DIVISIONE,C,Attività manifatturiere,alto,9,262,2024
+Basilicata,25,Fabbricazione di prodotti in metallo (esclusi macchinari e attrezzature),DIVISIONE,C,Attività manifatturiere,alto,297,2538,2024
+Basilicata,26,"Fabbricazione di computer e prodotti di elettronica e ottica, apparecchi elettromedicali, apparecchi di misurazione e di orologi",DIVISIONE,C,Attività manifatturiere,alto,7,40,2024
+Basilicata,27,Fabbricazione di apparecchiature elettriche ed apparecchiature per uso domestico non elettriche,DIVISIONE,C,Attività manifatturiere,alto,14,192,2024
+Basilicata,28,Fabbricazione di macchinari ed apparecchiature nca,DIVISIONE,C,Attività manifatturiere,alto,55,666,2024
+Basilicata,29,"Fabbricazione di autoveicoli, rimorchi e semirimorchi",DIVISIONE,C,Attività manifatturiere,alto,9,256,2024
+Basilicata,30,Fabbricazione di altri mezzi di trasporto,DIVISIONE,C,Attività manifatturiere,alto,7,73,2024
+Basilicata,31,Fabbricazione di mobili,DIVISIONE,C,Attività manifatturiere,alto,77,1107,2024
+Basilicata,32,Altre industrie manifatturiere,DIVISIONE,C,Attività manifatturiere,alto,33,117,2024
+Basilicata,33,"Riparazione, manutenzione ed installazione di macchine ed apparecchiature",DIVISIONE,C,Attività manifatturiere,alto,92,1041,2024
+Basilicata,35,"Fornitura di energia elettrica, gas, vapore e aria condizionata",DIVISIONE,D,"Energia elettrica, gas, vapore",alto,46,219,2024
+Basilicata,36,"Raccolta, trattamento e fornitura di acqua",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,1,321,2024
+Basilicata,37,Gestione delle reti fognarie,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,8,184,2024
+Basilicata,38,"Attività di raccolta, trattamento e smaltimento dei rifiuti recupero dei materiali",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,78,2095,2024
+Basilicata,39,Attività di risanamento e altri servizi di gestione dei rifiuti,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,8,245,2024
+Basilicata,41,Costruzione di edifici,DIVISIONE,F,Costruzioni,alto,990,4866,2024
+Basilicata,42,Ingegneria civile,DIVISIONE,F,Costruzioni,alto,146,1771,2024
+Basilicata,43,Lavori di costruzione specializzati,DIVISIONE,F,Costruzioni,alto,1270,7244,2024
+Basilicata,45,Commercio all'ingrosso e al dettaglio e riparazione di autoveicoli e motocicli,DIVISIONE,G,Commercio e riparazione autoveicoli,basso,595,2458,2024
+Basilicata,46,Commercio all'ingrosso (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,660,4609,2024
+Basilicata,47,Commercio al dettaglio (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,2152,8810,2024
+Basilicata,49,Trasporto terrestre e trasporto mediante condotte,DIVISIONE,H,Trasporto e magazzinaggio,medio,510,4519,2024
+Basilicata,51,Trasporto aereo,DIVISIONE,H,Trasporto e magazzinaggio,medio,1,0,2024
+Basilicata,52,Magazzinaggio e attività di supporto ai trasporti,DIVISIONE,H,Trasporto e magazzinaggio,medio,65,825,2024
+Basilicata,53,Servizi postali e attività di corriere,DIVISIONE,H,Trasporto e magazzinaggio,medio,12,40,2024
+Basilicata,55,Alloggio,DIVISIONE,I,Alloggio e ristorazione,basso,313,2189,2024
+Basilicata,56,Attività dei servizi di ristorazione,DIVISIONE,I,Alloggio e ristorazione,basso,1791,7531,2024
+Basilicata,58,Attività editoriali,DIVISIONE,J,Informazione e comunicazione,basso,12,29,2024
+Basilicata,59,"Attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore",DIVISIONE,J,Informazione e comunicazione,basso,22,61,2024
+Basilicata,60,Attività di programmazione e trasmissione,DIVISIONE,J,Informazione e comunicazione,basso,13,85,2024
+Basilicata,61,Telecomunicazioni,DIVISIONE,J,Informazione e comunicazione,basso,16,92,2024
+Basilicata,62,"Produzione di software, consulenza informatica e attività connesse",DIVISIONE,J,Informazione e comunicazione,basso,96,768,2024
+Basilicata,63,Attività dei servizi d'informazione e altri servizi informatici,DIVISIONE,J,Informazione e comunicazione,basso,152,1338,2024
+Basilicata,64,Attività di servizi finanziari (escluse le assicurazioni e i fondi pensione),DIVISIONE,K,Attività finanziarie e assicurative,basso,14,94,2024
+Basilicata,66,Attività ausiliarie dei servizi finanziari e delle attività assicurative,DIVISIONE,K,Attività finanziarie e assicurative,basso,156,538,2024
+Basilicata,68,Attività immobiliari,DIVISIONE,L,Attività immobiliari,basso,96,226,2024
+Basilicata,69,Attività legali e contabilità,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,397,1247,2024
+Basilicata,70,Attività di direzione aziendale e di consulenza gestionale,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,84,580,2024
+Basilicata,71,"Attività degli studi di architettura e d'ingegneria, collaudi ed analisi tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,159,976,2024
+Basilicata,72,Ricerca scientifica e sviluppo,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,27,86,2024
+Basilicata,73,Pubblicità e ricerche di mercato,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,23,80,2024
+Basilicata,74,"Altre attività professionali, scientifiche e tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,98,385,2024
+Basilicata,75,Servizi veterinari,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,6,15,2024
+Basilicata,77,Attività di noleggio e leasing operativo,DIVISIONE,N,Noleggio e servizi alle imprese,basso,87,346,2024
+Basilicata,78,"Attività di ricerca, selezione, fornitura di personale",DIVISIONE,N,Noleggio e servizi alle imprese,basso,2,859,2024
+Basilicata,79,"Attività dei servizi delle agenzie di viaggio, dei tour operator e servizi di prenotazione e attività connesse",DIVISIONE,N,Noleggio e servizi alle imprese,basso,50,166,2024
+Basilicata,80,Servizi di vigilanza e investigazione,DIVISIONE,N,Noleggio e servizi alle imprese,basso,16,533,2024
+Basilicata,81,Attività di servizi per edifici e paesaggio,DIVISIONE,N,Noleggio e servizi alle imprese,basso,224,2477,2024
+Basilicata,82,Attività di supporto per le funzioni d'ufficio e altri servizi di supporto alle imprese,DIVISIONE,N,Noleggio e servizi alle imprese,basso,132,1454,2024
+Basilicata,85,Istruzione,DIVISIONE,P,Istruzione,medio,112,646,2024
+Basilicata,86,Assistenza sanitaria,DIVISIONE,Q,Sanità e assistenza sociale,alto,464,1783,2024
+Basilicata,87,Servizi di assistenza sociale residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,77,3172,2024
+Basilicata,88,Assistenza sociale non residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,73,2074,2024
+Basilicata,90,"Attività creative, artistiche e di intrattenimento",DIVISIONE,R,Attività artistiche e sportive,basso,32,103,2024
+Basilicata,91,"Attività di biblioteche, archivi, musei ed altre attività culturali",DIVISIONE,R,Attività artistiche e sportive,basso,8,114,2024
+Basilicata,92,"Attività riguardanti le lotterie, le scommesse, le case da gioco",DIVISIONE,R,Attività artistiche e sportive,basso,41,154,2024
+Basilicata,93,"Attività sportive, di intrattenimento e di divertimento",DIVISIONE,R,Attività artistiche e sportive,basso,142,635,2024
+Basilicata,95,Riparazione di computer e di beni per uso personale e per la casa,DIVISIONE,S,Altre attività di servizi,basso,25,68,2024
+Basilicata,96,Altre attività di servizi per la persona,DIVISIONE,S,Altre attività di servizi,basso,590,1737,2024
+Calabria,TOTALE,Totale economia (imprese con dipendenti),TOTALE,,,,44989,222886,2024
+Calabria,08,Altre attività di estrazione di minerali da cave e miniere,DIVISIONE,B,Estrazione di minerali,alto,35,220,2024
+Calabria,10,Industrie alimentari,DIVISIONE,C,Attività manifatturiere,alto,1482,8323,2024
+Calabria,11,Industria delle bevande,DIVISIONE,C,Attività manifatturiere,alto,60,445,2024
+Calabria,13,Industrie tessili,DIVISIONE,C,Attività manifatturiere,alto,36,110,2024
+Calabria,14,"Confezione di articoli di abbigliamento, confezione di articoli in pelle e pelliccia",DIVISIONE,C,Attività manifatturiere,alto,110,526,2024
+Calabria,15,Fabbricazione di articoli in pelle e simili,DIVISIONE,C,Attività manifatturiere,alto,13,93,2024
+Calabria,16,"Industria del legno e dei prodotti in legno e sughero (esclusi i mobili), fabbricazione di articoli in paglia e materiali da intreccio",DIVISIONE,C,Attività manifatturiere,alto,309,1433,2024
+Calabria,17,Fabbricazione di carta e di prodotti di carta,DIVISIONE,C,Attività manifatturiere,alto,24,163,2024
+Calabria,18,Stampa e riproduzione di supporti registrati,DIVISIONE,C,Attività manifatturiere,alto,129,584,2024
+Calabria,19,Fabbricazione di coke e prodotti derivanti dalla raffinazione del petrolio,DIVISIONE,C,Attività manifatturiere,alto,11,186,2024
+Calabria,20,Fabbricazione di prodotti chimici,DIVISIONE,C,Attività manifatturiere,alto,53,513,2024
+Calabria,21,Fabbricazione di prodotti farmaceutici di base e di preparati farmaceutici,DIVISIONE,C,Attività manifatturiere,alto,2,16,2024
+Calabria,22,Fabbricazione di articoli in gomma e materie plastiche,DIVISIONE,C,Attività manifatturiere,alto,55,355,2024
+Calabria,23,Fabbricazione di altri prodotti della lavorazione di minerali non metalliferi,DIVISIONE,C,Attività manifatturiere,alto,361,1999,2024
+Calabria,24,Metallurgia,DIVISIONE,C,Attività manifatturiere,alto,31,252,2024
+Calabria,25,Fabbricazione di prodotti in metallo (esclusi macchinari e attrezzature),DIVISIONE,C,Attività manifatturiere,alto,779,4872,2024
+Calabria,26,"Fabbricazione di computer e prodotti di elettronica e ottica, apparecchi elettromedicali, apparecchi di misurazione e di orologi",DIVISIONE,C,Attività manifatturiere,alto,21,194,2024
+Calabria,27,Fabbricazione di apparecchiature elettriche ed apparecchiature per uso domestico non elettriche,DIVISIONE,C,Attività manifatturiere,alto,31,210,2024
+Calabria,28,Fabbricazione di macchinari ed apparecchiature nca,DIVISIONE,C,Attività manifatturiere,alto,79,678,2024
+Calabria,29,"Fabbricazione di autoveicoli, rimorchi e semirimorchi",DIVISIONE,C,Attività manifatturiere,alto,16,120,2024
+Calabria,30,Fabbricazione di altri mezzi di trasporto,DIVISIONE,C,Attività manifatturiere,alto,23,379,2024
+Calabria,31,Fabbricazione di mobili,DIVISIONE,C,Attività manifatturiere,alto,87,452,2024
+Calabria,32,Altre industrie manifatturiere,DIVISIONE,C,Attività manifatturiere,alto,160,631,2024
+Calabria,33,"Riparazione, manutenzione ed installazione di macchine ed apparecchiature",DIVISIONE,C,Attività manifatturiere,alto,260,1758,2024
+Calabria,35,"Fornitura di energia elettrica, gas, vapore e aria condizionata",DIVISIONE,D,"Energia elettrica, gas, vapore",alto,78,490,2024
+Calabria,36,"Raccolta, trattamento e fornitura di acqua",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,12,327,2024
+Calabria,37,Gestione delle reti fognarie,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,47,410,2024
+Calabria,38,"Attività di raccolta, trattamento e smaltimento dei rifiuti recupero dei materiali",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,145,4668,2024
+Calabria,39,Attività di risanamento e altri servizi di gestione dei rifiuti,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,14,136,2024
+Calabria,41,Costruzione di edifici,DIVISIONE,F,Costruzioni,alto,3292,13617,2024
+Calabria,42,Ingegneria civile,DIVISIONE,F,Costruzioni,alto,304,3409,2024
+Calabria,43,Lavori di costruzione specializzati,DIVISIONE,F,Costruzioni,alto,3273,14340,2024
+Calabria,45,Commercio all'ingrosso e al dettaglio e riparazione di autoveicoli e motocicli,DIVISIONE,G,Commercio e riparazione autoveicoli,basso,2101,8062,2024
+Calabria,46,Commercio all'ingrosso (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,2495,11977,2024
+Calabria,47,Commercio al dettaglio (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,8500,37750,2024
+Calabria,49,Trasporto terrestre e trasporto mediante condotte,DIVISIONE,H,Trasporto e magazzinaggio,medio,1256,10983,2024
+Calabria,50,Trasporto marittimo e per vie d'acqua,DIVISIONE,H,Trasporto e magazzinaggio,medio,17,82,2024
+Calabria,52,Magazzinaggio e attività di supporto ai trasporti,DIVISIONE,H,Trasporto e magazzinaggio,medio,251,3916,2024
+Calabria,53,Servizi postali e attività di corriere,DIVISIONE,H,Trasporto e magazzinaggio,medio,98,725,2024
+Calabria,55,Alloggio,DIVISIONE,I,Alloggio e ristorazione,basso,953,6152,2024
+Calabria,56,Attività dei servizi di ristorazione,DIVISIONE,I,Alloggio e ristorazione,basso,6196,26699,2024
+Calabria,58,Attività editoriali,DIVISIONE,J,Informazione e comunicazione,basso,28,129,2024
+Calabria,59,"Attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore",DIVISIONE,J,Informazione e comunicazione,basso,40,109,2024
+Calabria,60,Attività di programmazione e trasmissione,DIVISIONE,J,Informazione e comunicazione,basso,24,233,2024
+Calabria,61,Telecomunicazioni,DIVISIONE,J,Informazione e comunicazione,basso,75,228,2024
+Calabria,62,"Produzione di software, consulenza informatica e attività connesse",DIVISIONE,J,Informazione e comunicazione,basso,242,1631,2024
+Calabria,63,Attività dei servizi d'informazione e altri servizi informatici,DIVISIONE,J,Informazione e comunicazione,basso,395,1394,2024
+Calabria,64,Attività di servizi finanziari (escluse le assicurazioni e i fondi pensione),DIVISIONE,K,Attività finanziarie e assicurative,basso,35,533,2024
+Calabria,66,Attività ausiliarie dei servizi finanziari e delle attività assicurative,DIVISIONE,K,Attività finanziarie e assicurative,basso,542,1759,2024
+Calabria,68,Attività immobiliari,DIVISIONE,L,Attività immobiliari,basso,379,892,2024
+Calabria,69,Attività legali e contabilità,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,1177,3316,2024
+Calabria,70,Attività di direzione aziendale e di consulenza gestionale,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,217,861,2024
+Calabria,71,"Attività degli studi di architettura e d'ingegneria, collaudi ed analisi tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,434,1684,2024
+Calabria,72,Ricerca scientifica e sviluppo,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,60,178,2024
+Calabria,73,Pubblicità e ricerche di mercato,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,116,404,2024
+Calabria,74,"Altre attività professionali, scientifiche e tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,267,713,2024
+Calabria,75,Servizi veterinari,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,29,68,2024
+Calabria,77,Attività di noleggio e leasing operativo,DIVISIONE,N,Noleggio e servizi alle imprese,basso,214,809,2024
+Calabria,78,"Attività di ricerca, selezione, fornitura di personale",DIVISIONE,N,Noleggio e servizi alle imprese,basso,2,8,2024
+Calabria,79,"Attività dei servizi delle agenzie di viaggio, dei tour operator e servizi di prenotazione e attività connesse",DIVISIONE,N,Noleggio e servizi alle imprese,basso,133,575,2024
+Calabria,80,Servizi di vigilanza e investigazione,DIVISIONE,N,Noleggio e servizi alle imprese,basso,45,2247,2024
+Calabria,81,Attività di servizi per edifici e paesaggio,DIVISIONE,N,Noleggio e servizi alle imprese,basso,473,4279,2024
+Calabria,82,Attività di supporto per le funzioni d'ufficio e altri servizi di supporto alle imprese,DIVISIONE,N,Noleggio e servizi alle imprese,basso,484,2542,2024
+Calabria,85,Istruzione,DIVISIONE,P,Istruzione,medio,429,2560,2024
+Calabria,86,Assistenza sanitaria,DIVISIONE,Q,Sanità e assistenza sociale,alto,2109,9773,2024
+Calabria,87,Servizi di assistenza sociale residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,216,4682,2024
+Calabria,88,Assistenza sociale non residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,176,2542,2024
+Calabria,90,"Attività creative, artistiche e di intrattenimento",DIVISIONE,R,Attività artistiche e sportive,basso,52,162,2024
+Calabria,91,"Attività di biblioteche, archivi, musei ed altre attività culturali",DIVISIONE,R,Attività artistiche e sportive,basso,7,8,2024
+Calabria,92,"Attività riguardanti le lotterie, le scommesse, le case da gioco",DIVISIONE,R,Attività artistiche e sportive,basso,205,666,2024
+Calabria,93,"Attività sportive, di intrattenimento e di divertimento",DIVISIONE,R,Attività artistiche e sportive,basso,761,2411,2024
+Calabria,95,Riparazione di computer e di beni per uso personale e per la casa,DIVISIONE,S,Altre attività di servizi,basso,120,425,2024
+Calabria,96,Altre attività di servizi per la persona,DIVISIONE,S,Altre attività di servizi,basso,2304,6810,2024
+Sicilia,TOTALE,Totale economia (imprese con dipendenti),TOTALE,,,,116505,666163,2024
+Sicilia,06,Estrazione di petrolio greggio e di gas naturale,DIVISIONE,B,Estrazione di minerali,alto,3,339,2024
+Sicilia,08,Altre attività di estrazione di minerali da cave e miniere,DIVISIONE,B,Estrazione di minerali,alto,131,1074,2024
+Sicilia,09,Attività dei servizi di supporto all'estrazione,DIVISIONE,B,Estrazione di minerali,alto,4,28,2024
+Sicilia,10,Industrie alimentari,DIVISIONE,C,Attività manifatturiere,alto,4183,24531,2024
+Sicilia,11,Industria delle bevande,DIVISIONE,C,Attività manifatturiere,alto,193,2305,2024
+Sicilia,13,Industrie tessili,DIVISIONE,C,Attività manifatturiere,alto,91,419,2024
+Sicilia,14,"Confezione di articoli di abbigliamento, confezione di articoli in pelle e pelliccia",DIVISIONE,C,Attività manifatturiere,alto,187,1632,2024
+Sicilia,15,Fabbricazione di articoli in pelle e simili,DIVISIONE,C,Attività manifatturiere,alto,44,223,2024
+Sicilia,16,"Industria del legno e dei prodotti in legno e sughero (esclusi i mobili), fabbricazione di articoli in paglia e materiali da intreccio",DIVISIONE,C,Attività manifatturiere,alto,501,2334,2024
+Sicilia,17,Fabbricazione di carta e di prodotti di carta,DIVISIONE,C,Attività manifatturiere,alto,107,807,2024
+Sicilia,18,Stampa e riproduzione di supporti registrati,DIVISIONE,C,Attività manifatturiere,alto,358,1820,2024
+Sicilia,19,Fabbricazione di coke e prodotti derivanti dalla raffinazione del petrolio,DIVISIONE,C,Attività manifatturiere,alto,23,2012,2024
+Sicilia,20,Fabbricazione di prodotti chimici,DIVISIONE,C,Attività manifatturiere,alto,126,2025,2024
+Sicilia,21,Fabbricazione di prodotti farmaceutici di base e di preparati farmaceutici,DIVISIONE,C,Attività manifatturiere,alto,11,680,2024
+Sicilia,22,Fabbricazione di articoli in gomma e materie plastiche,DIVISIONE,C,Attività manifatturiere,alto,179,2963,2024
+Sicilia,23,Fabbricazione di altri prodotti della lavorazione di minerali non metalliferi,DIVISIONE,C,Attività manifatturiere,alto,1013,6183,2024
+Sicilia,24,Metallurgia,DIVISIONE,C,Attività manifatturiere,alto,85,964,2024
+Sicilia,25,Fabbricazione di prodotti in metallo (esclusi macchinari e attrezzature),DIVISIONE,C,Attività manifatturiere,alto,2075,13575,2024
+Sicilia,26,"Fabbricazione di computer e prodotti di elettronica e ottica, apparecchi elettromedicali, apparecchi di misurazione e di orologi",DIVISIONE,C,Attività manifatturiere,alto,70,333,2024
+Sicilia,27,Fabbricazione di apparecchiature elettriche ed apparecchiature per uso domestico non elettriche,DIVISIONE,C,Attività manifatturiere,alto,93,1693,2024
+Sicilia,28,Fabbricazione di macchinari ed apparecchiature nca,DIVISIONE,C,Attività manifatturiere,alto,217,2334,2024
+Sicilia,29,"Fabbricazione di autoveicoli, rimorchi e semirimorchi",DIVISIONE,C,Attività manifatturiere,alto,56,618,2024
+Sicilia,30,Fabbricazione di altri mezzi di trasporto,DIVISIONE,C,Attività manifatturiere,alto,147,1895,2024
+Sicilia,31,Fabbricazione di mobili,DIVISIONE,C,Attività manifatturiere,alto,250,1447,2024
+Sicilia,32,Altre industrie manifatturiere,DIVISIONE,C,Attività manifatturiere,alto,381,1730,2024
+Sicilia,33,"Riparazione, manutenzione ed installazione di macchine ed apparecchiature",DIVISIONE,C,Attività manifatturiere,alto,911,7401,2024
+Sicilia,35,"Fornitura di energia elettrica, gas, vapore e aria condizionata",DIVISIONE,D,"Energia elettrica, gas, vapore",alto,165,1147,2024
+Sicilia,36,"Raccolta, trattamento e fornitura di acqua",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,126,2678,2024
+Sicilia,37,Gestione delle reti fognarie,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,77,584,2024
+Sicilia,38,"Attività di raccolta, trattamento e smaltimento dei rifiuti recupero dei materiali",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,473,12278,2024
+Sicilia,39,Attività di risanamento e altri servizi di gestione dei rifiuti,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,36,687,2024
+Sicilia,41,Costruzione di edifici,DIVISIONE,F,Costruzioni,alto,8188,36594,2024
+Sicilia,42,Ingegneria civile,DIVISIONE,F,Costruzioni,alto,574,8608,2024
+Sicilia,43,Lavori di costruzione specializzati,DIVISIONE,F,Costruzioni,alto,8835,40962,2024
+Sicilia,45,Commercio all'ingrosso e al dettaglio e riparazione di autoveicoli e motocicli,DIVISIONE,G,Commercio e riparazione autoveicoli,basso,4989,20672,2024
+Sicilia,46,Commercio all'ingrosso (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,7409,41108,2024
+Sicilia,47,Commercio al dettaglio (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,19895,100505,2024
+Sicilia,49,Trasporto terrestre e trasporto mediante condotte,DIVISIONE,H,Trasporto e magazzinaggio,medio,3222,26218,2024
+Sicilia,50,Trasporto marittimo e per vie d'acqua,DIVISIONE,H,Trasporto e magazzinaggio,medio,127,8361,2024
+Sicilia,51,Trasporto aereo,DIVISIONE,H,Trasporto e magazzinaggio,medio,3,14,2024
+Sicilia,52,Magazzinaggio e attività di supporto ai trasporti,DIVISIONE,H,Trasporto e magazzinaggio,medio,956,11690,2024
+Sicilia,53,Servizi postali e attività di corriere,DIVISIONE,H,Trasporto e magazzinaggio,medio,192,1022,2024
+Sicilia,55,Alloggio,DIVISIONE,I,Alloggio e ristorazione,basso,2418,14373,2024
+Sicilia,56,Attività dei servizi di ristorazione,DIVISIONE,I,Alloggio e ristorazione,basso,13788,71338,2024
+Sicilia,58,Attività editoriali,DIVISIONE,J,Informazione e comunicazione,basso,65,643,2024
+Sicilia,59,"Attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore",DIVISIONE,J,Informazione e comunicazione,basso,119,749,2024
+Sicilia,60,Attività di programmazione e trasmissione,DIVISIONE,J,Informazione e comunicazione,basso,82,468,2024
+Sicilia,61,Telecomunicazioni,DIVISIONE,J,Informazione e comunicazione,basso,186,714,2024
+Sicilia,62,"Produzione di software, consulenza informatica e attività connesse",DIVISIONE,J,Informazione e comunicazione,basso,626,4490,2024
+Sicilia,63,Attività dei servizi d'informazione e altri servizi informatici,DIVISIONE,J,Informazione e comunicazione,basso,1100,4038,2024
+Sicilia,64,Attività di servizi finanziari (escluse le assicurazioni e i fondi pensione),DIVISIONE,K,Attività finanziarie e assicurative,basso,80,2067,2024
+Sicilia,66,Attività ausiliarie dei servizi finanziari e delle attività assicurative,DIVISIONE,K,Attività finanziarie e assicurative,basso,1313,4391,2024
+Sicilia,68,Attività immobiliari,DIVISIONE,L,Attività immobiliari,basso,1414,3429,2024
+Sicilia,69,Attività legali e contabilità,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,3712,11767,2024
+Sicilia,70,Attività di direzione aziendale e di consulenza gestionale,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,637,2517,2024
+Sicilia,71,"Attività degli studi di architettura e d'ingegneria, collaudi ed analisi tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,1129,4869,2024
+Sicilia,72,Ricerca scientifica e sviluppo,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,102,379,2024
+Sicilia,73,Pubblicità e ricerche di mercato,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,315,1511,2024
+Sicilia,74,"Altre attività professionali, scientifiche e tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,710,3142,2024
+Sicilia,75,Servizi veterinari,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,113,312,2024
+Sicilia,77,Attività di noleggio e leasing operativo,DIVISIONE,N,Noleggio e servizi alle imprese,basso,763,2910,2024
+Sicilia,78,"Attività di ricerca, selezione, fornitura di personale",DIVISIONE,N,Noleggio e servizi alle imprese,basso,13,244,2024
+Sicilia,79,"Attività dei servizi delle agenzie di viaggio, dei tour operator e servizi di prenotazione e attività connesse",DIVISIONE,N,Noleggio e servizi alle imprese,basso,620,2436,2024
+Sicilia,80,Servizi di vigilanza e investigazione,DIVISIONE,N,Noleggio e servizi alle imprese,basso,116,7244,2024
+Sicilia,81,Attività di servizi per edifici e paesaggio,DIVISIONE,N,Noleggio e servizi alle imprese,basso,1446,18471,2024
+Sicilia,82,Attività di supporto per le funzioni d'ufficio e altri servizi di supporto alle imprese,DIVISIONE,N,Noleggio e servizi alle imprese,basso,1215,6337,2024
+Sicilia,85,Istruzione,DIVISIONE,P,Istruzione,medio,1165,8202,2024
+Sicilia,86,Assistenza sanitaria,DIVISIONE,Q,Sanità e assistenza sociale,alto,7213,32970,2024
+Sicilia,87,Servizi di assistenza sociale residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,1426,16718,2024
+Sicilia,88,Assistenza sociale non residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,511,14489,2024
+Sicilia,90,"Attività creative, artistiche e di intrattenimento",DIVISIONE,R,Attività artistiche e sportive,basso,160,554,2024
+Sicilia,91,"Attività di biblioteche, archivi, musei ed altre attività culturali",DIVISIONE,R,Attività artistiche e sportive,basso,31,2499,2024
+Sicilia,92,"Attività riguardanti le lotterie, le scommesse, le case da gioco",DIVISIONE,R,Attività artistiche e sportive,basso,591,2834,2024
+Sicilia,93,"Attività sportive, di intrattenimento e di divertimento",DIVISIONE,R,Attività artistiche e sportive,basso,1164,6164,2024
+Sicilia,95,Riparazione di computer e di beni per uso personale e per la casa,DIVISIONE,S,Altre attività di servizi,basso,367,1347,2024
+Sicilia,96,Altre attività di servizi per la persona,DIVISIONE,S,Altre attività di servizi,basso,5089,17056,2024
+Sardegna,TOTALE,Totale economia (imprese con dipendenti),TOTALE,,,,42920,259251,2024
+Sardegna,08,Altre attività di estrazione di minerali da cave e miniere,DIVISIONE,B,Estrazione di minerali,alto,80,844,2024
+Sardegna,10,Industrie alimentari,DIVISIONE,C,Attività manifatturiere,alto,1166,9490,2024
+Sardegna,11,Industria delle bevande,DIVISIONE,C,Attività manifatturiere,alto,91,988,2024
+Sardegna,13,Industrie tessili,DIVISIONE,C,Attività manifatturiere,alto,42,230,2024
+Sardegna,14,"Confezione di articoli di abbigliamento, confezione di articoli in pelle e pelliccia",DIVISIONE,C,Attività manifatturiere,alto,63,229,2024
+Sardegna,15,Fabbricazione di articoli in pelle e simili,DIVISIONE,C,Attività manifatturiere,alto,14,115,2024
+Sardegna,16,"Industria del legno e dei prodotti in legno e sughero (esclusi i mobili), fabbricazione di articoli in paglia e materiali da intreccio",DIVISIONE,C,Attività manifatturiere,alto,299,1715,2024
+Sardegna,17,Fabbricazione di carta e di prodotti di carta,DIVISIONE,C,Attività manifatturiere,alto,15,231,2024
+Sardegna,18,Stampa e riproduzione di supporti registrati,DIVISIONE,C,Attività manifatturiere,alto,112,495,2024
+Sardegna,19,Fabbricazione di coke e prodotti derivanti dalla raffinazione del petrolio,DIVISIONE,C,Attività manifatturiere,alto,6,1526,2024
+Sardegna,20,Fabbricazione di prodotti chimici,DIVISIONE,C,Attività manifatturiere,alto,32,466,2024
+Sardegna,21,Fabbricazione di prodotti farmaceutici di base e di preparati farmaceutici,DIVISIONE,C,Attività manifatturiere,alto,1,4,2024
+Sardegna,22,Fabbricazione di articoli in gomma e materie plastiche,DIVISIONE,C,Attività manifatturiere,alto,51,770,2024
+Sardegna,23,Fabbricazione di altri prodotti della lavorazione di minerali non metalliferi,DIVISIONE,C,Attività manifatturiere,alto,318,1996,2024
+Sardegna,24,Metallurgia,DIVISIONE,C,Attività manifatturiere,alto,20,469,2024
+Sardegna,25,Fabbricazione di prodotti in metallo (esclusi macchinari e attrezzature),DIVISIONE,C,Attività manifatturiere,alto,590,4929,2024
+Sardegna,26,"Fabbricazione di computer e prodotti di elettronica e ottica, apparecchi elettromedicali, apparecchi di misurazione e di orologi",DIVISIONE,C,Attività manifatturiere,alto,16,221,2024
+Sardegna,27,Fabbricazione di apparecchiature elettriche ed apparecchiature per uso domestico non elettriche,DIVISIONE,C,Attività manifatturiere,alto,13,85,2024
+Sardegna,28,Fabbricazione di macchinari ed apparecchiature nca,DIVISIONE,C,Attività manifatturiere,alto,37,698,2024
+Sardegna,29,"Fabbricazione di autoveicoli, rimorchi e semirimorchi",DIVISIONE,C,Attività manifatturiere,alto,9,50,2024
+Sardegna,30,Fabbricazione di altri mezzi di trasporto,DIVISIONE,C,Attività manifatturiere,alto,37,297,2024
+Sardegna,31,Fabbricazione di mobili,DIVISIONE,C,Attività manifatturiere,alto,50,222,2024
+Sardegna,32,Altre industrie manifatturiere,DIVISIONE,C,Attività manifatturiere,alto,169,677,2024
+Sardegna,33,"Riparazione, manutenzione ed installazione di macchine ed apparecchiature",DIVISIONE,C,Attività manifatturiere,alto,411,2734,2024
+Sardegna,35,"Fornitura di energia elettrica, gas, vapore e aria condizionata",DIVISIONE,D,"Energia elettrica, gas, vapore",alto,48,528,2024
+Sardegna,36,"Raccolta, trattamento e fornitura di acqua",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,9,1364,2024
+Sardegna,37,Gestione delle reti fognarie,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,30,185,2024
+Sardegna,38,"Attività di raccolta, trattamento e smaltimento dei rifiuti recupero dei materiali",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,156,2065,2024
+Sardegna,39,Attività di risanamento e altri servizi di gestione dei rifiuti,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,26,415,2024
+Sardegna,41,Costruzione di edifici,DIVISIONE,F,Costruzioni,alto,3474,15269,2024
+Sardegna,42,Ingegneria civile,DIVISIONE,F,Costruzioni,alto,192,3230,2024
+Sardegna,43,Lavori di costruzione specializzati,DIVISIONE,F,Costruzioni,alto,3381,16086,2024
+Sardegna,45,Commercio all'ingrosso e al dettaglio e riparazione di autoveicoli e motocicli,DIVISIONE,G,Commercio e riparazione autoveicoli,basso,1689,7929,2024
+Sardegna,46,Commercio all'ingrosso (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,1814,11799,2024
+Sardegna,47,Commercio al dettaglio (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,6462,33460,2024
+Sardegna,49,Trasporto terrestre e trasporto mediante condotte,DIVISIONE,H,Trasporto e magazzinaggio,medio,1073,11640,2024
+Sardegna,50,Trasporto marittimo e per vie d'acqua,DIVISIONE,H,Trasporto e magazzinaggio,medio,126,606,2024
+Sardegna,51,Trasporto aereo,DIVISIONE,H,Trasporto e magazzinaggio,medio,1,20,2024
+Sardegna,52,Magazzinaggio e attività di supporto ai trasporti,DIVISIONE,H,Trasporto e magazzinaggio,medio,399,5161,2024
+Sardegna,53,Servizi postali e attività di corriere,DIVISIONE,H,Trasporto e magazzinaggio,medio,36,137,2024
+Sardegna,55,Alloggio,DIVISIONE,I,Alloggio e ristorazione,basso,1253,10535,2024
+Sardegna,56,Attività dei servizi di ristorazione,DIVISIONE,I,Alloggio e ristorazione,basso,7104,35912,2024
+Sardegna,58,Attività editoriali,DIVISIONE,J,Informazione e comunicazione,basso,34,399,2024
+Sardegna,59,"Attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore",DIVISIONE,J,Informazione e comunicazione,basso,50,148,2024
+Sardegna,60,Attività di programmazione e trasmissione,DIVISIONE,J,Informazione e comunicazione,basso,32,172,2024
+Sardegna,61,Telecomunicazioni,DIVISIONE,J,Informazione e comunicazione,basso,21,1174,2024
+Sardegna,62,"Produzione di software, consulenza informatica e attività connesse",DIVISIONE,J,Informazione e comunicazione,basso,233,1748,2024
+Sardegna,63,Attività dei servizi d'informazione e altri servizi informatici,DIVISIONE,J,Informazione e comunicazione,basso,480,1754,2024
+Sardegna,64,Attività di servizi finanziari (escluse le assicurazioni e i fondi pensione),DIVISIONE,K,Attività finanziarie e assicurative,basso,40,2507,2024
+Sardegna,66,Attività ausiliarie dei servizi finanziari e delle attività assicurative,DIVISIONE,K,Attività finanziarie e assicurative,basso,419,1757,2024
+Sardegna,68,Attività immobiliari,DIVISIONE,L,Attività immobiliari,basso,753,1871,2024
+Sardegna,69,Attività legali e contabilità,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,1341,4789,2024
+Sardegna,70,Attività di direzione aziendale e di consulenza gestionale,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,193,858,2024
+Sardegna,71,"Attività degli studi di architettura e d'ingegneria, collaudi ed analisi tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,400,1428,2024
+Sardegna,72,Ricerca scientifica e sviluppo,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,37,212,2024
+Sardegna,73,Pubblicità e ricerche di mercato,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,94,449,2024
+Sardegna,74,"Altre attività professionali, scientifiche e tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,246,929,2024
+Sardegna,75,Servizi veterinari,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,39,107,2024
+Sardegna,77,Attività di noleggio e leasing operativo,DIVISIONE,N,Noleggio e servizi alle imprese,basso,479,1772,2024
+Sardegna,78,"Attività di ricerca, selezione, fornitura di personale",DIVISIONE,N,Noleggio e servizi alle imprese,basso,3,8,2024
+Sardegna,79,"Attività dei servizi delle agenzie di viaggio, dei tour operator e servizi di prenotazione e attività connesse",DIVISIONE,N,Noleggio e servizi alle imprese,basso,229,1009,2024
+Sardegna,80,Servizi di vigilanza e investigazione,DIVISIONE,N,Noleggio e servizi alle imprese,basso,47,2023,2024
+Sardegna,81,Attività di servizi per edifici e paesaggio,DIVISIONE,N,Noleggio e servizi alle imprese,basso,1000,10008,2024
+Sardegna,82,Attività di supporto per le funzioni d'ufficio e altri servizi di supporto alle imprese,DIVISIONE,N,Noleggio e servizi alle imprese,basso,434,2913,2024
+Sardegna,85,Istruzione,DIVISIONE,P,Istruzione,medio,313,1992,2024
+Sardegna,86,Assistenza sanitaria,DIVISIONE,Q,Sanità e assistenza sociale,alto,1769,8057,2024
+Sardegna,87,Servizi di assistenza sociale residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,198,5455,2024
+Sardegna,88,Assistenza sociale non residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,341,8343,2024
+Sardegna,90,"Attività creative, artistiche e di intrattenimento",DIVISIONE,R,Attività artistiche e sportive,basso,69,289,2024
+Sardegna,91,"Attività di biblioteche, archivi, musei ed altre attività culturali",DIVISIONE,R,Attività artistiche e sportive,basso,94,1062,2024
+Sardegna,92,"Attività riguardanti le lotterie, le scommesse, le case da gioco",DIVISIONE,R,Attività artistiche e sportive,basso,87,282,2024
+Sardegna,93,"Attività sportive, di intrattenimento e di divertimento",DIVISIONE,R,Attività artistiche e sportive,basso,386,2042,2024
+Sardegna,95,Riparazione di computer e di beni per uso personale e per la casa,DIVISIONE,S,Altre attività di servizi,basso,145,463,2024
+Sardegna,96,Altre attività di servizi per la persona,DIVISIONE,S,Altre attività di servizi,basso,1999,7405,2024
+Valle d'Aosta,TOTALE,Totale economia (imprese con dipendenti),TOTALE,,,,4049,30826,2024
+Valle d'Aosta,08,Altre attività di estrazione di minerali da cave e miniere,DIVISIONE,B,Estrazione di minerali,alto,3,26,2024
+Valle d'Aosta,10,Industrie alimentari,DIVISIONE,C,Attività manifatturiere,alto,86,713,2024
+Valle d'Aosta,11,Industria delle bevande,DIVISIONE,C,Attività manifatturiere,alto,11,126,2024
+Valle d'Aosta,13,Industrie tessili,DIVISIONE,C,Attività manifatturiere,alto,4,11,2024
+Valle d'Aosta,14,"Confezione di articoli di abbigliamento, confezione di articoli in pelle e pelliccia",DIVISIONE,C,Attività manifatturiere,alto,3,20,2024
+Valle d'Aosta,15,Fabbricazione di articoli in pelle e simili,DIVISIONE,C,Attività manifatturiere,alto,3,9,2024
+Valle d'Aosta,16,"Industria del legno e dei prodotti in legno e sughero (esclusi i mobili), fabbricazione di articoli in paglia e materiali da intreccio",DIVISIONE,C,Attività manifatturiere,alto,33,236,2024
+Valle d'Aosta,18,Stampa e riproduzione di supporti registrati,DIVISIONE,C,Attività manifatturiere,alto,14,88,2024
+Valle d'Aosta,20,Fabbricazione di prodotti chimici,DIVISIONE,C,Attività manifatturiere,alto,2,7,2024
+Valle d'Aosta,22,Fabbricazione di articoli in gomma e materie plastiche,DIVISIONE,C,Attività manifatturiere,alto,2,138,2024
+Valle d'Aosta,23,Fabbricazione di altri prodotti della lavorazione di minerali non metalliferi,DIVISIONE,C,Attività manifatturiere,alto,24,166,2024
+Valle d'Aosta,24,Metallurgia,DIVISIONE,C,Attività manifatturiere,alto,1,1205,2024
+Valle d'Aosta,25,Fabbricazione di prodotti in metallo (esclusi macchinari e attrezzature),DIVISIONE,C,Attività manifatturiere,alto,37,539,2024
+Valle d'Aosta,26,"Fabbricazione di computer e prodotti di elettronica e ottica, apparecchi elettromedicali, apparecchi di misurazione e di orologi",DIVISIONE,C,Attività manifatturiere,alto,3,13,2024
+Valle d'Aosta,27,Fabbricazione di apparecchiature elettriche ed apparecchiature per uso domestico non elettriche,DIVISIONE,C,Attività manifatturiere,alto,6,87,2024
+Valle d'Aosta,28,Fabbricazione di macchinari ed apparecchiature nca,DIVISIONE,C,Attività manifatturiere,alto,3,78,2024
+Valle d'Aosta,29,"Fabbricazione di autoveicoli, rimorchi e semirimorchi",DIVISIONE,C,Attività manifatturiere,alto,2,138,2024
+Valle d'Aosta,31,Fabbricazione di mobili,DIVISIONE,C,Attività manifatturiere,alto,11,54,2024
+Valle d'Aosta,32,Altre industrie manifatturiere,DIVISIONE,C,Attività manifatturiere,alto,11,71,2024
+Valle d'Aosta,33,"Riparazione, manutenzione ed installazione di macchine ed apparecchiature",DIVISIONE,C,Attività manifatturiere,alto,16,180,2024
+Valle d'Aosta,35,"Fornitura di energia elettrica, gas, vapore e aria condizionata",DIVISIONE,D,"Energia elettrica, gas, vapore",alto,25,882,2024
+Valle d'Aosta,36,"Raccolta, trattamento e fornitura di acqua",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,3,28,2024
+Valle d'Aosta,37,Gestione delle reti fognarie,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,3,325,2024
+Valle d'Aosta,38,"Attività di raccolta, trattamento e smaltimento dei rifiuti recupero dei materiali",DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,9,249,2024
+Valle d'Aosta,39,Attività di risanamento e altri servizi di gestione dei rifiuti,DIVISIONE,E,"Acqua, reti fognarie, rifiuti",alto,1,10,2024
+Valle d'Aosta,41,Costruzione di edifici,DIVISIONE,F,Costruzioni,alto,223,1494,2024
+Valle d'Aosta,42,Ingegneria civile,DIVISIONE,F,Costruzioni,alto,36,482,2024
+Valle d'Aosta,43,Lavori di costruzione specializzati,DIVISIONE,F,Costruzioni,alto,365,1912,2024
+Valle d'Aosta,45,Commercio all'ingrosso e al dettaglio e riparazione di autoveicoli e motocicli,DIVISIONE,G,Commercio e riparazione autoveicoli,basso,114,582,2024
+Valle d'Aosta,46,Commercio all'ingrosso (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,106,903,2024
+Valle d'Aosta,47,Commercio al dettaglio (escluso quello di autoveicoli e di motocicli),DIVISIONE,G,Commercio e riparazione autoveicoli,basso,483,2888,2024
+Valle d'Aosta,49,Trasporto terrestre e trasporto mediante condotte,DIVISIONE,H,Trasporto e magazzinaggio,medio,65,1384,2024
+Valle d'Aosta,51,Trasporto aereo,DIVISIONE,H,Trasporto e magazzinaggio,medio,1,20,2024
+Valle d'Aosta,52,Magazzinaggio e attività di supporto ai trasporti,DIVISIONE,H,Trasporto e magazzinaggio,medio,11,379,2024
+Valle d'Aosta,53,Servizi postali e attività di corriere,DIVISIONE,H,Trasporto e magazzinaggio,medio,2,5,2024
+Valle d'Aosta,55,Alloggio,DIVISIONE,I,Alloggio e ristorazione,basso,463,2909,2024
+Valle d'Aosta,56,Attività dei servizi di ristorazione,DIVISIONE,I,Alloggio e ristorazione,basso,876,4541,2024
+Valle d'Aosta,58,Attività editoriali,DIVISIONE,J,Informazione e comunicazione,basso,3,25,2024
+Valle d'Aosta,59,"Attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore",DIVISIONE,J,Informazione e comunicazione,basso,5,14,2024
+Valle d'Aosta,60,Attività di programmazione e trasmissione,DIVISIONE,J,Informazione e comunicazione,basso,1,10,2024
+Valle d'Aosta,61,Telecomunicazioni,DIVISIONE,J,Informazione e comunicazione,basso,2,21,2024
+Valle d'Aosta,62,"Produzione di software, consulenza informatica e attività connesse",DIVISIONE,J,Informazione e comunicazione,basso,25,965,2024
+Valle d'Aosta,63,Attività dei servizi d'informazione e altri servizi informatici,DIVISIONE,J,Informazione e comunicazione,basso,40,175,2024
+Valle d'Aosta,64,Attività di servizi finanziari (escluse le assicurazioni e i fondi pensione),DIVISIONE,K,Attività finanziarie e assicurative,basso,5,178,2024
+Valle d'Aosta,66,Attività ausiliarie dei servizi finanziari e delle attività assicurative,DIVISIONE,K,Attività finanziarie e assicurative,basso,46,236,2024
+Valle d'Aosta,68,Attività immobiliari,DIVISIONE,L,Attività immobiliari,basso,83,224,2024
+Valle d'Aosta,69,Attività legali e contabilità,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,136,654,2024
+Valle d'Aosta,70,Attività di direzione aziendale e di consulenza gestionale,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,21,114,2024
+Valle d'Aosta,71,"Attività degli studi di architettura e d'ingegneria, collaudi ed analisi tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,66,205,2024
+Valle d'Aosta,72,Ricerca scientifica e sviluppo,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,3,108,2024
+Valle d'Aosta,73,Pubblicità e ricerche di mercato,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,6,24,2024
+Valle d'Aosta,74,"Altre attività professionali, scientifiche e tecniche",DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,24,69,2024
+Valle d'Aosta,75,Servizi veterinari,DIVISIONE,M,"Attività professionali, scientifiche e tecniche",basso,3,8,2024
+Valle d'Aosta,77,Attività di noleggio e leasing operativo,DIVISIONE,N,Noleggio e servizi alle imprese,basso,60,233,2024
+Valle d'Aosta,79,"Attività dei servizi delle agenzie di viaggio, dei tour operator e servizi di prenotazione e attività connesse",DIVISIONE,N,Noleggio e servizi alle imprese,basso,14,43,2024
+Valle d'Aosta,80,Servizi di vigilanza e investigazione,DIVISIONE,N,Noleggio e servizi alle imprese,basso,2,37,2024
+Valle d'Aosta,81,Attività di servizi per edifici e paesaggio,DIVISIONE,N,Noleggio e servizi alle imprese,basso,83,717,2024
+Valle d'Aosta,82,Attività di supporto per le funzioni d'ufficio e altri servizi di supporto alle imprese,DIVISIONE,N,Noleggio e servizi alle imprese,basso,26,113,2024
+Valle d'Aosta,85,Istruzione,DIVISIONE,P,Istruzione,medio,27,824,2024
+Valle d'Aosta,86,Assistenza sanitaria,DIVISIONE,Q,Sanità e assistenza sociale,alto,83,356,2024
+Valle d'Aosta,87,Servizi di assistenza sociale residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,8,399,2024
+Valle d'Aosta,88,Assistenza sociale non residenziale,DIVISIONE,Q,Sanità e assistenza sociale,alto,13,731,2024
+Valle d'Aosta,90,"Attività creative, artistiche e di intrattenimento",DIVISIONE,R,Attività artistiche e sportive,basso,15,85,2024
+Valle d'Aosta,91,"Attività di biblioteche, archivi, musei ed altre attività culturali",DIVISIONE,R,Attività artistiche e sportive,basso,2,5,2024
+Valle d'Aosta,92,"Attività riguardanti le lotterie, le scommesse, le case da gioco",DIVISIONE,R,Attività artistiche e sportive,basso,2,428,2024
+Valle d'Aosta,93,"Attività sportive, di intrattenimento e di divertimento",DIVISIONE,R,Attività artistiche e sportive,basso,36,291,2024
+Valle d'Aosta,95,Riparazione di computer e di beni per uso personale e per la casa,DIVISIONE,S,Altre attività di servizi,basso,11,48,2024
+Valle d'Aosta,96,Altre attività di servizi per la persona,DIVISIONE,S,Altre attività di servizi,basso,137,591,2024

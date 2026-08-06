@@ -5,21 +5,29 @@ import type { Topology, GeometryCollection } from "topojson-specification";
 import type { FeatureCollection, Feature, Geometry } from "geojson";
 import { normalizeRegionName } from "../lib/nameMap";
 import { sequentialColor, textColorFor } from "../lib/color";
-import type { MetricDef, Regione } from "../lib/types";
-import { metricValues } from "../lib/metrics";
+import type { MetricDef } from "../lib/metric";
+import { metricValues } from "../lib/metric";
 
 const WIDTH = 460;
 const HEIGHT = 620;
 
-interface Props {
-  regioni: Regione[];
-  metric: MetricDef;
+interface Props<T extends { nome: string }, E> {
+  regioni: T[];
+  metric: MetricDef<T, E>;
+  extra: E;
   selected: string | null;
   onSelect: (nome: string | null) => void;
-  onHover: (info: { d: Regione; v: number | null; x: number; y: number } | null) => void;
+  onHover: (info: { d: T; v: number | null; x: number; y: number } | null) => void;
 }
 
-export function ItalyMap({ regioni, metric, selected, onSelect, onHover }: Props) {
+export function ItalyMap<T extends { nome: string }, E>({
+  regioni,
+  metric,
+  extra,
+  selected,
+  onSelect,
+  onHover,
+}: Props<T, E>) {
   const [geo, setGeo] = useState<FeatureCollection | null>(null);
   const svgRef = useRef<SVGSVGElement | null>(null);
 
@@ -38,9 +46,9 @@ export function ItalyMap({ regioni, metric, selected, onSelect, onHover }: Props
     };
   }, []);
 
-  const { arr, min, max } = useMemo(() => metricValues(metric, regioni), [metric, regioni]);
+  const { arr, min, max } = useMemo(() => metricValues(metric, regioni, extra), [metric, regioni, extra]);
   const byName = useMemo(() => {
-    const m = new Map<string, { d: Regione; v: number | null }>();
+    const m = new Map<string, { d: T; v: number | null }>();
     arr.forEach((x) => m.set(x.d.nome, x));
     return m;
   }, [arr]);

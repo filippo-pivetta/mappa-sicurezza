@@ -67,7 +67,8 @@ function App() {
         <h1>Mappatura studi di consulenza sicurezza in Italia</h1>
         <div className="sub">
           Fonte studi: {dataset.fonte.studi}. Denominatore imprese: {dataset.fonte.imprese}. {filledCount} regioni
-          rilevate su {totalCount}.
+          rilevate su {totalCount}. Indice di rischio e domanda pesata sono disponibili per tutte le {totalCount}{" "}
+          regioni, anche quelle non ancora rilevate.
         </div>
       </header>
 
@@ -104,7 +105,8 @@ function App() {
         <Tooltip x={hover.x} y={hover.y} title={hover.d.nome}>
           {metricDef.label}: {hover.v == null ? "n/d" : metricDef.fmt(hover.v)}
           <br />
-          Studi: {hover.d.studi_primario ?? "n/d"} &middot; Imprese: {hover.d.imprese_attive.toLocaleString("it")}
+          Studi: {hover.d.studi_primario ?? "n/d"} &middot; Imprese con dipendenti:{" "}
+          {hover.d.imprese_con_dipendenti.toLocaleString("it")}
         </Tooltip>
       )}
       {toggleTip && (

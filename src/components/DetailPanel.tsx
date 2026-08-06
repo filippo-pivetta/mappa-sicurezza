@@ -11,10 +11,24 @@ export function DetailPanel({ regione: d, isAggregate, fasce }: Props) {
     return (
       <div className="card detail">
         <h2>{d.nome}</h2>
-        <div className="dsub">Regione non ancora rilevata su Telemaco.</div>
-        <div className="kpi">
-          <div className="n">{d.imprese_attive.toLocaleString("it")}</div>
-          <div className="l">Imprese attive (denominatore pronto)</div>
+        <div className="dsub">Regione non ancora rilevata su Telemaco. Stima di opportunità già disponibile.</div>
+        <div className="kpis">
+          <div className="kpi">
+            <div className="n">{d.imprese_con_dipendenti.toLocaleString("it")}</div>
+            <div className="l">Imprese con dipendenti (denominatore pronto)</div>
+          </div>
+          <div className="kpi">
+            <div className="n">{d.numero_addetti.toLocaleString("it")}</div>
+            <div className="l">Addetti</div>
+          </div>
+          <div className="kpi">
+            <div className="n">{d.indice_rischio.toFixed(2)}</div>
+            <div className="l">Indice rischio settoriale</div>
+          </div>
+          <div className="kpi">
+            <div className="n">{Math.round(d.domanda_pesata).toLocaleString("it")}</div>
+            <div className="l">Domanda pesata</div>
+          </div>
         </div>
       </div>
     );
@@ -27,8 +41,9 @@ export function DetailPanel({ regione: d, isAggregate, fasce }: Props) {
   const som = d.sommerso ?? 0;
   const bands = d.bands ?? [];
 
-  const densp = ((sp / d.imprese_attive) * 1000).toFixed(2);
-  const densps = ((sps / d.imprese_attive) * 1000).toFixed(2);
+  const densp = ((sp / d.imprese_con_dipendenti) * 1000).toFixed(2);
+  const densps = ((sps / d.imprese_con_dipendenti) * 1000).toFixed(2);
+  const denspAdd = ((sp / d.numero_addetti) * 1000).toFixed(2);
   const pct = Math.round((cap / sp) * 100);
   const capw = Math.round((cap / sp) * 100);
   const perw = 100 - capw;
@@ -62,6 +77,18 @@ export function DetailPanel({ regione: d, isAggregate, fasce }: Props) {
         <div className="kpi">
           <div className="n">{som.toLocaleString("it")}</div>
           <div className="l">Sommerso (secondari)</div>
+        </div>
+        <div className="kpi">
+          <div className="n">{denspAdd}</div>
+          <div className="l">Densità prim /1.000 addetti</div>
+        </div>
+        <div className="kpi">
+          <div className="n">{d.indice_rischio.toFixed(2)}</div>
+          <div className="l">Indice rischio settoriale</div>
+        </div>
+        <div className="kpi">
+          <div className="n">{Math.round(d.domanda_pesata).toLocaleString("it")}</div>
+          <div className="l">Domanda pesata</div>
         </div>
       </div>
       <div className="blocktitle">Composizione (capitale vs persona/individuali)</div>

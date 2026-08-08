@@ -1,6 +1,11 @@
 import type { MetricDef } from "./metric";
 import type { RegioneDomanda } from "./domandaTypes";
 
+/** Imprese obbligate moltiplicate per l'indice di rischio: stima della domanda potenziale pesata per la rischiosità del tessuto produttivo regionale. */
+export function domandaPesata(d: RegioneDomanda): number {
+  return d.imprese_con_dipendenti * d.indice_rischio;
+}
+
 export const DOMANDA_METRICS: MetricDef<RegioneDomanda, void>[] = [
   {
     key: "imprese",
@@ -29,6 +34,13 @@ export const DOMANDA_METRICS: MetricDef<RegioneDomanda, void>[] = [
     desc: "Quota di imprese con dipendenti che opera in settori classificati a rischio ALTO secondo l'Accordo Stato-Regioni.",
     value: (d) => d.quota_alto_rischio,
     fmt: (v) => v.toFixed(0) + "%",
+  },
+  {
+    key: "domandaPesata",
+    label: "Domanda pesata",
+    desc: "Imprese con dipendenti moltiplicate per l'indice di rischio: stima della domanda potenziale di consulenza sicurezza, pesata per la rischiosità del tessuto produttivo regionale.",
+    value: (d) => domandaPesata(d),
+    fmt: (v) => Math.round(v).toLocaleString("it"),
   },
 ];
 

@@ -1,0 +1,23 @@
+// Sigle regionali condivise da mappa e grafico a quadranti.
+export const REGION_ABBR: Record<string, string> = {
+  "Piemonte": "PIE",
+  "Valle d'Aosta": "VdA",
+  "Lombardia": "LOM",
+  "Trentino-Alto Adige": "TAA",
+  "Veneto": "VEN",
+  "Friuli-Venezia Giulia": "FVG",
+  "Liguria": "LIG",
+  "Emilia-Romagna": "EMR",
+  "Toscana": "TOS",
+  "Umbria": "UMB",
+  "Marche": "MAR",
+  "Lazio": "LAZ",
+  "Abruzzo": "ABR",
+  "Molise": "MOL",
+  "Campania": "CAM",
+  "Puglia": "PUG",
+  "Basilicata": "BAS",
+  "Calabria": "CAL",
+  "Sicilia": "SIC",
+  "Sardegna": "SAR",
+};

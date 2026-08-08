@@ -1,5 +1,6 @@
 import { useState } from "react";
 import type { RegioneDomanda, SezioneDef } from "../lib/domandaTypes";
+import { domandaPesata } from "../lib/domandaMetrics";
 import { RiskTableModal } from "./RiskTableModal";
 
 interface Props {
@@ -42,6 +43,10 @@ export function DomandaDetailPanel({ regione: d, isAggregate, sezioni }: Props) 
         <div className="kpi">
           <div className="n">{d.quota_alto_rischio.toFixed(0)}%</div>
           <div className="l">Quota alto rischio</div>
+        </div>
+        <div className="kpi">
+          <div className="n">{Math.round(domandaPesata(d)).toLocaleString("it")}</div>
+          <div className="l">Domanda pesata</div>
         </div>
       </div>
       <div className="blocktitle">

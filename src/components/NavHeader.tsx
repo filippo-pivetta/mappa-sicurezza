@@ -17,6 +17,9 @@ export function NavHeader({ active }: Props) {
         <a className={"navlink" + (active === "domanda" ? " on" : "")} href={routeHref("domanda")}>
           Domanda · Mercato
         </a>
+        <a className={"navlink" + (active === "copertura" ? " on" : "")} href={routeHref("copertura")}>
+          Copertura · Opportunità
+        </a>
       </div>
     </nav>
   );

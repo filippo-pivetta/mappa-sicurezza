@@ -1,15 +1,20 @@
 # Mappatura sicurezza sul lavoro · dashboard
 
-Dashboard interattiva in tre pagine che mappa, per regione, il mercato della
-consulenza sicurezza sul lavoro in Italia — con choropleth geografica reale
-(sagoma delle 20 regioni, non tessere):
+Dashboard interattiva in quattro pagine che mappa, per regione, il mercato
+della consulenza sicurezza sul lavoro in Italia — con choropleth geografica
+reale (sagoma delle 20 regioni, non tessere):
 
-- **Home** (`#/`): landing page con i link alle due mappe, più un report dati
-  oggettivo (fonti, tabelle per regione, aggregato nazionale, imprese per
-  macro-settore) con link di deep-link alle viste filtrate delle due mappe.
+- **Home** (`#/`): landing page con i link alle tre viste, più un report dati
+  completo (sintesi esecutiva, perimetro e metodo, dimensione del mercato,
+  struttura di offerta e domanda, copertura e spazio bianco, limiti, fonti)
+  con tabelle per regione e link di deep-link alle viste filtrate.
 - **Offerta** (`#/offerta`): studi di consulenza sicurezza (dati Telemaco).
 - **Domanda** (`#/domanda`): imprese obbligate D.Lgs 81/08, addetti e rischio
-  settoriale (dati ISTAT ASIA 2024).
+  settoriale (dati ISTAT ASIA 2024), inclusa la domanda pesata per rischio.
+- **Copertura** (`#/copertura`): incrocio offerta/domanda per regione — un
+  grafico a quadranti (densità di offerta × imprese obbligate, soglie sulla
+  mediana nazionale) che classifica ogni regione come presidiata, spazio
+  bianco, nicchia densa o domanda contenuta.
 
 Il router supporta il deep-link a viste filtrate via query string sull'hash,
 es. `#/offerta?metric=dens&scope=primario&regione=Lombardia` o
@@ -34,23 +39,27 @@ mappa-sicurezza/
 │   ├── App.tsx                 # router shell (legge l'hash e sceglie la pagina)
 │   ├── App.css / index.css     # tema scuro condiviso da tutte le pagine
 │   ├── pages/
-│   │   ├── HomePage.tsx        # landing con i due link + report dati
+│   │   ├── HomePage.tsx        # landing con i tre link + report dati
 │   │   ├── OffertaPage.tsx     # dashboard offerta (studi)
-│   │   └── DomandaPage.tsx     # dashboard domanda (imprese/rischio)
+│   │   ├── DomandaPage.tsx     # dashboard domanda (imprese/rischio)
+│   │   └── CoperturaPage.tsx   # cross offerta/domanda: grafico a quadranti + classifica
 │   ├── components/
-│   │   ├── NavHeader.tsx       # header con i link Offerta/Domanda
-│   │   ├── ReportSection.tsx   # report dati della Home: fonti, tabelle, link filtrati
+│   │   ├── NavHeader.tsx       # header con i link Offerta/Domanda/Copertura
+│   │   ├── ReportSection.tsx   # report dati della Home: sintesi, tabelle, link filtrati
+│   │   ├── QuadrantChart.tsx   # grafico SVG a quadranti (domanda log-x × densità offerta y)
 │   │   ├── ItalyMap.tsx        # choropleth D3 (geoMercator + geoPath su TopoJSON), generico
 │   │   ├── MetricToggles.tsx   # toggle metriche + tooltip esplicativo, generico
 │   │   ├── ScopeToggle.tsx     # toggle primario/secondario/totale (solo Offerta)
 │   │   ├── RankList.tsx        # classifica sincronizzata con mappa/metrica, generico
 │   │   ├── DetailPanel.tsx     # pannello KPI offerta (composizione + fasce fatturato)
-│   │   ├── DomandaDetailPanel.tsx  # pannello KPI domanda (rischio + settori)
+│   │   ├── DomandaDetailPanel.tsx  # pannello KPI domanda (rischio + settori + domanda pesata)
 │   │   ├── RiskTableModal.tsx  # modale con la tabella di rischio per sezione ATECO
 │   │   ├── Modal.tsx           # overlay generico riusabile (chiude su ESC/backdrop)
 │   │   └── Tooltip.tsx
 │   └── lib/
 │       ├── router.ts           # hash router minimale + query string per deep-link (nessuna dipendenza esterna)
+│       ├── copertura.ts        # join offerta/domanda per regione + classificazione a quadranti (mediane)
+│       ├── regionAbbr.ts       # sigle regionali condivise da mappa e grafico a quadranti
 │       ├── metric.ts           # MetricDef<T,E> generico + calcolo min/max condiviso
 │       ├── types.ts            # schema dati Offerta (Regione, Scope, MetricKey)
 │       ├── metrics.ts          # le 4 metriche Offerta + aggregato nazionale

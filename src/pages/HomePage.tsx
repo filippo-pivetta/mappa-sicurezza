@@ -11,8 +11,8 @@ export function HomePage() {
         <div className="homehero">
           <h1>Mappatura sicurezza sul lavoro in Italia</h1>
           <div className="sub">
-            Due mappe regionali per leggere il mercato della consulenza sicurezza: chi offre e chi dovrebbe comprare.
-            Incrociandole si legge densità e spazio bianco per regione.
+            Tre viste sul mercato della consulenza sicurezza: chi offre, chi dovrebbe comprare, e dove l'incrocio tra
+            i due lascia spazio bianco. Report dati completo più sotto.
           </div>
         </div>
         <div className="homecards">
@@ -33,6 +33,15 @@ export function HomePage() {
               ASIA 2024.
             </p>
             <span className="homecardcta">Apri la mappa →</span>
+          </a>
+          <a className="homecard" href={routeHref("copertura")}>
+            <div className="homecardtag">Copertura</div>
+            <h2>Domanda × densità di offerta</h2>
+            <p>
+              Il confronto diretto: quali regioni sono presidiate e quali hanno più domanda che offerta, in un
+              grafico a quadranti.
+            </p>
+            <span className="homecardcta">Apri il confronto →</span>
           </a>
         </div>
       </div>

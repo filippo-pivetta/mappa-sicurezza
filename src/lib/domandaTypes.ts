@@ -20,4 +20,4 @@ export interface DomandaDataset {
   regioni: RegioneDomanda[];
 }
 
-export type DomandaMetricKey = "imprese" | "addetti" | "rischio" | "alto";
+export type DomandaMetricKey = "imprese" | "addetti" | "rischio" | "alto" | "domandaPesata";

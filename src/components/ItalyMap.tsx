@@ -5,6 +5,7 @@ import type { Topology, GeometryCollection } from "topojson-specification";
 import type { FeatureCollection, Feature, Geometry } from "geojson";
 import { normalizeRegionName } from "../lib/nameMap";
 import { sequentialColor, textColorFor } from "../lib/color";
+import { REGION_ABBR } from "../lib/regionAbbr";
 import type { MetricDef } from "../lib/metric";
 import { metricValues } from "../lib/metric";
 
@@ -127,7 +128,7 @@ export function ItalyMap<T extends { nome: string }, E>({
           const t = max > min ? (v - min) / (max - min) : 0.5;
           tc = textColorFor(t);
         }
-        const abbr = ABBR[name] ?? name.slice(0, 3).toUpperCase();
+        const abbr = REGION_ABBR[name] ?? name.slice(0, 3).toUpperCase();
         return (
           <text
             key={"lab" + (rawName ?? i)}
@@ -146,26 +147,3 @@ export function ItalyMap<T extends { nome: string }, E>({
     </svg>
   );
 }
-
-const ABBR: Record<string, string> = {
-  "Piemonte": "PIE",
-  "Valle d'Aosta": "VdA",
-  "Lombardia": "LOM",
-  "Trentino-Alto Adige": "TAA",
-  "Veneto": "VEN",
-  "Friuli-Venezia Giulia": "FVG",
-  "Liguria": "LIG",
-  "Emilia-Romagna": "EMR",
-  "Toscana": "TOS",
-  "Umbria": "UMB",
-  "Marche": "MAR",
-  "Lazio": "LAZ",
-  "Abruzzo": "ABR",
-  "Molise": "MOL",
-  "Campania": "CAM",
-  "Puglia": "PUG",
-  "Basilicata": "BAS",
-  "Calabria": "CAL",
-  "Sicilia": "SIC",
-  "Sardegna": "SAR",
-};

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 // il deep-link a viste filtrate (#/offerta?metric=dens&scope=primario&regione=Lombardia):
 // nessuna dipendenza esterna, nessuna configurazione server richiesta per il
 // refresh su hosting statico.
-export type Route = "home" | "offerta" | "domanda";
+export type Route = "home" | "offerta" | "domanda" | "copertura";
 
 function currentHash(): string {
   return window.location.hash.replace(/^#\/?/, "");
@@ -14,6 +14,7 @@ function parseHash(): Route {
   const h = currentHash().split("?")[0];
   if (h === "offerta") return "offerta";
   if (h === "domanda") return "domanda";
+  if (h === "copertura") return "copertura";
   return "home";
 }
 

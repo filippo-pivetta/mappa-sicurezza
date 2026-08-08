@@ -14,8 +14,8 @@ export function RiskTableModal({ onClose }: Props) {
         O, T e U non compaiono tra le imprese con dipendenti rilevate da ISTAT ASIA e quindi non incidono sulle
         mappe.
       </p>
-      <div className="risktablewrap">
-        <table className="risktable">
+      <div className="datatablewrap">
+        <table className="datatable">
           <thead>
             <tr>
               <th>Sezione</th>
@@ -27,12 +27,12 @@ export function RiskTableModal({ onClose }: Props) {
           <tbody>
             {RISK_TABLE.map((r) => (
               <tr key={r.sezione}>
-                <td className="risksez">{r.sezione}</td>
+                <td className="datastrong">{r.sezione}</td>
                 <td>{r.descrizione}</td>
                 <td>
                   <span className={"riskbadge risk-" + r.rischio}>{r.rischio}</span>
                 </td>
-                <td className="riskpeso">{r.peso}</td>
+                <td className="datanum">{r.peso}</td>
               </tr>
             ))}
           </tbody>

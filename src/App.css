@@ -18,24 +18,28 @@
 }
 .navlinks {
   display: flex;
-  gap: 6px;
+  gap: 8px;
 }
 .navlink {
-  color: #8ea3b5;
+  color: #c7d5e2;
   text-decoration: none;
   font-size: 12.5px;
   font-weight: 600;
-  padding: 6px 12px;
-  border-radius: 8px;
+  padding: 7px 14px;
+  border-radius: 9px;
+  border: 1px solid #2a3a49;
+  background: #17212b;
   transition: 0.15s;
 }
 .navlink:hover {
-  color: #c7d5e2;
-  background: #17212b;
+  color: #39c0c8;
+  border-color: #39c0c8;
 }
 .navlink.on {
   color: #08222a;
   background: #39c0c8;
+  border-color: #39c0c8;
+  font-weight: 700;
 }
 
 .home {
@@ -104,6 +108,89 @@
   color: #39c0c8;
 }
 
+.report {
+  border-top: 1px solid #1c2a37;
+  padding: 8px 22px 60px;
+}
+.reportinner {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.reporttitle {
+  font-size: 19px;
+  margin: 0 0 8px;
+}
+.reportintro {
+  color: #8ea3b5;
+  font-size: 12.5px;
+  line-height: 1.6;
+  max-width: 760px;
+  margin: 0 0 20px;
+}
+.reportsectiontitle {
+  font-size: 15px;
+  margin: 34px 0 10px;
+  color: #e8eef4;
+}
+.reportsources {
+  margin: 0 0 8px;
+  padding-left: 18px;
+  color: #c7d5e2;
+  font-size: 12.5px;
+  line-height: 1.7;
+}
+.reportsources li {
+  margin-bottom: 4px;
+}
+.reportnote {
+  color: #8ea3b5;
+  font-size: 11.5px;
+  line-height: 1.6;
+  margin: 10px 0 0;
+}
+.report .card {
+  margin-bottom: 14px;
+}
+.qlinks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 12px;
+}
+.qlabel {
+  font-size: 10.5px;
+  font-weight: 600;
+  color: #8ea3b5;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-right: 2px;
+}
+.qlink {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: #39c0c8;
+  text-decoration: none;
+  border: 1px solid #1c3a3d;
+  background: rgba(57, 192, 200, 0.08);
+  padding: 5px 11px;
+  border-radius: 20px;
+  transition: 0.15s;
+}
+.qlink:hover {
+  background: rgba(57, 192, 200, 0.18);
+  border-color: #39c0c8;
+}
+.rowlink {
+  color: #39c0c8;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 13px;
+}
+.rowlink:hover {
+  text-decoration: underline;
+}
+
 header {
   padding: 18px 22px 8px;
 }
@@ -158,11 +245,11 @@ h1 {
   transition: 0.15s;
 }
 .sc:hover {
-  color: #e8a33d;
+  color: #39c0c8;
 }
 .sc.on {
-  background: #e8a33d;
-  color: #2b1a04;
+  background: #39c0c8;
+  color: #08222a;
 }
 
 .toggles {
@@ -380,15 +467,15 @@ h2 {
   margin: 0 0 14px;
   line-height: 1.5;
 }
-.risktablewrap {
+.datatablewrap {
   overflow-x: auto;
 }
-.risktable {
+.datatable {
   width: 100%;
   border-collapse: collapse;
   font-size: 12.5px;
 }
-.risktable th {
+.datatable th {
   text-align: left;
   color: #8ea3b5;
   font-weight: 600;
@@ -399,21 +486,26 @@ h2 {
   border-bottom: 1px solid #223142;
   white-space: nowrap;
 }
-.risktable td {
+.datatable td {
   padding: 7px 8px;
   border-bottom: 1px solid #1c2733;
   vertical-align: top;
 }
-.risktable tr:last-child td {
+.datatable tr:last-child td {
   border-bottom: none;
 }
-.risksez {
+.datatable tbody tr:hover {
+  background: #17212b;
+}
+.datastrong {
   font-weight: 700;
   color: #c7d5e2;
+  white-space: nowrap;
 }
-.riskpeso {
-  text-align: center;
+.datanum {
+  text-align: right;
   font-variant-numeric: tabular-nums;
+  white-space: nowrap;
 }
 .riskbadge {
   display: inline-block;
@@ -670,6 +762,16 @@ h2 {
   .homehero h1 {
     font-size: 20px;
   }
+  .report {
+    padding: 4px 14px 40px;
+  }
+  .reporttitle {
+    font-size: 17px;
+  }
+  .reportsectiontitle {
+    font-size: 14px;
+    margin: 26px 0 8px;
+  }
   .modalbackdrop {
     padding: 0;
     align-items: flex-end;
@@ -685,7 +787,7 @@ h2 {
   .modalbody {
     padding: 12px 14px 16px;
   }
-  .risktable {
+  .datatable {
     font-size: 11.5px;
   }
 }
@@ -709,8 +811,8 @@ h2 {
     color: #8ea3b5;
   }
   .navlink:hover {
-    color: #8ea3b5;
-    background: transparent;
+    color: #c7d5e2;
+    border-color: #2a3a49;
   }
   .rrow:hover {
     background: transparent;

@@ -9,15 +9,20 @@ import { DOMANDA_METRICS, nationalAggregateDomanda } from "../lib/domandaMetrics
 import { metricValues } from "../lib/metric";
 import type { DomandaDataset, DomandaMetricKey, RegioneDomanda } from "../lib/domandaTypes";
 import { sequentialColor } from "../lib/color";
+import { useRouteParams } from "../lib/router";
 import "../App.css";
 
 type HoverInfo = { d: RegioneDomanda; v: number | null; x: number; y: number } | null;
 type ToggleTip = { x: number; y: number; title: string; desc: string } | null;
 
 export function DomandaPage() {
+  const params = useRouteParams();
   const [dataset, setDataset] = useState<DomandaDataset | null>(null);
-  const [metric, setMetric] = useState<DomandaMetricKey>("imprese");
-  const [selected, setSelected] = useState<string | null>(null);
+  const [metric, setMetric] = useState<DomandaMetricKey>(() => {
+    const m = params.get("metric");
+    return DOMANDA_METRICS.some((x) => x.key === m) ? (m as DomandaMetricKey) : "imprese";
+  });
+  const [selected, setSelected] = useState<string | null>(() => params.get("regione"));
   const [hover, setHover] = useState<HoverInfo>(null);
   const [toggleTip, setToggleTip] = useState<ToggleTip>(null);
 
@@ -46,10 +51,8 @@ export function DomandaPage() {
 
   const detailRegione = useMemo(() => {
     if (!dataset) return null;
-    if (selected) {
-      return regioni.find((r) => r.nome === selected) ?? null;
-    }
-    return nationalAggregateDomanda(regioni);
+    const match = selected ? regioni.find((r) => r.nome === selected) : null;
+    return match ?? nationalAggregateDomanda(regioni);
   }, [dataset, selected, regioni]);
 
   const totalCount = dataset?.regioni.length ?? 20;

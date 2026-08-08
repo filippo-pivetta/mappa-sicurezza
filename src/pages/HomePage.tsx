@@ -1,5 +1,6 @@
 import { routeHref } from "../lib/router";
 import { NavHeader } from "../components/NavHeader";
+import { ReportSection } from "../components/ReportSection";
 import "../App.css";
 
 export function HomePage() {
@@ -35,6 +36,7 @@ export function HomePage() {
           </a>
         </div>
       </div>
+      <ReportSection />
     </>
   );
 }

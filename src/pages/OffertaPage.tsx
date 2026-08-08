@@ -9,16 +9,24 @@ import { NavHeader } from "../components/NavHeader";
 import { METRICS, SCOPES, metricValues, nationalAggregate, studiCount } from "../lib/metrics";
 import type { MetricKey, Regione, RegioniDataset, Scope } from "../lib/types";
 import { sequentialColor } from "../lib/color";
+import { useRouteParams } from "../lib/router";
 import "../App.css";
 
 type HoverInfo = { d: Regione; v: number | null; x: number; y: number } | null;
 type ToggleTip = { x: number; y: number; title: string; desc: string } | null;
 
 export function OffertaPage() {
+  const params = useRouteParams();
   const [dataset, setDataset] = useState<RegioniDataset | null>(null);
-  const [metric, setMetric] = useState<MetricKey>("dens");
-  const [scope, setScope] = useState<Scope>("primario");
-  const [selected, setSelected] = useState<string | null>(null);
+  const [metric, setMetric] = useState<MetricKey>(() => {
+    const m = params.get("metric");
+    return METRICS.some((x) => x.key === m) ? (m as MetricKey) : "dens";
+  });
+  const [scope, setScope] = useState<Scope>(() => {
+    const s = params.get("scope");
+    return SCOPES.some((x) => x.key === s) ? (s as Scope) : "primario";
+  });
+  const [selected, setSelected] = useState<string | null>(() => params.get("regione"));
   const [hover, setHover] = useState<HoverInfo>(null);
   const [toggleTip, setToggleTip] = useState<ToggleTip>(null);
 
@@ -47,10 +55,8 @@ export function OffertaPage() {
 
   const detailRegione = useMemo(() => {
     if (!dataset) return null;
-    if (selected) {
-      return regioni.find((r) => r.nome === selected) ?? null;
-    }
-    return nationalAggregate(regioni);
+    const match = selected ? regioni.find((r) => r.nome === selected) : null;
+    return match ?? nationalAggregate(regioni);
   }, [dataset, selected, regioni]);
 
   const totalCount = dataset?.regioni.length ?? 20;
@@ -105,9 +111,11 @@ export function OffertaPage() {
             <div className="legbar" />
             <span className="legswatch" style={{ background: sequentialColor(1) }} aria-hidden />
             <span>{isFinite(max) ? metricDef.fmt(max) : "+"}</span>
-            <span className="legnd">
-              <span className="ndswatch" aria-hidden /> da completare
-            </span>
+            {filledCount < totalCount && (
+              <span className="legnd">
+                <span className="ndswatch" aria-hidden /> da completare
+              </span>
+            )}
           </div>
         </div>
 

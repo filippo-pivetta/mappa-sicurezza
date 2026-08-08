@@ -4,10 +4,18 @@ Dashboard interattiva in tre pagine che mappa, per regione, il mercato della
 consulenza sicurezza sul lavoro in Italia — con choropleth geografica reale
 (sagoma delle 20 regioni, non tessere):
 
-- **Home** (`#/`): landing page con i link alle due mappe.
+- **Home** (`#/`): landing page con i link alle due mappe, più un report dati
+  oggettivo (fonti, tabelle per regione, aggregato nazionale, imprese per
+  macro-settore) con link di deep-link alle viste filtrate delle due mappe.
 - **Offerta** (`#/offerta`): studi di consulenza sicurezza (dati Telemaco).
 - **Domanda** (`#/domanda`): imprese obbligate D.Lgs 81/08, addetti e rischio
   settoriale (dati ISTAT ASIA 2024).
+
+Il router supporta il deep-link a viste filtrate via query string sull'hash,
+es. `#/offerta?metric=dens&scope=primario&regione=Lombardia` o
+`#/domanda?metric=rischio&regione=Calabria`: la pagina si apre già con quella
+metrica/scope/regione selezionati. Il report della Home usa questi link per
+ogni riga e per ogni metrica delle sue tabelle.
 
 ## Struttura del progetto
 
@@ -26,11 +34,12 @@ mappa-sicurezza/
 │   ├── App.tsx                 # router shell (legge l'hash e sceglie la pagina)
 │   ├── App.css / index.css     # tema scuro condiviso da tutte le pagine
 │   ├── pages/
-│   │   ├── HomePage.tsx        # landing con i due link
+│   │   ├── HomePage.tsx        # landing con i due link + report dati
 │   │   ├── OffertaPage.tsx     # dashboard offerta (studi)
 │   │   └── DomandaPage.tsx     # dashboard domanda (imprese/rischio)
 │   ├── components/
 │   │   ├── NavHeader.tsx       # header con i link Offerta/Domanda
+│   │   ├── ReportSection.tsx   # report dati della Home: fonti, tabelle, link filtrati
 │   │   ├── ItalyMap.tsx        # choropleth D3 (geoMercator + geoPath su TopoJSON), generico
 │   │   ├── MetricToggles.tsx   # toggle metriche + tooltip esplicativo, generico
 │   │   ├── ScopeToggle.tsx     # toggle primario/secondario/totale (solo Offerta)
@@ -41,7 +50,7 @@ mappa-sicurezza/
 │   │   ├── Modal.tsx           # overlay generico riusabile (chiude su ESC/backdrop)
 │   │   └── Tooltip.tsx
 │   └── lib/
-│       ├── router.ts           # hash router minimale (nessuna dipendenza esterna)
+│       ├── router.ts           # hash router minimale + query string per deep-link (nessuna dipendenza esterna)
 │       ├── metric.ts           # MetricDef<T,E> generico + calcolo min/max condiviso
 │       ├── types.ts            # schema dati Offerta (Regione, Scope, MetricKey)
 │       ├── metrics.ts          # le 4 metriche Offerta + aggregato nazionale

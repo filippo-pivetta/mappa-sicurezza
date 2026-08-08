@@ -63,7 +63,7 @@ export function ItalyMap<T extends { nome: string }, E>({
   if (!geo || !path) {
     return (
       <svg className="map-svg" viewBox={`0 0 ${WIDTH} ${HEIGHT}`} role="img" aria-label="Caricamento mappa dell'Italia">
-        <text x={WIDTH / 2} y={HEIGHT / 2} textAnchor="middle" fill="#8ea3b5" fontSize={13}>
+        <text x={WIDTH / 2} y={HEIGHT / 2} textAnchor="middle" fill="#9fb3c4" fontSize={13}>
           Caricamento mappa...
         </text>
       </svg>
@@ -85,8 +85,8 @@ export function ItalyMap<T extends { nome: string }, E>({
         const v = entry?.v ?? null;
         const isSel = selected === name;
         const d = path(f) ?? "";
-        let fill = "#243546";
-        let stroke = "#3a4f63";
+        let fill = "#1b2530";
+        let stroke = "#263341";
         let dash: string | undefined = "4 3";
         if (v != null) {
           const t = max > min ? (v - min) / (max - min) : 0.5;
@@ -123,7 +123,7 @@ export function ItalyMap<T extends { nome: string }, E>({
         const v = entry?.v ?? null;
         const centroid = path.centroid(f);
         if (!isFinite(centroid[0]) || !isFinite(centroid[1])) return null;
-        let tc = "#aebfce";
+        let tc = "#9fb3c4";
         if (v != null) {
           const t = max > min ? (v - min) / (max - min) : 0.5;
           tc = textColorFor(t);

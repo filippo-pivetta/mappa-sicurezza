@@ -1,8 +1,11 @@
 import { useEffect, useMemo, useState } from "react";
 import { NavHeader } from "../components/NavHeader";
-import { QuadrantChart, QUADRANTE_COLOR } from "../components/QuadrantChart";
+import { QuadrantChart, QUADRANTE_COLOR, type QuadrantHover } from "../components/QuadrantChart";
+import { BarCell } from "../components/BarCell";
+import { Tooltip } from "../components/Tooltip";
+import { sequentialColorAlpha } from "../lib/color";
 import { buildCopertura, QUADRANTE_LABEL, QUADRANTE_DESC, type Quadrante } from "../lib/copertura";
-import { routeHref, useRouteParams } from "../lib/router";
+import { useRouteParams } from "../lib/router";
 import type { RegioniDataset } from "../lib/types";
 import type { DomandaDataset } from "../lib/domandaTypes";
 import "../App.css";
@@ -12,6 +15,7 @@ export function CoperturaPage() {
   const [offerta, setOfferta] = useState<RegioniDataset | null>(null);
   const [domanda, setDomanda] = useState<DomandaDataset | null>(null);
   const [selected, setSelected] = useState<string | null>(() => params.get("regione"));
+  const [hover, setHover] = useState<QuadrantHover | null>(null);
 
   useEffect(() => {
     fetch("/data/regioni.json").then((r) => r.json()).then(setOfferta);
@@ -24,6 +28,10 @@ export function CoperturaPage() {
   }, [offerta, domanda]);
 
   const sortedRows = useMemo(() => [...rows].sort((a, b) => b.impreseObbligate - a.impreseObbligate), [rows]);
+  const maxImprese = Math.max(...rows.map((r) => r.impreseObbligate), 1);
+  const densitaVals = rows.filter((r) => r.densitaOfferta != null).map((r) => r.densitaOfferta as number);
+  const maxDensita = Math.max(...densitaVals, 0.01);
+  const minDensita = Math.min(...densitaVals, 0);
 
   if (!offerta || !domanda) {
     return (
@@ -49,7 +57,7 @@ export function CoperturaPage() {
         </div>
       </header>
 
-      <div className="wrap">
+      <div className="wrap coperturawrap">
         <div className="card quadcard">
           <QuadrantChart
             rows={rows}
@@ -57,6 +65,7 @@ export function CoperturaPage() {
             medianDensita={medianDensita}
             selected={selected}
             onSelect={setSelected}
+            onHover={setHover}
           />
           <div className="quadlegend">
             {(Object.keys(QUADRANTE_LABEL) as Quadrante[]).map((q) => (
@@ -65,10 +74,27 @@ export function CoperturaPage() {
                 {QUADRANTE_LABEL[q]}
               </div>
             ))}
+            <div className="quaditem">
+              <span
+                className="quaddot"
+                style={{ background: "linear-gradient(90deg, var(--risk-basso), var(--risk-medio), var(--risk-alto))" }}
+                aria-hidden
+              />
+              Colore punto = quota alto rischio &middot; dimensione = numero studi
+            </div>
           </div>
         </div>
+        {hover && (
+          <Tooltip x={hover.x} y={hover.y} title={hover.row.nome}>
+            Imprese obbligate: {hover.row.impreseObbligate.toLocaleString("it")}
+            <br />
+            Densità offerta: {hover.row.densitaOfferta != null ? hover.row.densitaOfferta.toFixed(2) : "n/d"}
+            <br />
+            Quota alto rischio: {hover.row.quotaAltoRischio.toFixed(0)}% &middot; Studi: {hover.row.studiPrimario ?? "n/d"}
+          </Tooltip>
+        )}
 
-        <div className="card rank">
+        <div className="card rank wide">
           <div className="blocktitle">Classifica &middot; imprese obbligate (domanda)</div>
           <div className="datatablewrap">
             <table className="datatable">
@@ -79,7 +105,6 @@ export function CoperturaPage() {
                   <th>Densità offerta</th>
                   <th>Domanda pesata</th>
                   <th>Quadrante</th>
-                  <th></th>
                 </tr>
               </thead>
               <tbody>
@@ -91,39 +116,48 @@ export function CoperturaPage() {
                     style={{ cursor: "pointer" }}
                   >
                     <td className="datastrong">{r.nome}</td>
-                    <td className="datanum">{r.impreseObbligate.toLocaleString("it")}</td>
-                    <td className="datanum">{r.densitaOfferta != null ? r.densitaOfferta.toFixed(2) : "n/d"}</td>
+                    <td className="datanum">
+                      <BarCell
+                        value={r.impreseObbligate}
+                        max={maxImprese}
+                        color="var(--accent)"
+                        formatted={r.impreseObbligate.toLocaleString("it")}
+                      />
+                    </td>
+                    <td
+                      className="datanum heatcell"
+                      style={
+                        r.densitaOfferta != null
+                          ? {
+                              background: sequentialColorAlpha(
+                                maxDensita > minDensita ? (r.densitaOfferta - minDensita) / (maxDensita - minDensita) : 0.5,
+                                0.16,
+                              ),
+                            }
+                          : undefined
+                      }
+                    >
+                      {r.densitaOfferta != null ? (
+                        <BarCell
+                          value={r.densitaOfferta}
+                          max={maxDensita}
+                          min={minDensita}
+                          color="var(--accent)"
+                          formatted={r.densitaOfferta.toFixed(2)}
+                        />
+                      ) : (
+                        "n/d"
+                      )}
+                    </td>
                     <td className="datanum">{Math.round(r.domandaPesata).toLocaleString("it")}</td>
                     <td>
                       {r.quadrante ? (
                         <span className="quadbadge" style={{ color: QUADRANTE_COLOR[r.quadrante] }}>
-                          <span className="quaddot" style={{ background: QUADRANTE_COLOR[r.quadrante] }} aria-hidden />
                           {QUADRANTE_LABEL[r.quadrante]}
                         </span>
                       ) : (
                         "n/d"
                       )}
-                    </td>
-                    <td className="datalinks">
-                      <a
-                        className="rowlink"
-                        href={routeHref("offerta", { metric: "dens", scope: "primario", regione: r.nome })}
-                        aria-label={`Apri ${r.nome} sulla mappa Offerta`}
-                        title={`Apri ${r.nome} sulla mappa Offerta`}
-                        onClick={(e) => e.stopPropagation()}
-                      >
-                        Offerta ↗
-                      </a>
-                      {" · "}
-                      <a
-                        className="rowlink"
-                        href={routeHref("domanda", { metric: "imprese", regione: r.nome })}
-                        aria-label={`Apri ${r.nome} sulla mappa Domanda`}
-                        title={`Apri ${r.nome} sulla mappa Domanda`}
-                        onClick={(e) => e.stopPropagation()}
-                      >
-                        Domanda ↗
-                      </a>
                     </td>
                   </tr>
                 ))}

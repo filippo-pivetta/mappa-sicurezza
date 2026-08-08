@@ -49,13 +49,16 @@ export function DomandaPage() {
 
   const { min, max } = useMemo(() => metricValues(metricDef, regioni, undefined), [metricDef, regioni]);
 
+  const national = useMemo(
+    () => (regioni.length ? nationalAggregateDomanda(regioni) : null),
+    [regioni],
+  );
+
   const detailRegione = useMemo(() => {
     if (!dataset) return null;
     const match = selected ? regioni.find((r) => r.nome === selected) : null;
-    return match ?? nationalAggregateDomanda(regioni);
-  }, [dataset, selected, regioni]);
-
-  const totalCount = dataset?.regioni.length ?? 20;
+    return match ?? national;
+  }, [dataset, selected, regioni, national]);
 
   if (!dataset) {
     return (
@@ -73,10 +76,7 @@ export function DomandaPage() {
       <NavHeader active="domanda" />
 
       <header>
-        <h1>Mappatura della domanda di sicurezza sul lavoro in Italia</h1>
-        <div className="sub">
-          Fonte: {dataset.fonte.dati}. {dataset.fonte.rischio}. {totalCount} regioni rilevate su {totalCount}.
-        </div>
+        <h1>Imprese obbligate e rischio settoriale</h1>
       </header>
 
       <MetricToggles
@@ -106,7 +106,12 @@ export function DomandaPage() {
         </div>
 
         {detailRegione && (
-          <DomandaDetailPanel regione={detailRegione} isAggregate={!selected} sezioni={dataset.sezioni} />
+          <DomandaDetailPanel
+            regione={detailRegione}
+            isAggregate={!selected}
+            sezioni={dataset.sezioni}
+            nationalRischio={national?.indice_rischio}
+          />
         )}
 
         <RankList metric={metricDef} regioni={regioni} extra={undefined} selected={selected} onSelect={setSelected} />

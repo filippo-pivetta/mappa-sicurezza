@@ -15,7 +15,7 @@ export function Tooltip({ x, y, title, children }: Props) {
     <div className="tip" style={{ opacity: 1, left, top, maxWidth: maxW }}>
       <b>{title}</b>
       <br />
-      <span style={{ color: "#c7d5e2" }}>{children}</span>
+      <span style={{ color: "#9fb3c4" }}>{children}</span>
     </div>
   );
 }

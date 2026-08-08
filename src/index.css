@@ -1,5 +1,39 @@
 :root {
   color-scheme: dark;
+
+  /* Surfaces */
+  --bg: #0e141b;
+  --surface: #161f2a;
+  --surface-2: #1e2a37;
+  --border: #263341;
+
+  /* Text */
+  --text: #e8eef4;
+  --text-muted: #9fb3c4;
+
+  /* Interactive accent — SOLO elementi interattivi: link, filtri, hover, selezione */
+  --accent: #37c0c8;
+  --accent-ink: #08222a;
+  --accent-soft: rgba(55, 192, 200, 0.14);
+  --accent-border: rgba(55, 192, 200, 0.4);
+
+  /* Rischio — categorico, desaturato per il tema scuro */
+  --risk-basso: #4fb477;
+  --risk-medio: #e0a94a;
+  --risk-alto: #e0645a;
+  --risk-basso-soft: rgba(79, 180, 119, 0.16);
+  --risk-medio-soft: rgba(224, 169, 74, 0.16);
+  --risk-alto-soft: rgba(224, 100, 90, 0.16);
+
+  /* Densità — scala sequenziale chiaro -> scuro, interpolata in lib/color.ts */
+  --dens-min: #24606e;
+  --dens-max: #6ee6ee;
+
+  --radius: 14px;
+  --radius-sm: 9px;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+
+  --font: "Inter", -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 * {
@@ -12,13 +46,25 @@ html {
 
 body {
   margin: 0;
-  background: #0f1720;
-  color: #e8eef4;
-  font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
   font-size: 14px;
+  font-weight: 400;
   overflow-x: hidden;
 }
 
 #root {
   min-height: 100svh;
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
 }

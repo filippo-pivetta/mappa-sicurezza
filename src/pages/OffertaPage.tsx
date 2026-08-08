@@ -53,11 +53,24 @@ export function OffertaPage() {
 
   const { min, max } = useMemo(() => metricValues(metricDef, regioni, scope), [metricDef, regioni, scope]);
 
+  const national = useMemo(() => (regioni.length ? nationalAggregate(regioni) : null), [regioni]);
+
   const detailRegione = useMemo(() => {
     if (!dataset) return null;
     const match = selected ? regioni.find((r) => r.nome === selected) : null;
-    return match ?? nationalAggregate(regioni);
-  }, [dataset, selected, regioni]);
+    return match ?? national;
+  }, [dataset, selected, regioni, national]);
+
+  const nationalDens = useMemo(() => {
+    if (!national) return undefined;
+    const c = studiCount(national, scope);
+    return c == null ? undefined : (c / national.imprese_con_dipendenti) * 1000;
+  }, [national, scope]);
+  const nationalDensAdd = useMemo(() => {
+    if (!national) return undefined;
+    const c = studiCount(national, scope);
+    return c == null ? undefined : (c / national.numero_addetti) * 1000;
+  }, [national, scope]);
 
   const totalCount = dataset?.regioni.length ?? 20;
   const filledCount = regioni.filter((r) => r.studi_primario != null).length;
@@ -79,11 +92,7 @@ export function OffertaPage() {
       <NavHeader active="offerta" />
 
       <header>
-        <h1>Mappatura studi di consulenza sicurezza in Italia</h1>
-        <div className="sub">
-          Fonte studi: {dataset.fonte.studi}. Denominatore imprese: {dataset.fonte.imprese}. {filledCount} regioni
-          rilevate su {totalCount}.
-        </div>
+        <h1>Studi di consulenza sicurezza</h1>
       </header>
 
       <ScopeToggle scope={scope} onChange={setScope} />
@@ -125,6 +134,8 @@ export function OffertaPage() {
             isAggregate={!selected}
             scope={scope}
             fasce={dataset.fasce_fatturato}
+            nationalDens={nationalDens}
+            nationalDensAdd={nationalDensAdd}
           />
         )}
 

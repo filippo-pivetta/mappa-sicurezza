@@ -7,9 +7,27 @@ interface Props {
   regione: RegioneDomanda;
   isAggregate: boolean;
   sezioni: SezioneDef[];
+  /** Indice di rischio nazionale, per il confronto in KPI. */
+  nationalRischio?: number;
 }
 
-export function DomandaDetailPanel({ regione: d, isAggregate, sezioni }: Props) {
+function Cmp({ value, national, fmt }: { value: number; national: number; fmt: (v: number) => string }) {
+  if (!isFinite(national) || national <= 0) return null;
+  const higher = value > national * 1.02;
+  const lower = value < national * 0.98;
+  const arrow = higher ? "▲" : lower ? "▼" : "•";
+  // Per l'indice di rischio, più alto è peggio: la colorazione va invertita
+  // rispetto a un normale KPI "più è meglio" (es. densità di offerta) — la
+  // freccia però indica sempre la direzione reale del valore, non il giudizio.
+  const dir = higher ? "down" : lower ? "up" : "";
+  return (
+    <div className={"cmp" + (dir ? " " + dir : "")}>
+      <span aria-hidden>{arrow}</span> {fmt(value)} · media {fmt(national)}
+    </div>
+  );
+}
+
+export function DomandaDetailPanel({ regione: d, isAggregate, sezioni, nationalRischio }: Props) {
   const [showRiskTable, setShowRiskTable] = useState(false);
 
   const rm = d.risk_mix;
@@ -39,6 +57,9 @@ export function DomandaDetailPanel({ regione: d, isAggregate, sezioni }: Props) 
         <div className="kpi">
           <div className="n">{d.indice_rischio.toFixed(2)}</div>
           <div className="l">Indice di rischio</div>
+          {!isAggregate && nationalRischio != null && (
+            <Cmp value={d.indice_rischio} national={nationalRischio} fmt={(v) => v.toFixed(2).replace(".", ",")} />
+          )}
         </div>
         <div className="kpi">
           <div className="n">{d.quota_alto_rischio.toFixed(0)}%</div>

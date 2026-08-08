@@ -27,6 +27,7 @@ export interface CoperturaRow {
   nome: string;
   impreseObbligate: number;
   densitaOfferta: number | null;
+  studiPrimario: number | null;
   indiceRischio: number;
   quotaAltoRischio: number;
   domandaPesata: number;
@@ -51,6 +52,7 @@ export function buildCopertura(offertaRegioni: Regione[], domandaRegioni: Region
       nome: d.nome,
       impreseObbligate: d.imprese_con_dipendenti,
       densitaOfferta,
+      studiPrimario: o?.studi_primario ?? null,
       indiceRischio: d.indice_rischio,
       quotaAltoRischio: d.quota_alto_rischio,
       domandaPesata: domandaPesata(d),

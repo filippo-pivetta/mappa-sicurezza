@@ -6,9 +6,23 @@ interface Props {
   isAggregate: boolean;
   scope: Scope;
   fasce: RegioniDataset["fasce_fatturato"];
+  /** Densità nazionale (stesso scope) /1.000 imprese e /1.000 addetti, per il confronto in KPI. */
+  nationalDens?: number;
+  nationalDensAdd?: number;
 }
 
-export function DetailPanel({ regione: d, isAggregate, scope, fasce }: Props) {
+function Cmp({ value, national, fmt }: { value: number; national: number; fmt: (v: number) => string }) {
+  if (!isFinite(national) || national <= 0) return null;
+  const dir = value > national * 1.02 ? "up" : value < national * 0.98 ? "down" : "";
+  const arrow = dir === "up" ? "▲" : dir === "down" ? "▼" : "•";
+  return (
+    <div className={"cmp" + (dir ? " " + dir : "")}>
+      <span aria-hidden>{arrow}</span> {fmt(value)} · media {fmt(national)}
+    </div>
+  );
+}
+
+export function DetailPanel({ regione: d, isAggregate, scope, fasce, nationalDens, nationalDensAdd }: Props) {
   const scopeLabel = SCOPES.find((s) => s.key === scope)!.short;
 
   if (d.studi_primario == null) {
@@ -56,10 +70,16 @@ export function DetailPanel({ regione: d, isAggregate, scope, fasce }: Props) {
         <div className="kpi">
           <div className="n">{dens}</div>
           <div className="l">Densità /1.000 imprese</div>
+          {!isAggregate && nationalDens != null && (
+            <Cmp value={Number(dens)} national={nationalDens} fmt={(v) => v.toFixed(2).replace(".", ",")} />
+          )}
         </div>
         <div className="kpi">
           <div className="n">{densAdd}</div>
           <div className="l">Densità /1.000 addetti</div>
+          {!isAggregate && nationalDensAdd != null && (
+            <Cmp value={Number(densAdd)} national={nationalDensAdd} fmt={(v) => v.toFixed(2).replace(".", ",")} />
+          )}
         </div>
         <div className="kpi">
           <div className="n">{pct}%</div>

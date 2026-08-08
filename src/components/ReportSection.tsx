@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { routeHref } from "../lib/router";
-import { nationalAggregate } from "../lib/metrics";
+import { nationalAggregate, stimaFatturato } from "../lib/metrics";
 import { nationalAggregateDomanda } from "../lib/domandaMetrics";
 import { RISK_TABLE } from "../lib/riskTable";
 import { buildCopertura, QUADRANTE_LABEL } from "../lib/copertura";
@@ -123,6 +123,8 @@ export function ReportSection() {
     .sort((a, b) => b.pct - a.pct);
   const capitaleAlte = capitaleRows.slice(0, 2);
   const capitaleBasse = [...capitaleRows].reverse().slice(0, 2);
+
+  const fatturatoStima = stimaFatturato(offertaTot.bands ?? []);
 
   const maxStudiPrimario = Math.max(...offertaRows.map((r) => r.studi_primario ?? 0), 1);
   const maxImpreseOfferta = Math.max(...offertaRows.map((r) => r.imprese_con_dipendenti), 1);
@@ -327,6 +329,23 @@ export function ReportSection() {
             concentra dove è concentrata l'economia: {top5Offerta.map((r) => `${r.nome} (${(r.studi_primario ?? 0).toLocaleString("it")} studi primari)`).join(", ")}
             . Le prime 3 regioni per numero di studi ({top3ShareOfferta.nomi.join(", ")}) coprono il{" "}
             {top3ShareOfferta.pct.toFixed(0)}% degli studi primari nazionali.
+          </p>
+          <div className="kpis">
+            <div className="kpi">
+              <div className="n">{fmtEuro(fatturatoStima.totale)}</div>
+              <div className="l">Fatturato aggregato stimato (società di capitale, primario)</div>
+            </div>
+            <div className="kpi">
+              <div className="n">{fmtEuro(fatturatoStima.mediaPerStudio)}</div>
+              <div className="l">Fatturato medio per studio (fascia nota)</div>
+            </div>
+          </div>
+          <p className="reportnote">
+            Stima ottenuta dal punto medio di ogni fascia di fatturato per il numero di studi che vi ricade (
+            {fatturatoStima.nStudi.toLocaleString("it")} società di capitale con bilancio classificabile in fascia, su{" "}
+            {(offertaTot.studi_primario ?? 0).toLocaleString("it")} studi primari totali). È una stima per difetto:
+            esclude le ditte individuali e società di persone (senza bilancio pubblico) e gli operatori che fanno
+            sicurezza come attività secondaria — segmenti per cui non è disponibile alcun dato di fatturato.
           </p>
           <div className="qlinks">
             <span className="qlabel">Apri su mappa</span>
@@ -626,4 +645,11 @@ function computeTop3Share(offertaRows: { nome: string; studi_primario: number | 
   const top3 = [...offertaRows].sort((a, b) => (b.studi_primario ?? 0) - (a.studi_primario ?? 0)).slice(0, 3);
   const top3Sum = top3.reduce((s, r) => s + (r.studi_primario ?? 0), 0);
   return { nomi: top3.map((r) => r.nome), pct: totale > 0 ? (top3Sum / totale) * 100 : 0 };
+}
+
+function fmtEuro(v: number): string {
+  if (v >= 1_000_000_000) return (v / 1_000_000_000).toFixed(1).replace(".", ",") + " mld €";
+  if (v >= 1_000_000) return (v / 1_000_000).toFixed(1).replace(".", ",") + " mln €";
+  if (v >= 1_000) return Math.round(v / 1_000).toLocaleString("it") + "k €";
+  return Math.round(v).toLocaleString("it") + " €";
 }

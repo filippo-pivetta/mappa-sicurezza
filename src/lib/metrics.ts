@@ -53,6 +53,33 @@ export const METRICS: MetricDef[] = [
   },
 ];
 
+// Punto medio di ciascuna fascia di fatturato (stesso ordine di
+// fasce_fatturato in regioni.json). L'ultima fascia è aperta (">5M€"): 8M è
+// un'ipotesi centrale, poco sensibile sul totale visto il numero ridotto di
+// studi in quella fascia (+/-15% del totale tra 5,5M e 15M di ipotesi).
+const FASCIA_FATTURATO_MIDPOINT = [
+  5_000, 12_500, 20_000, 37_500, 62_500, 87_500, 125_000, 325_000, 1_000_000, 3_250_000, 8_000_000,
+];
+
+export interface StimaFatturato {
+  totale: number;
+  nStudi: number;
+  mediaPerStudio: number;
+}
+
+/**
+ * Stima il fatturato aggregato a partire dai conteggi per fascia (bands),
+ * moltiplicando ogni fascia per il suo punto medio. Copre solo le società di
+ * capitale con bilancio depositato e classificabile in fascia — non le ditte
+ * individuali/società di persone (senza bilancio pubblico) né gli operatori
+ * secondari: è quindi una stima per difetto del fatturato reale del settore.
+ */
+export function stimaFatturato(bands: number[]): StimaFatturato {
+  const totale = bands.reduce((s, n, i) => s + n * (FASCIA_FATTURATO_MIDPOINT[i] ?? 0), 0);
+  const nStudi = bands.reduce((s, n) => s + n, 0);
+  return { totale, nStudi, mediaPerStudio: nStudi > 0 ? totale / nStudi : 0 };
+}
+
 export function nationalAggregate(regioni: Regione[]): Regione {
   const f = regioni.filter((d) => d.studi_primario != null);
   const sumStudi = (k: "imprese_con_dipendenti" | "studi_primario" | "studi_prim_sec" | "capitale" | "persona" | "sommerso") =>

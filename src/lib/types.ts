@@ -17,6 +17,15 @@ export interface Regione {
 export interface RegioniDataset {
   fonte: { studi: string; imprese: string; addetti: string };
   fasce_fatturato: string[];
+  /** Distribuzione nazionale per fascia di fatturato, primario + secondario
+   * incluso (studi con la sicurezza come attività secondaria compresi) —
+   * stesso ordine di fasce_fatturato. A differenza di Regione.bands (solo
+   * attività primaria, per regione), è un totale Italia non scomposto per
+   * regione. */
+  bands_totale_nazionale?: number[];
+  /** Nuovi studi (primario + secondario) nati per anno, chiave = anno come stringa.
+   * Nazionale, non scomposto per regione. L'anno corrente è tipicamente parziale. */
+  nuovi_studi_per_anno?: Record<string, number>;
   regioni: Regione[];
 }
 

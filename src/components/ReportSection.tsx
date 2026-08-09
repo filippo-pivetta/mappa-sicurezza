@@ -125,6 +125,31 @@ export function ReportSection() {
   const capitaleBasse = [...capitaleRows].reverse().slice(0, 2);
 
   const fatturatoStima = stimaFatturato(offertaTot.bands ?? []);
+  const bandsTotale = offerta.bands_totale_nazionale ?? null;
+  const fatturatoStimaTotale = bandsTotale ? stimaFatturato(bandsTotale) : null;
+  const maxBandsTotale = bandsTotale ? Math.max(...bandsTotale, 1) : 1;
+  // Sensibilità della stima prim+sec alla sola ipotesi sulla fascia aperta
+  // ">5M€": qui pesa molto di più che nella stima solo-primario, perché
+  // include molte più aziende (le imprese con la sicurezza come attività
+  // secondaria sono in media più grandi di quelle specializzate).
+  const topBandTotale = bandsTotale?.[bandsTotale.length - 1] ?? 0;
+  const fatturatoTotaleBassa = fatturatoStimaTotale ? fatturatoStimaTotale.totale - topBandTotale * (8_000_000 - 5_500_000) : 0;
+  const fatturatoTotaleAlta = fatturatoStimaTotale ? fatturatoStimaTotale.totale + topBandTotale * (15_000_000 - 8_000_000) : 0;
+
+  const nuoviStudiAnni = offerta.nuovi_studi_per_anno
+    ? Object.entries(offerta.nuovi_studi_per_anno).sort(([a], [b]) => a.localeCompare(b))
+    : [];
+  const maxNuoviStudi = Math.max(...nuoviStudiAnni.map(([, v]) => v), 1);
+  // L'ultimo anno della serie è tipicamente in corso (dato parziale): lo
+  // segnaliamo invece di confrontarlo alla pari con gli anni completi.
+  const ultimoAnnoNuoviStudi = nuoviStudiAnni.length ? nuoviStudiAnni[nuoviStudiAnni.length - 1] : null;
+  const anniCompletiNuoviStudi = ultimoAnnoNuoviStudi ? nuoviStudiAnni.slice(0, -1) : nuoviStudiAnni;
+  const primoAnnoCompleto = anniCompletiNuoviStudi[0];
+  const ultimoAnnoCompleto = anniCompletiNuoviStudi[anniCompletiNuoviStudi.length - 1];
+  const crescitaNuoviStudi =
+    primoAnnoCompleto && ultimoAnnoCompleto && primoAnnoCompleto[1] > 0
+      ? ((ultimoAnnoCompleto[1] - primoAnnoCompleto[1]) / primoAnnoCompleto[1]) * 100
+      : null;
 
   const maxStudiPrimario = Math.max(...offertaRows.map((r) => r.studi_primario ?? 0), 1);
   const maxImpreseOfferta = Math.max(...offertaRows.map((r) => r.imprese_con_dipendenti), 1);
@@ -333,20 +358,61 @@ export function ReportSection() {
           <div className="kpis">
             <div className="kpi">
               <div className="n">{fmtEuro(fatturatoStima.totale)}</div>
-              <div className="l">Fatturato aggregato stimato (società di capitale, primario)</div>
+              <div className="l">Fatturato aggregato stimato (solo primario)</div>
             </div>
             <div className="kpi">
               <div className="n">{fmtEuro(fatturatoStima.mediaPerStudio)}</div>
-              <div className="l">Fatturato medio per studio (fascia nota)</div>
+              <div className="l">Fatturato medio per studio (solo primario)</div>
             </div>
+            {fatturatoStimaTotale && (
+              <>
+                <div className="kpi">
+                  <div className="n">{fmtEuro(fatturatoStimaTotale.totale)}</div>
+                  <div className="l">Fatturato aggregato stimato (primario + secondario)</div>
+                </div>
+                <div className="kpi">
+                  <div className="n">{fmtEuro(fatturatoStimaTotale.mediaPerStudio)}</div>
+                  <div className="l">Fatturato medio per studio (primario + secondario)</div>
+                </div>
+              </>
+            )}
           </div>
           <p className="reportnote">
-            Stima ottenuta dal punto medio di ogni fascia di fatturato per il numero di studi che vi ricade (
-            {fatturatoStima.nStudi.toLocaleString("it")} società di capitale con bilancio classificabile in fascia, su{" "}
-            {(offertaTot.studi_primario ?? 0).toLocaleString("it")} studi primari totali). È una stima per difetto:
-            esclude le ditte individuali e società di persone (senza bilancio pubblico) e gli operatori che fanno
-            sicurezza come attività secondaria — segmenti per cui non è disponibile alcun dato di fatturato.
+            Entrambe le stime prendono il punto medio di ogni fascia di fatturato e lo moltiplicano per il numero di
+            studi che vi ricade; coprono solo le società di capitale con bilancio classificabile in fascia, non le
+            ditte individuali e società di persone (senza bilancio pubblico). La stima "solo primario" (
+            {fatturatoStima.nStudi.toLocaleString("it")} società, su {(offertaTot.studi_primario ?? 0).toLocaleString("it")}{" "}
+            studi primari totali) è la più vicina al fatturato specifico della consulenza sicurezza, perché riguarda
+            studi specializzati.
+            {fatturatoStimaTotale && (
+              <>
+                {" "}
+                La stima "primario + secondario" ({fatturatoStimaTotale.nStudi.toLocaleString("it")} società) somma
+                anche gli operatori per cui la sicurezza è un'attività secondaria: essendo in media aziende più grandi
+                (spesso manifatturiere o di ingegneria), il loro fatturato dichiarato è quello dell'intera azienda, non
+                solo della quota legata alla sicurezza — la stima è quindi un limite superiore, non il valore del solo
+                servizio di consulenza. È anche più sensibile all'ipotesi sulla fascia aperta "&gt;5M€" ({topBandTotale.toLocaleString("it")}{" "}
+                aziende): tra {fmtEuro(fatturatoTotaleBassa)} e {fmtEuro(fatturatoTotaleAlta)} a seconda del valore
+                medio ipotizzato per quella fascia.
+              </>
+            )}
           </p>
+          {bandsTotale && (
+            <>
+              <div className="blocktitle" style={{ marginTop: 18 }}>
+                Distribuzione nazionale per fascia di fatturato (primario + secondario, società di capitale)
+              </div>
+              {bandsTotale.map((v, i) => (
+                <div className="frow" key={i}>
+                  <div className="flab">{offerta.fasce_fatturato[i]}</div>
+                  <div className="ftrack">
+                    <div className="ffill" style={{ width: `${maxBandsTotale ? (v / maxBandsTotale) * 100 : 0}%` }} />
+                  </div>
+                  <div className="fval">{v.toLocaleString("it")}</div>
+                </div>
+              ))}
+            </>
+          )}
           <div className="qlinks">
             <span className="qlabel">Apri su mappa</span>
             <a className="qlink" href={routeHref("offerta", { metric: "dens", scope: "primario" })}>
@@ -432,6 +498,45 @@ export function ReportSection() {
             </table>
           </div>
         </div>
+
+        {nuoviStudiAnni.length > 0 && (
+          <>
+            <h3 className="reportsectiontitle">Dinamica di ingresso: nuovi studi per anno</h3>
+            <div className="card">
+              <p className="reportpara">
+                Nuovi studi (primario + secondario) nati per anno, stessa fonte dell'offerta.
+                {crescitaNuoviStudi != null && primoAnnoCompleto && ultimoAnnoCompleto && (
+                  <>
+                    {" "}
+                    Dal {primoAnnoCompleto[0]} al {ultimoAnnoCompleto[0]} le nuove iscrizioni annue sono passate da{" "}
+                    {primoAnnoCompleto[1].toLocaleString("it")} a {ultimoAnnoCompleto[1].toLocaleString("it")} (
+                    {crescitaNuoviStudi >= 0 ? "+" : ""}
+                    {crescitaNuoviStudi.toFixed(0)}%), con il {ultimoAnnoCompleto[0]} come anno record della serie.
+                  </>
+                )}
+                {ultimoAnnoNuoviStudi && ultimoAnnoNuoviStudi !== ultimoAnnoCompleto && (
+                  <>
+                    {" "}
+                    Il {ultimoAnnoNuoviStudi[0]} è ancora in corso: {ultimoAnnoNuoviStudi[1].toLocaleString("it")}{" "}
+                    nuovi studi non sono confrontabili alla pari con un anno completo.
+                  </>
+                )}
+              </p>
+              {nuoviStudiAnni.map(([anno, v]) => (
+                <div className="frow" key={anno}>
+                  <div className="flab wide">
+                    {anno}
+                    {ultimoAnnoNuoviStudi && anno === ultimoAnnoNuoviStudi[0] ? " (in corso)" : ""}
+                  </div>
+                  <div className="ftrack">
+                    <div className="ffill" style={{ width: `${maxNuoviStudi ? (v / maxNuoviStudi) * 100 : 0}%` }} />
+                  </div>
+                  <div className="fval">{v.toLocaleString("it")}</div>
+                </div>
+              ))}
+            </div>
+          </>
+        )}
 
         <h3 className="reportsectiontitle">Struttura della domanda</h3>
         <div className="card">

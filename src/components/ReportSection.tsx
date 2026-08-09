@@ -151,6 +151,23 @@ export function ReportSection() {
       ? ((ultimoAnnoCompleto[1] - primoAnnoCompleto[1]) / primoAnnoCompleto[1]) * 100
       : null;
 
+  const coortiTransizione = offerta.transizione_generazionale
+    ? [...offerta.transizione_generazionale.coorti].sort((a, b) => a.dal - b.dal)
+    : [];
+  const coorteTarget = coortiTransizione.find((c) => c.target) ?? coortiTransizione[0] ?? null;
+  const coortiContesto = coortiTransizione.filter((c) => c !== coorteTarget);
+  const maxCoorte = Math.max(...coortiTransizione.map((c) => c.studi), 1);
+  const totCoorti = coortiTransizione.reduce((s, c) => s + c.studi, 0);
+  const targetPct =
+    coorteTarget && offertaTot.studi_prim_sec ? (coorteTarget.studi / offertaTot.studi_prim_sec) * 100 : null;
+  const totCoortiPct = offertaTot.studi_prim_sec ? (totCoorti / offertaTot.studi_prim_sec) * 100 : null;
+  const coorteMinima = coortiTransizione[0] ?? null;
+  const coorteRecente = coortiTransizione[coortiTransizione.length - 1] ?? null;
+  const coorteMaggiore = coortiTransizione.reduce(
+    (max, c) => (!max || c.studi > max.studi ? c : max),
+    null as (typeof coortiTransizione)[number] | null,
+  );
+
   const maxStudiPrimario = Math.max(...offertaRows.map((r) => r.studi_primario ?? 0), 1);
   const maxImpreseOfferta = Math.max(...offertaRows.map((r) => r.imprese_con_dipendenti), 1);
   const densOffertaVals = offertaRows.map((r) => ((r.studi_primario ?? 0) / r.imprese_con_dipendenti) * 1000);
@@ -534,6 +551,84 @@ export function ReportSection() {
                   <div className="fval">{v.toLocaleString("it")}</div>
                 </div>
               ))}
+            </div>
+          </>
+        )}
+
+        {coorteTarget && (
+          <>
+            <h3 className="reportsectiontitle">Transizione generazionale: perché l'anno di fondazione conta</h3>
+            <div className="card">
+              <p className="reportpara">
+                L'anno di fondazione di uno studio, incrociato con l'età presunta del titolare, individua gli studi
+                in transizione generazionale: quelli il cui fondatore si avvicina alla pensione, spesso senza un
+                successore designato. In un mercato fatto in larga parte di micro-studi mono-persona, dove il valore
+                coincide con la persona del consulente e con la relazione fiduciaria che ha costruito nel tempo, il
+                ritiro del titolare è il momento di massima fragilità e insieme di massima opportunità: la base
+                clienti, costruita in anni di rapporto, si libera proprio quando lo studio storico chiude o
+                rallenta.
+              </p>
+              <div className="kpis">
+                <div className="kpi">
+                  <div className="n">{coorteTarget.studi.toLocaleString("it")}</div>
+                  <div className="l">
+                    Studi fondati tra il {coorteTarget.dal} e il {coorteTarget.al}
+                  </div>
+                </div>
+                {targetPct != null && (
+                  <div className="kpi">
+                    <div className="n">{targetPct.toFixed(0)}%</div>
+                    <div className="l">Sul totale studi (primario + secondario)</div>
+                  </div>
+                )}
+              </div>
+              <p className="reportpara">
+                Questo dato serve su due fronti. Come pipeline di acquisizione, perché rilevare uno studio in uscita
+                significa acquisire in un colpo solo base clienti, competenze e un professionista abilitato già
+                operativo, saltando la fase più lenta di costruzione da zero; gli studi con titolare anziano e senza
+                ricambio sono i candidati naturali a una cessione. Come bacino commerciale, perché anche senza
+                acquisizione quelle imprese clienti cercheranno un nuovo consulente nel momento del passaggio, e
+                intercettarle in quella finestra è più facile che strapparle a uno studio attivo e fidelizzato.
+              </p>
+              <p className="reportpara">
+                Sul piano operativo, la coorte si individua in due modi. Una prima scrematura rapida usa l'anno di
+                iscrizione al Registro Imprese, concentrandosi sugli studi fondati tra gli anni '90 e i primi 2000, i
+                cui titolari rientrano oggi nella fascia di pensionamento. La qualificazione vera si fa però sulla
+                data di nascita del titolare, ricavabile dalla visura, che identifica il pensionamento imminente a
+                prescindere dall'anno di fondazione ed evita l'errore di chi ha aperto studio molto giovane o molto
+                tardi. Il limite da tenere presente è che né l'anno di fondazione né l'età del titolare dicono se
+                esiste un successore: quello si verifica solo caso per caso, ed è il fattore che separa uno studio
+                realmente in uscita da uno in continuità.
+              </p>
+              {coortiContesto.length > 0 && coorteMinima && coorteRecente && (
+                <>
+                  <p className="reportpara">
+                    Allargando lo sguardo alle coorti adiacenti il quadro si conferma tutt'altro che isolato: la
+                    distribuzione per anno di fondazione copre dal {coorteMinima.dal} a oggi. Agli estremi, la coorte
+                    più antica ({coorteMinima.studi.toLocaleString("it")} studi tra il {coorteMinima.dal} e il{" "}
+                    {coorteMinima.al}) è la coda della prima generazione, con titolari già in età di pensionamento o
+                    oltre; la più recente ({coorteRecente.studi.toLocaleString("it")} studi tra il {coorteRecente.dal}{" "}
+                    e il {coorteRecente.al}
+                    {coorteMaggiore === coorteRecente ? ", anche la più numerosa" : ""}) è la generazione entrata sul
+                    mercato più di recente, non ancora nella fascia di transizione. In totale,{" "}
+                    {totCoorti.toLocaleString("it")} studi
+                    {totCoortiPct != null && <> (il {totCoortiPct.toFixed(0)}% del totale)</>} ricadono in una delle{" "}
+                    {coortiTransizione.length} finestre censite.
+                  </p>
+                  {coortiTransizione.map((c) => (
+                    <div className="frow" key={`${c.dal}-${c.al}`}>
+                      <div className="flab wide">
+                        {c.dal}-{c.al}
+                        {c.target ? " (target)" : ""}
+                      </div>
+                      <div className="ftrack">
+                        <div className="ffill" style={{ width: `${maxCoorte ? (c.studi / maxCoorte) * 100 : 0}%` }} />
+                      </div>
+                      <div className="fval">{c.studi.toLocaleString("it")}</div>
+                    </div>
+                  ))}
+                </>
+              )}
             </div>
           </>
         )}

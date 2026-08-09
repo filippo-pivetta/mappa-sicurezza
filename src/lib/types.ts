@@ -26,6 +26,11 @@ export interface RegioniDataset {
   /** Nuovi studi (primario + secondario) nati per anno, chiave = anno come stringa.
    * Nazionale, non scomposto per regione. L'anno corrente è tipicamente parziale. */
   nuovi_studi_per_anno?: Record<string, number>;
+  /** Studi (primario + secondario) per coorte di anno di fondazione, attorno alla
+   * finestra "in transizione generazionale" — titolari oggi in fascia di
+   * pensionamento. `target: true` marca la coorte al centro dell'analisi
+   * (anni '90 - inizio 2000); le altre sono contesto (coorte precedente/successiva). */
+  transizione_generazionale?: { coorti: { dal: number; al: number; studi: number; target?: boolean }[] };
   regioni: Regione[];
 }
 
